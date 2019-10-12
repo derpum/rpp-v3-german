@@ -1,70 +1,81 @@
 _BikeShopText_1d810::
-	text "Hi! Welcome to"
-	line "our Bike Shop."
+	text "Hallo! Willkommen"
+	line "im Fahrradladen!"
 
-	para "Have we got just"
-	line "the Bike for you!"
+	para "Wir haben"
+	line "garantiert das"
+	cont "richtige Fahrrad"
+	cont "für Dich!"
 	prompt
 
 _BikeShopText_1d815::
-	text "It's a cool Bike!"
-	line "Do you want it?"
+	text "Das ist unser"
+	line "bestes Fahrrad!"
+	cont "Möchtest Du es"
+	cont "haben?"
 	done
 
 _BikeShopCantAffordText::
-	text "Sorry! You can't"
-	line "afford it!"
+	text "Es tut mir leid,"
+	line "Du kannst es Dir"
+	cont "nicht leisten!"
 	prompt
 
 _BikeShopText_1d81f::
-	text "Oh, that's..."
+	text "Oh, das ist ein..."
 
-	para "A Bike Voucher!"
+	para "...Rad-COUPON!"
 
-	para "OK! Here you go!"
+	para "OK!"
+	line "Es gehört Dir!"
 	prompt
 
 _BikeShopText_1d824::
-	text "[PLAYER] exchanged"
-	line "the Bike Voucher"
-	cont "for a Bicycle.@@"
+	text "[PLAYER] tauscht"
+	line "den Rad-Coupon"
+	cont "gegen das"
+	cont "Fahrrad.@@"
 
 _BikeShopComeAgainText::
-	text "Come back again"
-	line "some time!"
+	text "Besuch uns doch"
+	line "mal wieder!"
 	done
 
 _BikeShopText_1d82f::
-	text "How do you like"
-	line "your new Bicycle?"
+	text "Wie gefällt Dir"
+	line "Dein neues"
+	cont "Fahrrad?"
 
-	para "You can take it"
-	line "on Cycling Road"
-	cont "and in caves!"
+	para "Du kannst damit"
+	line "auf dem Radweg"
+	cont "und in Höhlen"
+	cont "fahren!"
 	done
 
 _BikeShopText_1d834::
-	text "You better make"
-	line "room for this!"
+	text "Du kannst es"
+	line "momentan nicht"
+	cont "mitnehmen!"
 	done
 
 _BikeShopText_1d843::
-	text "A plain city Bike"
-	line "is good enough"
-	cont "for me!"
+	text "Ich möchte ein"
+	line "Hollandrad"
+	cont "kaufen!"
 
-	para "You can't put a"
-	line "shopping basket"
-	cont "on an MTB!"
+	para "Ein Mountainbike"
+	line "hat keinen"
+	cont "Gepäckträger!"
 	done
 
 _BikeShopText_1d85c::
-	text "These Bikes are"
-	line "cool, but they're"
-	cont "way expensive!"
+	text "Die Fahrräder"
+	line "sind ziemlich"
+	cont "cool, aber"
+	cont "unheimlich teuer!"
 	done
 
 _BikeShopText_1d861::
-	text "Wow. Your Bike is"
-	line "really cool!"
+	text "Wow! Du hast ein"
+	line "cooles Fahrrad!"
 	done

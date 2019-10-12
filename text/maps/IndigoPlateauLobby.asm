@@ -1,14 +1,14 @@
 _IndigoPlateauLobbyText2::
-	text "Yo! Champ in"
-	line "making!"
+	text "Hey! Warte, Du"
+	line "Champion in spe!"
 
-	para "At #mon League,"
-	line "you have to face"
-	cont "the Elite Four in"
-	cont "succession."
+	para "In der PKMN-Liga"
+	line "trittst Du gegen"
+	cont "die Top Vier"
+	cont "nacheinander an."
 
-	para "If you lose, you"
-	line "have to start all"
-	cont "over again! This"
-	cont "is it! Go for it!"
+	para "Wenn Du einen"
+	line "Kampf verlierst,"
+	cont "mußt Du ganz von"
+	cont "vorn beginnen!"
 	done

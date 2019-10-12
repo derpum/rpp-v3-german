@@ -80,15 +80,15 @@ MateoPresentsTilemap:
 MateoPresentsTilemapEnd:
 
 VBAWarningText:
-	db   "     WARNING!"
-	next "This hack is known"
-	next "to whitescreen in"
-	next "VBA. Mobile users"
-	next "are fine. On PC or"
-	next "Mac, use Gambatte,"
-	next "BGB, VBA-M, etc."
+	db   "     ACHTUNG!"
+	next "Es ist bekannt das"
+	next "bei diesem Hack"
+	next "Probleme in VBA"
+	next "auftreten. Nutze"
+	next "besser Gambatte,"
+	next "BGB, VBA-M, usw."
 	next ""
-	next "PRESS A TO ADVANCE@"
+	next "MIT A FORTFAHREN@"
 
 CheckForPlayerNameInSRAM2:
 ; Duplicate of the one used in the Main Menu

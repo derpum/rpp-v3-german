@@ -1,14 +1,18 @@
 _FuchsiaMartText2::
-	text "Do you have a"
-	line "Safari Zone flag?"
+	text "Du hast einen"
+	line "Wimpel aus der"
+	cont "Safari-Zone?"
 
-	para "What about cards"
-	line "or calendars?"
+	para "Kein Programmheft"
+	line "oder einen"
+	cont "Kalender?"
 	done
 
 _FuchsiaMartText3::
-	text "Did you try X"
-	line "Speed? It speeds"
-	cont "up a #mon in"
-	cont "battle!"
+	text "Hast Du schon"
+	line "einmal X-Tempo"
+	cont "ausprobiert?"
+	cont "Dein #mon"
+	cont "wird dadurch im"
+	cont "Kampf schneller!"
 	done

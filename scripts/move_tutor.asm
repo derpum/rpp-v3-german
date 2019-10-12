@@ -75,8 +75,8 @@ DisplayTeachTutorMoveText:
 	call CopyStringToCF4B ; copy name to wcf4b
 	ld hl,TeachTutorMoveText
 	call PrintText
-	coord hl, 14, 7
-	ld bc,$080f
+	coord hl, 13, 7
+	ld bc,$080e
 	ld a,TWO_OPTION_MENU
 	ld [wTextBoxID],a
 	call DisplayTextBoxID ; yes/no menu

@@ -13,8 +13,8 @@ AskName:
 	call GetMonName
 	ld hl, DoYouWantToNicknameText
 	call PrintText
-	coord hl, 14, 7
-	lb bc, 8, 15
+	coord hl, 13, 7
+	lb bc, 8, 14
 	ld a, TWO_OPTION_MENU
 	ld [wTextBoxID], a
 	call DisplayTextBoxID
@@ -369,10 +369,10 @@ PrintAlphabet:
 	jp Delay3
 
 LowerCaseAlphabet:
-	db "abcdefghijklmnopqrstuvwxyz ×():;[]",$e1,$e2,"-?!♂♀/⠄,¥UPPER CASE@"
+	db "abcdefghijklmnopqrstuvwxyz äöü:×()",$e1,$e2,"-?!♂♀/⠄,¥GROSSBUCHSTABEN@"
 
 UpperCaseAlphabet:
-	db "ABCDEFGHIJKLMNOPQRSTUVWXYZ ×():;[]",$e1,$e2,"-?!♂♀/⠄,¥lower case@"
+	db "ABCDEFGHIJKLMNOPQRSTUVWXYZ ÄÖÜ:;[]",$e1,$e2,"-?!♂♀/⠄,¥kleinbuchstaben@"
 
 PrintNicknameAndUnderscores:
 	call CalcStringLength
@@ -503,13 +503,13 @@ PrintNamingText:
 	jp PlaceString
 
 YourTextString:
-	db "Your @"
+	db "Dein @"
 
 RivalsTextString:
-	db "Rival's @"
+	db "Gegner-@"
 
 NameTextString:
-	db "name?@"
+	db "Name?@"
 
 NicknameTextString:
-	db "Nickname?@"
+	db "Alias?@"

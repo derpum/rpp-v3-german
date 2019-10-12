@@ -1,30 +1,34 @@
 _FuchsiaCityText1::
-	text "Did you try the"
-	line "Safari Game? Some"
-	cont "#mon can only"
-	cont "be caught there."
+	text "Hast Du schon das"
+	line "Safari-Spiel"
+	cont "gespielt? Manche"
+	cont "#mon kann man"
+	cont "nur dabei fangen!"
 	done
 
 _FuchsiaCityText2::
-	text "Safari Zone has a"
-	line "zoo in front of"
-	cont "the entrance."
+	text "Vor dem Eingang"
+	line "zur Safari-Zone"
+	cont "befindet sich ein"
+	cont "Zoo."
 
-	para "Out back is the"
-	line "Safari Game for"
-	cont "catching #mon."
+	para "Das Safari-Spiel"
+	line "ist ideal, um"
+	cont "#mon zu"
+	cont "fangen."
 	done
 
 _FuchsiaCityText3::
-	text "Erik: Where's"
-	line "Sara? I said I'd"
-	cont "meet her here."
+	text "Erik: Wo ist"
+	line "Sara? Ich wollte"
+	cont "mich hier mit"
+	cont "ihr treffen!"
 	done
 
 _FuchsiaCityText4::
-	text "That item ball in"
-	line "there is really a"
-	cont "#mon."
+	text "Dieser Ball dort"
+	line "ist tatsächlich"
+	cont "ein #mon?!"
 	done
 
 _FuchsiaCityText5::
@@ -32,87 +36,91 @@ _FuchsiaCityText5::
 	done
 
 _FuchsiaCityText11::
-	text "Fuchsia City"
-	
-	para "Behold! It's"
-	line "passion pink!"
+	text "Fuchsania City"
+	line "Die Stadt der"
+	cont "rosaroten Träume"
 	done
 
 _FuchsiaCityText13::
-	text "Safari Game"
-	line "#mon-u-Catch!"
+	text "Safari-Spiel"
+	line "#mon-Fangen!"
 	done
 
 _FuchsiaCityText16::
-	text "Safari Zone"
-	line "Warden's home"
+	text "Safari-Zone"
+	line "Haus Des Wärters"
 	done
 
 _FuchsiaCityText17::
-	text "#mon Paradise"
-	line "Safari Zone"
+	text "#mon-PARADIES"
+	line "Safari-Zone"
 	done
 
 _FuchsiaCityText18::
-	text "Fuchsia City"
-	line "#mon Gym"
-	cont "Leader: Koga"
+	text "Fuchsania City"
+	line "PKMN-Arena"
+	cont "Arenaleiter: Koga"
 
-	para "The poisonous"
-	line "ninja master!"
+	para "Der giftige"
+	line "Ninja-Meister!"
 	done
 
 _FuchsiaCityChanseyText::
-	text "Name: Chansey"
+	text "Name: Chaneira"
 
-	para "Catching one is"
-	line "all up to chance."
+	para "Dieses #mon zu"
+	line "fangen ist reine"
+	cont "Glückssache!"
 	prompt
 
 _FuchsiaCityVoltorbText::
-	text "Name: Voltorb"
+	text "Name: Voltobal"
 
-	para "The very image of"
-	line "a # Ball."
+	para "Dieses #mon"
+	line "ähnelt einem"
+	cont "#ball."
 	prompt
 
 _FuchsiaCityKangaskhanText::
-	text "Name: Kangaskhan"
+	text "Name: Kangama"
 
-	para "A maternal #mon"
-	line "that raises its"
-	cont "young in a pouch"
-	cont "on its belly."
+	para "Ein #mon, das"
+	line "seinen Nachwuchs"
+	cont "in einem Beutel"
+	cont "am Bauch trägt."
 	prompt
 
 _FuchsiaCitySlowpokeText::
-	text "Name: Slowpoke"
+	text "Name: Flegmon"
 
-	para "Friendly and very"
-	line "slow moving."
+	para "Ein freundliches,"
+	line "aber sehr lahmes"
+	cont "#mon."
 	prompt
 
 _FuchsiaCityLaprasText::
 	text "Name: Lapras"
 
-	para "A.K.A. the king"
-	line "of the seas."
+	para "Der König"
+	line "der Meere!"
 	prompt
 
 _FuchsiaCityOmanyteText::
-	text "Name: Omanyte"
+	text "Name: Amonitas"
 
-	para "A #mon that"
-	line "was resurrected"
-	cont "from a fossil."
+	para "Ein #mon,"
+	line "das aus einem"
+	cont "Fossil wieder-"
+	cont "erschaffen wurde."
 	prompt
 
 _FuchsiaCityKabutoText::
 	text "Name: Kabuto"
 
-	para "A #mon that"
-	line "was resurrected"
-	cont "from a fossil."
+	para "Ein #mon,"
+	line "das aus einem"
+	cont "Fossil wieder-"
+	cont "erschaffen wurde."
 	prompt
 
 _FuchsiaCityText_19b2a::

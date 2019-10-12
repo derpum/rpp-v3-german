@@ -1,13 +1,15 @@
 _CinnabarIslandText8::
-	text "The door is"
-	line "locked..."
+	text "Die Tür ist"
+	line "verschlossen..."
 	done
 
 _CinnabarIslandText1::
-	text "Cinnabar Gym's"
-	line "Blaine is an odd"
-	cont "man who has lived"
-	cont "here for decades."
+	text "Pyro, der"
+	line "Arenaleiter der"
+	cont "Zinnoberinsel,"
+	cont "ist ein seltsamer"
+	cont "Mann. Er lebt"
+	cont "hier seit Jahren."
 	done
 
 _CinnabarIslandText2::
@@ -18,21 +20,22 @@ _CinnabarIslandText2::
 	jp TextScriptEnd
 
 _CinnabarIslandText3::
-	text "Cinnabar Island"
-	
-	para "The fiery town of"
-	line "burning desire"
+	text "Zinnoberinsel"
+	line "Die Stadt"
+	cont "brennender"
+	cont "Leidenschaft!"
 	done
 
 _CinnabarIslandText6::
-	text "#mon Lab"
+	text "#mon Labor"
 	done
 
 _CinnabarIslandText7::
-	text "Cinnabar Island"
-	line "#mon Gym"
-	cont "Leader: Blaine"
+	text "Zinnoberinsel"
+	line "PKMN-Arena"
+	cont "Arenaleiter: Pyro"
 
-	para "The hot-headed"
-	line "quiz master!"
+	para "Der hitzköpfige"
+	line "Quiz-Master!"
 	done
+

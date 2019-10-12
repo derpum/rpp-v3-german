@@ -1,31 +1,33 @@
 _CeladonMart1Text1::
-	text "Hello! Welcome to"
-	line "Celadon Dept."
-	cont "Store."
+	text "Willkommen im"
+	line "Einkaufszentrum"
+	cont "von Prismania"
+	cont "City!"
 
-	para "The board on the"
-	line "right describes"
-	cont "the store layout."
+	para "Auf der Tafel"
+	line "rechts findest Du"
+	cont "eine Übersicht."
 	done
 
 _CeladonMart1Text2::
-	text "1F: Service"
-	line "    Counter"
+	text "EG: Kunden-"
+	line "Information"
 
-	para "2F: Trainer's"
-	line "    Market"
+	para "S1: Utensilien"
+	line "FÜR Trainer"
 
-	para "3F: TV Game Shop"
+	para "S2: Videospiele"
 
-	para "4F: Wiseman Gifts"
+	para "S3: Geschenk-"
+	line "Artikel"
 
-	para "5F: Drug Store"
+	para "S4: Drogerie"
 
-	para "Rooftop Square:"
-	line "Vending Machines"
+	para "Dachgarten:"
+	line "Automaten"
 	done
 
 _CeladonMart1Text3::
-	text "1F: Service"
-	line "    Counter"
+	text "EG: Kunden-"
+	line "Information"
 	done

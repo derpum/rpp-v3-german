@@ -1,19 +1,21 @@
 _VermilionPokecenterText2::
-	text "Even if they are"
-	line "the same level,"
-	cont "#mon can have"
-	cont "very different"
-	cont "abilities."
+	text "Auch wenn sie den"
+	line "gleichen Level"
+	cont "haben, können die"
+	cont "Fähigkeiten von"
+	cont "#mon trotzdem"
+	cont "verschieden sein."
 
-	para "A #mon raised"
-	line "by a trainer is"
-	cont "stronger than one"
-	cont "in the wild."
+	para "Das #mon eines"
+	line "Trainers ist"
+	cont "stärker als ein"
+	cont "wildlebendes."
 	done
 
 _VermilionPokecenterText3::
-	text "My #mon was"
-	line "poisoned! It"
-	cont "fainted while we"
-	cont "were walking!"
+	text "Mein #mon"
+	line "wurde vergiftet!"
+	cont "Das Gift hat es"
+	cont "lange nach dem"
+	cont "Kampf besiegt!"
 	done

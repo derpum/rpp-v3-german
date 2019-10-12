@@ -178,7 +178,7 @@ SaveSAV:
 	jp DelayFrames
 
 NowSavingString:
-	db "Now saving...@"
+	db "Speichern...@"
 
 SaveSAVConfirm:
 	call PrintText
@@ -530,7 +530,7 @@ BoxNames:
 	next "Box12@"
 
 BoxNoText:
-	db "Box No.@"
+	db "Box Nr.@"
 
 EmptyAllSRAMBoxes:
 ; marks all boxes in SRAM as empty (initialisation for the first time the

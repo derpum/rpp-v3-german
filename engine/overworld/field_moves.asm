@@ -324,22 +324,24 @@ Text3_DrakesDeception: ; Closes the text out properly to prevent glitches
 	jp CloseTextDisplay
 	
 CanBeCutTxt:
-	text "This tree can be"
-	line "Cut!@@"
+	text "Der Zerschneider"
+	line "kann hier"
+	cont "eingesetzt werden!@@"
 	
 WantToCutTxt:
-	text "Would you like to"
-	line "use Cut?@@"
+	text "Möchtest du den"
+	line "Zerschneider"
+	cont "einsetzen?@@"
 	
 WaterIsCalmTxt:
-	text "The water is calm."
-	line "Would you like to"
-	cont "use Surf?@@"
+	text "Die See ist ruhig."
+	line "Möchtest du"
+	cont "Surfer einsetzen?@@"
 
 MightBeHiding:
-	text "A #mon might"
-	line "be hiding in this"
-	cont "tree."
+	text "Ein #mon kann"
+	line "sich in dem Busch"
+	cont "verstecken."
 
-	para "Want to use"
-	line "Headbutt?@@"
+	para "Kopfnuss"
+	line "einsetzen?@@"

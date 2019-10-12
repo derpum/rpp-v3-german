@@ -1,109 +1,120 @@
 _Route10BattleText1::
-	text "Wow, are you a"
-	line "# Maniac too?"
-	cont "Want to see my"
-	cont "collection?"
+	text "Bist Du auch ein"
+	line "#maniac?"
+	cont "Möchtest Du meine"
+	cont "Sammlung sehen?"
 	done
 
 _Route10EndBattleText1::
-	text "Humph."
-	line "I'm not angry!"
+	text "Naja,"
+	line "macht nichts!"
 	prompt
 
 _Route10AfterBattleText1::
-	text "I have more rare"
-	line "#mon at home!"
+	text "Zu Hause habe ich"
+	line "noch mehr seltene"
+	cont "#mon!"
 	done
 
 _Route10BattleText2::
-	text "Ha-hahah-ah-ha!"
+	text "Ha-ha-ha-ha!"
 	done
 
 _Route10EndBattleText2::
-	text "Ha-haha!"
-	line "Not laughing!"
-	cont "Ha-hay fever!"
-	cont "Haha-ha-choo!"
+	text "Ha-ha!"
+	line "Haha-ha-tschi!"
 	prompt
 
 _Route10AfterBattleText2::
-	text "Haha-ha-choo!"
-	line "Ha-choo!"
-	cont "Snort! Snivel!"
+	text "Schnief..."
+	line "Diese verdammte"
+	cont "Erkältung!"
 	done
 
 _Route10BattleText3::
-	text "Hi, kid, want to"
-	line "see my #mon?"
+	text "Hey Du, möchtest"
+	line "Du meine #mon"
+	cont "sehen?"
 	done
 
 _Route10EndBattleText3::
-	text "Oh no!"
-	line "My #mon!"
+	text "Nein!"
+	line "Meine #mon!"
 	prompt
 
 _Route10AfterBattleText3::
-	text "I don't like you"
-	line "for beating me!"
+	text "Ich nehme Dir"
+	line "übel, daß Du mich"
+	cont "besiegt hast!"
 	done
 
 _Route10BattleText4::
-	text "I've been to a"
-	line "#mon Gym a few"
-	cont "times. But, I"
-	cont "lost each time."
+	text "Jedes Mal, wenn"
+	line "ich in einer"
+	cont "PKMN-Arena"
+	cont "gekämpft habe, "
+	cont "wurde ich"
+	cont "besiegt!"
 	done
 
 _Route10EndBattleText4::
-	text "Ohh!"
-	line "Blew it again!"
+	text "Nein! Nicht"
+	line "schon wieder!"
 	prompt
 
 _Route10AfterBattleText4::
-	text "I noticed some"
-	line "# Maniacs"
-	cont "prowling around."
+	text "Ich habe einige"
+	line "#maniacs"
+	cont "in dieser Gegend"
+	cont "gesehen."
 	done
 
 _Route10BattleText5::
-	text "Ah! This mountain"
-	line "air is delicious!"
+	text "Ahh! Die Bergluft"
+	line "ist so wunderbar"
+	cont "erfrischend!"
 	done
 
 _Route10EndBattleText5::
-	text "That cleared my"
-	line "head!"
+	text "Ich"
+	line "kann wieder"
+	cont "klar denken!"
 	prompt
 
 _Route10AfterBattleText5::
-	text "I feel bloated on"
-	line "mountain air!"
+	text "Ich habe von"
+	line "Bergluft die Nase"
+	cont "gestrichen voll!"
 	done
 
 _Route10BattleText6::
-	text "I'm feeling a bit"
-	line "faint from this"
-	cont "tough hike."
+	text "Ich fühle mich"
+	line "vom vielen"
+	cont "Wandern"
+	cont "erschöpft..."
 	done
 
 _Route10EndBattleText6::
-	text "Guess I'm not up"
-	line "to it!"
+	text "Ich"
+	line "bin nicht fit!"
 	prompt
 
 _Route10AfterBattleText6::
-	text "The #mon here"
-	line "are so chunky!"
-	cont "There should be a"
-	cont "pink one with a"
-	cont "floral pattern!"
+	text "Viele #mon"
+	line "in dieser Gegend"
+	cont "sind grob!"
+
+	para "Ich wünschte,"
+	line "eines wäre rosa"
+	cont "und trüge ein"
+	cont "Blumenmuster!"
 	done
 
 _Route10Text9::
 _Route10Text7::
-	text "Rock Tunnel"
+	text "Felstunnel"
 	done
 
 _Route10Text10::
-	text "Power Plant"
+	text "Kraftwerk"
 	done

@@ -1,143 +1,156 @@
 PikachuFanText::
-	text "Won't you admire"
-	line "my Pikachu's"
-	cont "adorable tail?"
+	text "Hat mein Pikachu"
+	line "nicht einen"
+	cont "wunderschönen"
+	cont "Schweif?"
 	done
 
 PikachuFanBetterText::
-	text "Humph! My Pikachu"
-	line "is twice as cute"
-	cont "as that one!"
+	text "Hmpf! Mein"
+	line "Pikachu ist"
+	cont "viel süßer als"
+	cont "ihr #mon!"
 	done
 
 SeelFanText::
-	text "I just love my"
-	line "Seel!"
+	text "Ich liebe mein"
+	line "Jurob!"
 
-	para "It squeals when I"
-	line "hug it!"
+	para "Es quiekt, wenn"
+	line "ich es in den"
+	cont "Arm nehme!"
 	done
 
 SeelFanBetterText::
-	text "Oh dear!"
+	text "Du meine Güte!"
 
-	para "My Seel is far"
-	line "more attractive!"
+	para "Mein Jurob ist"
+	line "viel hübscher!"
 	done
 
 FanClubPikachuText::
-	text "Pikachu: Chu!"
-	line "Pikachu!"
+	text "Pikachu: Pi!"
+	line "Pi-ka-chu!"
 	done
 
 FanClubSeelText::
-	text "Seel: Kyuoo!"
+	text "Jurob: Jurob!"
 	done
 
 FanClubMeetChairText::
-	text "I chair the"
-	line "#mon Fan Club!"
+	text "Ich bin der"
+	line "Vorsitzende des"
+	cont "#mon-Fanclubs!"
 
-	para "I have collected"
-	line "over 100 #mon!"
+	para "Ich habe mehr als"
+	line "100 #mon"
+	cont "gefangen!"
 
-	para "I'm very fussy"
-	line "when it comes to"
-	cont "#mon!"
+	para "Ich bin sehr"
+	line "kleinlich, wenn"
+	cont "es um #mon"
+	cont "geht!"
 
-	para "So..."
+	para "Also..."
 
-	para "Did you come"
-	line "visit to hear"
-	cont "about my #mon?"
+	para "Bist Du"
+	line "hergekommen, um"
+	cont "etwas über meine"
+	cont "#mon zu"
+	cont "hören?"
 	done
 
 FanClubChairStoryText::
-	text "Good!"
-	line "Then listen up!"
+	text "Sehr schön!"
+	line "Dann höre mir zu!"
 
-	para "My favorite"
-	line "Rapidash..."
+	para "Am liebsten mag"
+	line "ich Gallopa!"
 
-	para "It...cute..."
-	line "lovely...smart..."
-	cont "plus...amazing..."
-	cont "you think so?..."
-	cont "oh yes...it..."
-	cont "stunning..."
-	cont "kindly..."
-	cont "love it!"
+	para "Es ist... süß..."
+	line "schön... klug..."
+	cont "und... aufregend!"
+	cont "Stimmst Du mir"
+	cont "zu? Es... ist..."
+	cont "majestätisch..."
+	cont "freundlich..."
+	cont "Ich liebe es!"
 
-	para "Hug it...when..."
-	line "sleeping...warm"
-	cont "and cuddly..."
-	cont "spectacular..."
-	cont "ravishing..."
-	cont "...Oops! Look at"
-	cont "the time! I kept"
-	cont "you too long!"
+	para "Wenn... es..."
+	line "schläft... warm"
+	cont "und kuschelig..."
+	cont "spektakulär..."
+	cont "hinreißend..."
+	cont "Ups! Wie die"
+	cont "Zeit vergeht! Ich"
+	cont "halte Dich auf!"
 
-	para "Thanks for hearing"
-	line "me out! I want"
-	cont "you to have this!"
+	para "Danke, daß Du mir"
+	line "zugehört hast!"
+	cont "Nimm dieses"
+	cont "Geschenk von mir!"
 	prompt
 
 ReceivedBikeVoucherText::
-	text "[PLAYER] received"
-	line "a @"
+	text "[PLAYER] erhält"
+	line "einen @"
 	TX_RAM wcf4b
 	text "!@@"
 
 ExplainBikeVoucherText::
 	text ""
-	para "Exchange that for"
-	line "a Bicycle!"
+	para "Du erhältst dafür"
+	line "ein Fahrrad!"
 
-	para "Don't worry, my"
-	line "Fearow will Fly"
-	cont "me anywhere!"
+	para "Sorge Dich nicht"
+	line "um mich, ich kann"
+	cont "mit meinem Ibitak"
+	cont "Fliegen!"
 
-	para "So, I don't need a"
-	line "Bicycle!"
+	para "Ich brauche also"
+	line "kein Fahrrad!"
 
-	para "I hope you like"
-	line "cycling!"
+	para "Ich hoffe, Du"
+	line "fährst gerne Rad!"
 	done
 
 FanClubNoStoryText::
-	text "Oh. Come back"
-	line "when you want to"
-	cont "hear my story!"
+	text "Oh. Komm wieder"
+	line "vorbei, wenn ich"
+	cont "Dir etwas"
+	cont "erzählen soll!"
 	done
 
 FanClubChairFinalText::
-	text "Hello, [PLAYER]!"
+	text "Hallo, [PLAYER]!"
 
-	para "Did you come see"
-	line "me about my"
-	cont "#mon again?"
+	para "Soll ich Dir von"
+	line "meinen #mon"
+	cont "erzählen?"
 
-	para "No? Too bad!"
+	para "Nein? Schade!"
 	done
 
 FanClubBagFullText::
-	text "Make room for"
-	line "this!"
+	text "Du hast keinen"
+	line "Platz für weitere"
+	cont "Items!"
 	done
 
 _FanClubText6::
-	text "Our Chairman is"
-	line "very vocal about"
-	cont "#mon."
+	text "Der Vorsitzende"
+	line "redet sehr gerne"
+	cont "über #mon!"
 	done
 
 _FanClubText7::
-	text "Let's all listen"
-	line "politely to other"
-	cont "trainers!"
+	text "Hört anderen"
+	line "Trainern"
+	cont "aufmerksam zu!"
 	done
 
 _FanClubText8::
-	text "If someone brags,"
-	line "brag right back!"
+	text "Wenn jemand"
+	line "prahlt, dann"
+	cont "prahlt zurück!"
 	done

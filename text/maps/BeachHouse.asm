@@ -3,57 +3,64 @@ _BeachHousePikachuText::
 	done
 	
 _BeachHouseDudeText::
-	text "You know, not"
-	line "every Pikachu"
-	cont "knows how to Surf"
-	cont "like mine."
+	text "Weißt du, nicht"
+	line "jedes Pikachu"
+	cont "kann so gut"
+	cont "Surfen wie das"
+	cont "von mir."
 	
-	para "But today is your"
-	line "lucky day!"
+	para "Du hast heute"
+	line "aber glück!"
 	
-	para "Hmm? Oh, sorry, I"
-	line "forgot to intro-"
-	cont "duce myself."
+	para "Ups, ich habe"
+	line "mich noch gar"
+	cont "nicht vor-"
+	cont "gestellt."
 	prompt
 	
 _BeachHouseOldManText::
-	text "Oof, I spent too"
-	line "long in the sun."
+	text "Uff, ich war zu"
+	line "lange in der"
+	cont "Sonne!"
 	
-	para "I need to rest..."
+	para "Ich brauche"
+	line "erstmal eine"
+	cont "Pause."
 	done
 
 _BeachHouseGiveSurfText::
-	text "Yo! What's up?"
+	text "Jo! Was geht?"
 	
-	para "Want something to"
-	line "give you the"
-	cont "edge in battle?"
+	para "Möchtest du etwas"
+	line "das dir im Kampf"
+	cont "einen erheblichen"
+	cont "Vorteil"
+	cont "verschafft?"
 	
-	para "Check this out!"
+	para "Schau dir das an!"
 	prompt
 
 _ReceivedTM15Text::
-	text "[PLAYER] received"
+	text "[PLAYER] erhält"
 	line "@"
 	TX_RAM wcf4b
 	text "!@@"
 
 _TM15ExplanationText::
-	text "TM15 teaches"
-	line "Hyper Beam!"
+	text "TM15 ist"
+	line "Hyperstrahl!"
 
-	para "It's a powerful"
-	line "move, but your"
-	cont "#mon has to"
-	cont "recharge after"
-	cont "using it."
+	para "Eine sehr starke"
+	line "Attacke, aber"
+	cont "dein #mon muss"
+	cont "sich danach auf-"
+	cont "laden."
 	done
 
 _TM15NoRoomText::
-	text "Whoa, hold up!"
+	text "Oh, warte mal!"
 	
-	para "You don't have"
-	line "room for this"
-	cont "sweet TM!"
+	para "Du kann die tolle"
+	line "TM nicht mehr"
+	cont "verstauen!"
 	done

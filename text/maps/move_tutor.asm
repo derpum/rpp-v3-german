@@ -1,35 +1,38 @@
 _MoveTutorWelcomeText::
-	text "Hello, I am a"
-	line "Move Tutor."
+	text "Hallo, ich bin"
+	line "der Attacken-"
+	cont "Lehrer."
 	
-	para "For only ¥500, I"
-	line "can teach a move"
-	cont "to one of your"
-	cont "#mon."
+	para "Für nur ¥500,"
+	line "bring ich deinem"
+	cont "#mon eine"
+	cont "Attacke bei!"
 	prompt
 	
 _TeachTutorMoveText::
-	text "Want me to teach"
-	line "@"
+	text "Soll ich"
+	line "deinem #mon"
+	cont "@"
 	TX_RAM wcf4b
 	db $0
-	cont "to a #mon?"
+	cont "beibringen?"
 	done
 
 _MoveTutorComeAgainText::
-	text "Come again!"
+	text "Besuche mich"
+	line "wieder!"
 	done
 
 _MonCannotLearnTutorMoveText::
-	text "Oh, I can't teach"
-	line "that #mon"
+	text "Oh, ich kann"
+	line "deinem #mon"
 	cont "@"
 	TX_RAM wcf4b
-	text "."
+	text "nicht beibringen."
 	prompt
 
 _MoveTutorNotEnoughMoneyText::
-	text "I'm sorry, you"
-	line "don't have enough"
-	cont "money."
+	text "Tut mir leid,"
+	line "aber du hast"
+	cont "nicht genug Geld."
 	done

@@ -1,146 +1,174 @@
 _GaryChampionIntroText::
-	text "[RIVAL]: Hey!"
+	text "[RIVAL]: Hallo!"
 
-	para "I was looking"
-	line "forward to seeing"
-	cont "you, [PLAYER]!"
+	para "Auf diesen Moment"
+	line "warte ich schon"
+	cont "lange,  [PLAYER]!"
 
-	para "My rival should"
-	line "be strong to keep"
-	cont "me sharp!"
+	para "Ich brauche einen"
+	line "starken Gegner, "
+	cont "um mich in Form"
+	cont "zu halten!"
 
-	para "While working on"
-	line "#dex, I looked"
-	cont "all over for"
-	cont "powerful #mon!"
+	para "Während ich"
+	line "meinen #dex"
+	cont "aktualisierte,"
+	cont "habe ich nur die"
+	cont "stärksten #mon"
+	cont "ausgewählt!"
 
-	para "Not only that, I"
-	line "assembled teams"
-	cont "that would beat"
-	cont "any #mon type!"
+	para "Aber nicht nur"
+	line "das: Ich habe"
+	cont "Teams aufgebaut,"
+	cont "die ALLE #mon"
+	cont "besiegen können!"
 
-	para "And now!"
+	para "Und nun..."
 
-	para "I'm the #mon"
-	line "League Champion!"
+	para "...bin ich"
+	line "Champion der"
+	cont "PKMN-Liga!"
 
-	para "[PLAYER]! Do you"
-	line "know what that"
-	cont "means?"
+	para "[PLAYER]!"
 
-	para "I'll tell you!"
+	para "Weißt Du, was das"
+	line "bedeutet?"
 
-	para "I am the most"
-	line "powerful trainer"
-	cont "in the world!"
+	para "Ich werde es Dir"
+	line "sagen!"
+
+	para "Ich bin der"
+	line "mächtigste"
+	cont "Trainer der Welt!"
 	done
 
 _GaryDefeatedText::
-	text "NO!"
-	line "That can't be!"
-	cont "You beat my best!"
+	text "NEIN!"
+	line "Das kann nicht"
+	cont "wahr sein! Meine"
+	cont "besten #mon"
+	cont "sind geschlagen!"
 
-	para "After all that"
-	line "work to become"
-	cont "League Champ?"
+	para "Mein Siegeszug"
+	line "ist schon vorbei?"
 
-	para "My reign is over"
-	line "already?"
-	cont "It's not fair!"
+	para "Nach all den"
+	line "Anstrengungen,"
+	cont "Liga-Champion"
+	cont "zu werden?"
+
+	para "Das ist nicht"
+	line "fair!"
 	prompt
 
 _GaryVictoryText::
-	text "Hahaha!"
-	line "I won, I won!"
+	text "Haha! Ich"
+	line "habe GEWONNEN!"
 
-	para "I'm too good for"
-	line "you, [PLAYER]!"
+	para "Ich bin einfach "
+	line "zu gut für Dich," 
+	cont "[PLAYER]!"
 
-	para "You did well to"
-	line "even reach me,"
-	cont "[RIVAL], the"
-	cont "#mon genius!"
+	para "Immerhin hast"
+	line "Du es bis hierher"
+	cont "geschafft! Ich"
+	cont "hätte aber mehr"
+	cont "von Dir erwartet,"
+	cont "[RIVAL]!"
 
-	para "Nice try, loser!"
-	line "Hahaha!"
+	para "Vielleicht beim"
+	line "nächsten mal, Du"
+	cont "Kämpfer! Hahaha!"
 	prompt
 
 _GaryText_76103::
-	text "Why?"
-	line "Why did I lose?"
+	text "Wieso? Wieso habe"
+	line "ich verloren?"
 
-	para "I never made any"
-	line "mistakes raising"
-	cont "my #mon..."
+	para "Ich habe meine"
+	line "#mon doch"
+	cont "sehr sorgfältig"
+	cont "aufgezogen..."
 
-	para "Darn it! You're"
-	line "the new #mon"
-	cont "League Champion!"
+	para "Verdammt!"
+	line "Du bist der neue"
+	cont "CHAMPION der"
+	cont "PKMN-Liga!"
 
-	para "Although I don't"
-	line "like to admit it."
+	para "Aber ich gönne"
+	line "Dir das nicht!"
 	done
 
 _GaryText2::
-	text "Oak: [PLAYER]!"
+	text "Eich: [PLAYER]!"
 	done
 
 _GaryText_76120::
-	text "Oak: So, you won!"
-	line "Congratulations!"
-	cont "You're the new"
-	cont "#mon League"
-	cont "Champion!"
+	text "Eich: Du hast"
+	line "also gewonnen!"
+	cont "Glückwunsch!"
+	cont "Du bist der neue"
+	cont "Champion der"
+	cont "PKMN-Liga!"
 
-	para "You've grown up so"
-	line "much since you"
-	cont "first left with"
+	para "Du hast viel"
+	line "dazugelernt, seit"
+	cont "Du Dich mit"
 	cont "@"
 	TX_RAM wcd6d
-	text "!"
 
-	para "[PLAYER], you have"
-	line "come of age!"
+	text " auf"
+	cont "den Weg gemacht"
+	cont "hast!"
+
+	para "[PLAYER], "
+	line "Du bist schon"
+	cont "viel erfahrener!"
 	done
 
 _GaryText_76125::
-	text "Oak: [RIVAL]! I'm"
-	line "disappointed!"
+	text "Eich: [RIVAL]!"
+	line "Du hast mich"
+	cont "sehr enttäuscht!"
 
-	para "I came when I"
-	line "heard you beat"
-	cont "the Elite Four!"
+	para "Als ich hörte, "
+	line "Du hättest die"
+	cont "Top Vier besiegt,"
+	cont "kam ich hierher!"
 
-	para "But, when I got"
-	line "here, you had"
-	cont "already lost!"
+	para "Doch als ich"
+	line "ankam, warst Du"
+	cont "der Verlierer!"
 
-	para "[RIVAL]! Do you"
-	line "understand why"
-	cont "you lost?"
 
-	para "You have forgotten"
-	line "to treat your"
-	cont "#mon with"
-	cont "trust and love!"
+	para "[RIVAL]! weißt"
+	line "Du, warum Du"
+	cont "verloren hast?"
 
-	para "Without them, you"
-	line "will never become"
-	cont "a champ again!"
+	para "Du hast Deinen"
+	line "#mon nicht"
+	cont "genug Liebe"
+	cont "und Vertrauen "
+	cont "entgegengebracht!"
+
+	para "So wirst Du"
+	line "niemals Sieger"
+	cont "werden!"
 	done
 
 _GaryText_7612a::
-	text "Oak: [PLAYER]!"
+	text "Eich: [PLAYER]!"
 
-	para "You understand"
-	line "that your victory"
-	cont "was not just your"
-	cont "own doing!"
+	para "Du hast"
+	line "begriffen, daß"
+	cont "Dein Sieg nicht"
+	cont "alleine Dein"
+	cont "Verdienst war!"
 
-	para "The bond you share"
-	line "with your #mon"
-	cont "is marvelous!"
+	para "Die Beziehung"
+	line "zu Deinen #mon"
+	cont "ist vorbildlich!"
 
 	para "[PLAYER]!"
-	line "Come with me!"
+	line "Folge mir!"
 	done

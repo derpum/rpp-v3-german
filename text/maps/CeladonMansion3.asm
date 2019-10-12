@@ -1,91 +1,101 @@
 _ProgrammerText::
-	text "Me? I'm the"
-	line "programmer!"
+	text "Ich? Ich bin der"
+	line "Programmierer!"
 	done
 
 _GraphicArtistText::
-	text "I'm the graphic"
-	line "artist!"
-	cont "I drew you!"
+	text "Ich bin der"
+	line "Grafiker!"
+	cont "Ich habe dies"
+	cont "alles gezeichnet!"
 	done
 
 _WriterText::
-	text "I wrote the story!"
-	line "Isn't Erika cute?"
+	text "Die Geschichte"
+	line "stammt von mir!"
+	cont "Ist Erika nicht"
+	cont "süß?"
 
-	para "I like Misty a"
-	line "lot too!"
+	para "Aber Misty mag"
+	line "ich auch gerne!"
 
-	para "Oh, and Sabrina,"
-	line "I like her!"
+	para "Und nicht zu"
+	line "vergessen,"
+	cont "Sabrina!"
 	done
 
 _GameDesignerText::
-	text "Hiya, I'm the"
-	line "Game Designer!"
+	text "Hi! Ich habe das"
+	line "Spiel gestaltet!"
 
-	para "You should come"
-	line "back here once"
-	cont "you've caught at"
-	cont "least 150 kinds"
-	cont "of #mon."
+	para "Du solltest"
+	line "nochmal herkommen"
+	cont "wenn du "
+	cont "mindestens 150"
+	cont "#mon gefangen"
+	cont "hast."
 
-	para "I'll give you"
-	line "something I think"
-	cont "you'll like."
+	para "Ich werde dir"
+	line "dann etwas geben"
+	cont "was dir gefallen"
+	cont "wird."
 	
-	para "No, don't worry,"
-	line "it isn't some"
-	cont "useless Diploma!"	
+	para "Keine Sorge,"
+	line "es ist kein"
+	cont "sinnloses Diplom!"	
 	done
 	
 _GameDesignerGiveTicketText::
-	text "Ah! I see you've"
-	line "caught at least"
-	cont "150 kinds of"
-	cont "#mon now."
+	text "Ah! Ich sehe du"
+	line "hast bereits"
+	cont "150 verschiedene"
+	cont "#mon gefangen."
 	
-	para "I want you to"
-	line "have this."
+	para "Ich möchte dir"
+	line "etwas geben."
 	done
 	
 _ReceivedEonTicketText::
-	text "[PLAYER] received"
-	line "the Eon Ticket!"
+	text "[PLAYER] erhält"
+	line "das Äon-Ticket!"
 	done
 
 _GameDesignerAlreadyGivenText::
-	text "The Eon Ticket"
-	line "allows you to"
-	cont "visit Southern"
-	cont "Island in Hoenn."
+	text "Mit dem Äon-"
+	line "Ticket kannst du"
+	cont "die Insel im Süden"
+	cont "der Hoenn-Region"
+	cont "besuchen."
 	
-	para "You can take the"
-	line "Seagallop Ferry"
-	cont "in Vermilion to"
-	cont "get there."
+	para "Nutze die"
+	line "Seesprint-Fähre"
+	cont "in Orania City"
+	cont "um diese zu"
+	cont "erreichen."
 	done
 
 _CeladonMansion3Text5::
-	text "It's the game"
-	line "program! Messing"
-	cont "with it could bug"
-	cont "out the game!"
+	text "Der Programmcode!"
+	line "Davon sollte man"
+	cont "besser die Finger"
+	cont "lassen!"
 	done
 
 _CeladonMansion3Text6::
-	text "Someone's playing"
-	line "a game instead of"
-	cont "working!"
+	text "Dort spielt"
+	line "jemand, anstatt"
+	cont "zu arbeiten!"
 	done
 
 _CeladonMansion3Text7::
-	text "It's the script!"
-	line "Better not look"
-	cont "at the ending!"
+	text "Das Drehbuch!"
+	line "Ich schaue mir"
+	cont "das Ende besser"
+	cont "nicht an!"
 	done
 
 _CeladonMansion3Text8::
 	text "GAME FREAK"
-	line "Development Room"
+	line "Entwicklungs-"
+	cont "Abteilung"
 	done

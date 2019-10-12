@@ -234,7 +234,7 @@ WonderTrade_GetOTName:
 	ld a, [hl]
 	ld hl, WonderTradeOTNames1
 	jr z, .ok
-	ld hl, WonderTradeOTNames2
+	ld hl, WonderTradeOTNames1 ; why is this broken? every second name is blank ...
 .ok
 	ld bc, $8
 	call AddNTimes
@@ -528,43 +528,46 @@ WonderConnectCableText:
 	db "@"
 
 WelcomeToGlobalText:
-	text "Connecting to the"
-	line "Global Terminal.@@"
+	text "Verbindung mit"
+	line "dem Globalen"
+	cont "Terminal wird"
+	cont "hergestellt.@@"
 
 BeingAdjustedText:
-	text "The system is"
-	line "currently under"
-	cont "maintenance."
+	text "Das System wird"
+	line "derzeit gewartet-"
 	
-	para "Please try back"
-	line "later.@@"
+	para "Bitte versuche es"
+	line "später nochmal.@@"
 
 WouldYouLikeToWonderTradeText:
-	text "Would you like to"
-	line "use Wonder Trade?@@"
+	text "Möchtest du das"
+	line "Wundertausch-"
+	cont "System nutzen?@@"
 	
 ComeAgainText:
-	text "Come again!@@"
+	text "Auf wiedersehen!@@"
 	
 CompletedWonderTradeText:
-	text "[PLAYER] completed"
-	line "a Wonder Trade!@@"
+	text "[PLAYER] hat"
+	line "ein Wundertausch"
+	cont "abgeschlossen!@@"
 	
 BannedMonText:
-	text "Error! That"
-	line "#mon is not"
-	cont "allowed."
+	text "Fehler! Dieses"
+	line "#mon ist nicht"
+	cont "erlaubt."
 	
-	para "Please choose"
-	line "again.@@"
+	para "Bitte wähle ein"
+	line "anderes.@@"
 	
 AreYouSureText:
-	text "You will not be"
-	line "able to get your"
-	cont "#mon back if"
-	cont "you continue."
+	text "Du bekommst dein"
+	line "#mon nicht"
+	cont "zurück wenn du"
+	cont "fortfährst!"
 	
-	para "Are you sure you"
-	line "want to trade?@@"
+	para "Bist du dir"
+	line "wirklich sicher?@@"
 
 INCLUDE "text/wonder_trade_OT_names.asm"

@@ -443,11 +443,11 @@ BillsHousePokemonListText1:
 	db "@"
 
 BillsMonListText:
-	db   "Eevee"
-	next "Vaporeon"
-	next "Jolteon"
-	next "Flareon"
-	next "Cancel@"
+	db   "Evoli"
+	next "Aquana"
+	next "Blitza"
+	next "Flamara"
+	next "Zurück@"
 
 BillsHousePokemonListText2:
 	TX_FAR _BillsHousePokemonListText2

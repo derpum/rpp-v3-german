@@ -1,35 +1,36 @@
 _RocketHideout3BattleText2::
-	text "Stop meddling in"
-	line "Team Rocket's"
-	cont "affairs!"
+	text "Halte Dich aus"
+	line "Team Rockets"
+	cont "Angelegenheiten!"
 	done
 
 _RocketHideout3EndBattleText2::
-	text "Oof!"
-	line "Taken down!"
+	text "Uff! Ich"
+	line "bin am Boden!"
 	prompt
 
 _RocketHideout3AfterBattleTxt2::
-	text "Silph Scope?"
-	line "The machine the"
-	cont "Boss stole. It's"
-	cont "here somewhere."
+	text "Das Silph Scope?"
+	line "Das Gerät, das"
+	cont "der Boss geraubt"
+	cont "hat? Das ist hier"
+	cont "irgendwo..."
 	done
 
 _RocketHideout3BattleTxt::
-	text "We got word from"
-	line "upstairs that you"
-	cont "were coming!"
+	text "Wir hörten schon,"
+	line "daß Du im"
+	cont "Anmarsch bist!"
 	done
 
 _RocketHideout3EndBattleText3::
-	text "What? I lost?"
-	line "No!"
+	text "Was? Ich"
+	line "hab verloren? Ah!"
 	prompt
 
 _RocketHide3AfterBattleText3::
-	text "Go ahead and go!"
-	line "But, you need the"
-	cont "Lift Key to run"
-	cont "the elevator!"
+	text "Geh ruhig weiter!"
+	line "Du benötigst den"
+	cont "Liftöffner, und"
+	cont "der fehlt Dir!"
 	done

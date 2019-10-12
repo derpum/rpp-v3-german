@@ -1,94 +1,108 @@
 _Route6BattleText1::
-	text "Who's there?"
-	line "Quit listening in"
-	cont "on us!"
+	text "Wer da? Hey, hör"
+	line "auf, uns heimlich"
+	cont "zu belauschen!"
 	done
 
 _Route6EndBattleText1::
-	text "I just can't win!"
+	text "Ich"
+	line "kann einfach"
+	cont "nie siegen!"
 	prompt
 
 _Route6AfterBattleText1::
-	text "Whisper..."
-	line "whisper..."
+	text "Flüster..."
+	line "Tuschel..."
 	done
 
 _Route6BattleText2::
-	text "Excuse me! This"
-	line "is a private"
-	cont "conversation!"
+	text "Entschuldige,"
+	line "aber das hier ist"
+	cont "Privatsache!"
 	done
 
 _Route6EndBattleText2::
-	text "Ugh!"
-	line "I hate losing!"
+	text "Grr! Ich hasse"
+	line "es, zu verlieren!"
 	prompt
 
 _Route6BattleText3::
-	text "There aren't many"
-	line "bugs out here."
+	text "Man findet hier"
+	line "draußen nicht"
+	cont "viele Käfer..."
 	done
 
 _Route6EndBattleText3::
-	text "No!"
-	line "You're kidding!"
+	text "Du beliebst zu"
+	line "scherzen, oder?"
 	prompt
 
 _Route6AfterBattleText3::
-	text "I like bugs, so"
-	line "I'm going back to"
-	cont "Viridian Forest."
+	text "Ich gehe in den"
+	line "Vertania-Wald"
+	cont "zurück. Dort gibt"
+	cont "es mehr Käfer!"
 	done
 
 _Route6BattleText4::
-	text "Huh? You want"
-	line "to talk to me?"
+	text "Hörte ich da"
+	line "jemanden vom"
+	cont "Kämpfen sprechen?"
 	done
 
 _Route6EndBattleText4::
-	text "Hey, I didn't"
-	line "start it!"
+	text "Hmm,"
+	line "ich hätte es"
+	cont "besser überhört!"
 	prompt
 
 _Route6AfterBattleText4::
-	text "I should carry"
-	line "more #mon with"
-	cont "me for safety."
+	text "Zu meiner eigenen"
+	line "Sicherheit sollte"
+	cont "ich mehr #mon"
+	cont "bei mir tragen!"
 	done
 
 _Route6BattleText5::
-	text "Me? Well, OK."
-	line "I'll play!"
+	text "Kämpfen? Meinst"
+	line "Du mich? Na gut!"
 	done
 
 _Route6EndBattleText5::
-	text "Just didn't work!"
+	text "Das hat nicht"
+	line "ganz geklappt!"
 	prompt
 
 _Route6AfterBattleText5::
-	text "I want to get"
-	line "stronger! What's"
-	cont "your secret?"
+	text "Verrätst Du mir"
+	line "Dein Geheimnis?"
+	cont "Ich möchte auch"
+	cont "stärker werden!"
 	done
 
 _Route6BattleText6::
-	text "I've never seen"
-	line "you around!"
-	cont "Are you good?"
+	text "Dich habe ich"
+	line "noch nie gesehen!"
+	cont "Bist Du ein guter"
+	cont "Trainer?"
 	done
 
 _Route6EndBattleText6::
-	text "You are too good!"
+	text "Du"
+	line "bist ein zu guter"
+	cont "Trainer!"
 	prompt
 
 _Route6AfterBattleText6::
-	text "Are my #mon"
-	line "weak? Or, am I"
-	cont "just bad?"
+	text "Sind meine"
+	line "#mon zu"
+	cont "schwach, oder bin"
+	cont "ich etwa nicht"
+	cont "gut genug?"
 	done
 
 _Route6Text7::
-	text "Underground Path"
-	line "Cerulean City -"
-	cont "Vermilion City"
+	text "Tunnelpfad"
+	line "Azuria City -"
+	cont "Orania City"
 	done

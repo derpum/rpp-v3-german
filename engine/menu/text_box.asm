@@ -181,9 +181,9 @@ TextBoxTextAndCoordTable:
 	db 2,7   ; text coordinates
 
 	db BATTLE_MENU_TEMPLATE
-	db 8,12,19,17  ; text box coordinates
+	db 6,12,19,17  ; text box coordinates
 	dw BattleMenuText
-	db 10,14 ; text coordinates
+	db 8,14 ; text coordinates
 
 	db SAFARI_BATTLE_MENU_TEMPLATE
 	db 0,12,19,17  ; text box coordinates
@@ -197,7 +197,7 @@ TextBoxTextAndCoordTable:
 
 	db BUY_SELL_QUIT_MENU_TEMPLATE
 	db 0,0,10,6    ; text box coordinates
-	dw BuySellQuitText
+	dw BuySellQuitText + 1
 	db 2,1   ; text coordinates
 
 	db MONEY_BOX_TEMPLATE
@@ -218,14 +218,14 @@ TextBoxTextAndCoordTable:
 ; note that there is no terminator
 
 BuySellQuitText:
-	db   "Buy"
-	next "Sell"
-	next "Quit@@"
+	db   "Kauf"
+	next "Verkauf"
+	next "Tschüss!@"
 
 UseTossText:
-	db   "Use"
+	db   "OK"
 	next "Info"
-	next "Toss@"
+	next "Müll@"
 
 JapaneseSaveMessageText:
 	db   "きろく"
@@ -236,7 +236,7 @@ JapaneseSpeedOptionsText:
 	next "おそい@"
 
 MoneyText:
-	db "Money@"
+	db "Geld@"
 
 JapaneseMochimonoText:
 	db "もちもの@"
@@ -246,17 +246,17 @@ JapaneseMainMenuText:
 	next "さいしょから@"
 
 BattleMenuText:
-	db   "Fight ",$E1,$E2
-	next "Pack  Run@"
+	db   "Kmpf ",$E1,$E2
+	next "Item Flucht@"
 
 SafariZoneBattleMenuText:
-	db   "Ball×       Bait"
-	next "Rock        Run@"
+	db   "Ball×      Köder"
+	next "Stein      Flucht@"
 
 SwitchStatsCancelText:
-	db   "Switch"
-	next "Stats"
-	next "Cancel@"
+	db   "Tausch"
+	next "Status"
+	next "Zurück@"
 
 JapaneseAhText:
 	db "アッ!@"
@@ -485,7 +485,7 @@ DisplayTwoOptionMenu:
 
 TwoOptionMenu_SaveScreenTiles:
 	ld de, wBuffer
-	lb bc, 5, 6
+	lb bc, 5, 7
 .loop
 	ld a, [hli]
 	ld [de], a
@@ -493,17 +493,17 @@ TwoOptionMenu_SaveScreenTiles:
 	dec c
 	jr nz, .loop
 	push bc
-	ld bc, SCREEN_WIDTH - 6
+	ld bc, SCREEN_WIDTH - 7
 	add hl, bc
 	pop bc
-	ld c, $6
+	ld c, $7
 	dec b
 	jr nz, .loop
 	ret
 
 TwoOptionMenu_RestoreScreenTiles:
 	ld de, wBuffer
-	lb bc, 5, 6
+	lb bc, 5, 7
 .loop
 	ld a, [de]
 	inc de
@@ -511,10 +511,10 @@ TwoOptionMenu_RestoreScreenTiles:
 	dec c
 	jr nz, .loop
 	push bc
-	ld bc, SCREEN_WIDTH - 6
+	ld bc, SCREEN_WIDTH - 7
 	add hl, bc
 	pop bc
-	ld c, 6
+	ld c, 7
 	dec b
 	jr nz, .loop
 	call UpdateSprites
@@ -526,9 +526,9 @@ TwoOptionMenu_RestoreScreenTiles:
 ; 02: byte put blank line before first menu item
 ; 03: word text pointer
 TwoOptionMenuStrings:
-	db 4,3,0
-	dw .YesNoMenu
 	db 5,3,0
+	dw .YesNoMenu
+	db 8,3,0
 	dw .BoyGirlMenu
 	db 6,3,0
 	dw .SouthEastMenu
@@ -540,30 +540,30 @@ TwoOptionMenuStrings:
 	dw .TradeCancelMenu
 	db 7,4,1
 	dw .HealCancelMenu
-	db 4,3,0
+	db 5,3,0
 	dw .NoYesMenu
 
 .NoYesMenu
-	db   "No"
-	next "Yes@"
+	db   "Nein"
+	next "Ja@"
 .YesNoMenu
-	db   "Yes"
-	next "No@"
+	db   "Ja"
+	next "Nein@"
 .BoyGirlMenu
-	db   "Boy"
-	next "Girl@"
+	db   "Junge"
+	next "Mädchen@"
 .SouthEastMenu
-	db   "South"
-	next "East@"
+	db   "Süden"
+	next "Osten@"
 .NorthEastMenu
-	db   "North"
-	next "East@"
+	db   "Norden"
+	next "Osten@"
 .TradeCancelMenu
-	db   "Trade"
-	next "Cancel@"
+	db   "Tauschen"
+	next "Zurück@"
 .HealCancelMenu
-	db   "Heal"
-	next "Cancel@"
+	db   "Heilen"
+	next "Zurück@"
 
 DisplayFieldMoveMonMenu:
 	xor a
@@ -686,21 +686,21 @@ DisplayFieldMoveMonMenu:
 	jp PlaceString
 
 FieldMoveNames:
-	db "Cut@"
-	db "Fly@"
-	db "Dive@" ; Unused
-	db "Surf@"
-	db "Strength@"
-	db "Flash@"
-	db "Dig@"
+	db "Zerschneider@"
+	db "Fliegen@"
+	db "Tauchen@" ; Unused
+	db "Surfer@"
+	db "Stärke@"
+	db "Blitz@"
+	db "Schaufler@"
 	db "Teleport@"
-	db "Softboiled@"
-	db "Headbutt@"
+	db "Weichei@"
+	db "Kopfnuss@"
 
 PokemonMenuEntries:
-	db   "Stats"
-	next "Switch"
-	next "Cancel@"
+	db   "Status"
+	next "Tausch"
+	next "Zurück@"
 
 GetMonFieldMoves:
 	ld a, [wWhichPokemon]
@@ -760,13 +760,13 @@ GetMonFieldMoves:
 ; Leftmost tile = -1 + tile column in which the first letter of the move's name should be displayed
 ;                 "SOFTBOILED" is $08 because it has 4 more letters than "SURF", for example, whose value is $0C
 FieldMoveDisplayData:
-	db CUT, $01, $0C
-	db FLY, $02, $0C
+	db CUT, $01, $06
+	db FLY, $02, $0B
 	db DIVE, $03, $0C ; Unused
 	db SURF, $04, $0C
-	db STRENGTH, $05, $0A
+	db STRENGTH, $05, $0C
 	db FLASH, $06, $0C
-	db DIG, $07, $0C
+	db DIG, $07, $09
 	db TELEPORT, $08, $0A
 	db SOFTBOILED, $09, $08
 	db HEADBUTT, $0A, $0A

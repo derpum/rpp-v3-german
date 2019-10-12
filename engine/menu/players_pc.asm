@@ -24,7 +24,7 @@ PlayerPCMenu:
 	call LoadScreenTilesFromBuffer2
 	coord hl, 0, 0
 	ld b, $8
-	ld c, $e
+	ld c, $f
 	call TextBoxBorder
 	call UpdateSprites
 	coord hl, 2, 2
@@ -241,10 +241,10 @@ PlayerPCToss:
 	jp .loop
 
 PlayersPCMenuEntries:
-	db   "Withdraw Item"
-	next "Deposit Item"
-	next "Toss Item"
-	next "Log off@"
+	db "Item aufnehmen"
+	next "Item ablegen"
+	next "Item wegwerfen"
+	next "Ausloggen@"
 
 TurnedOnPC2Text:
 	TX_FAR _TurnedOnPC2Text

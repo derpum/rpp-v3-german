@@ -1,94 +1,90 @@
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #mon!"
+	text "Hallo! Herzlich"
+	line "Willkommen in der"
+	cont "Welt der #mon!"
 
-	para "My name is Oak!"
-	line "People call me"
-	cont "the #mon Prof!"
+	para "Mein Name ist"
+	line "Eich! Man nennt"
+	cont "mich den #mon-"
+	cont "Professor!"
 	prompt
 
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
-	cont "#mon!@@"
+	text "Diese Welt wird"
+	line "von Wesen"
+	cont "bewohnt, die man"
+	cont "#mon nennt!@@"
 
 _OakSpeechText2B::
-	text $51,"People and #mon"
-	line "live together by"
+	text ""
 
-	para "supporting each"
-	line "other."
+	para "Für manche Leute"
+	line "sind #mon"
+	cont "Haustiere, andere"
+	cont "tragen Kämpfe mit"
+	cont "ihnen aus."
 
-	para "Some people play"
-	line "with #mon,"
-	cont "some battle with"
-	cont "them."
+	para "Ich selbst..."
 
-	para "But we don't know"
-	line "everything about"
-	cont "#mon yet."
-
-	para "There are still"
-	line "many mysteries to"
-	cont "solve."
-
-	para "That's why I study"
-	line "#mon daily."
+	para "...habe mein"
+	line "Hobby zum Beruf"
+	cont "gemacht und"
+	cont "studiere #mon."
 	prompt
 
 _IntroducePlayerText::
-	text "Now tell me, what"
-	line "is your name?"
+	text "Wie lautet Dein"
+	line "Name?"
 	prompt
 
 _IntroduceRivalText::
-	text "This is my"
-	line "grandson."
-	
-	para "He's been your"
-	line "rival since you"
-	cont "were younger."
+	text "Dies ist mein"
+	line "Enkel."
+	cont "Von jeher wollt"
+	cont "Ihr einander"
+	cont "übertrumpfen!"
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "Hmm, wie war noch"
+	line "gleich sein Name?"
 	prompt
 
 _IntroduceRivalText2::
-	text "...Erm, what is"
-	line "his name again?"
+	para "Hmm, wie war noch"
+	line "gleich sein Name?"
 	prompt
 
 _OakSpeechText3::
 	text "[PLAYER]!"
 
-	para "Your very own"
-	line "#mon legend is"
-	cont "about to unfold!"
+	para "Eine unglaubliche"
+	line "Reise in die Welt"
+	cont "der #mon"
+	cont "erwartet Dich!"
 
-	para "A world of dreams"
-	line "and adventures"
-	cont "with #mon"
-	cont "awaits...Let's go!"
+	para "Eine Welt voller"
+	line "Wunder, Abenteuer"
+	cont "und Geheimnisse!"
+	cont "Kurz gesagt, ein"
+	cont "Traum wird wahr!"
 	done
 
 _BoyGirlText::
-	text "Play as a boy, or"
-	line "as a girl?"
+	text "Bist du ein Junge"
+	line "oder ein Mädchen?"
 	done
 	
 _ShouldMonsObeyText::
-	text "Should traded"
-	line "#mon behave"
-	cont "like caught"
-	cont "#mon?"
+	text "Sollen sich"
+	line "getauschte"
+	cont "#mon wie"
+	cont "gefangene"
+	cont "verhalten?"
 	done
 
 _YourNameIsText2::
-	text "Is it [PLAYER]?"
+	text "Ist es [PLAYER]?"
 	done
 
 _HisNameIsText2::
-	text "Was it [RIVAL]?"
+	text "War es [RIVAL]?"
 	done

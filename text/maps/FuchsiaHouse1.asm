@@ -1,25 +1,31 @@
 _FuchsiaHouse1Text1:: ; unused, now the Move Deleter
-	text "Safari Zone's"
-	line "Warden is old,"
-	cont "but still active!"
+	text "Der Wärter der"
+	line "SAFARI-ZONE ist"
+	cont "sehr alt! Aber er"
+	cont "ist noch immer im"
+	cont "Dienst!"
 
-	para "All his teeth are"
-	line "false, though."
+	para "Allerdings trägt"
+	line "er ein Gebiß!"
 	done
 
 _FuchsiaHouse1Text2:: ; unused, now the Move Relearner
-	text "Hmm? You've met"
-	line "Bill?"
+	text "Hast Du schon"
+	line "BILL getroffen?"
 
-	para "He's my grandson!"
+	para "Er ist mein"
+	line "Enkel!"
 
-	para "He always liked"
-	line "collecting things"
-	cont "even as a child!"
+	para "Schon als kleines"
+	line "Kind hat er gerne"
+	cont "alles Mögliche"
+	cont "gesammelt!"
 	done
 
 _FuchsiaHouse1Text3:: ; kid at the bookshelf
-	text "I'm looking up the"
-	line "best moves for my"
-	cont "Sylveon to know."
+	text "Ich möchte das"
+	line "mein Feelinara"
+	cont "die besten"
+	cont "Attacken"
+	cont "beherscht!"
 	done

@@ -1,112 +1,125 @@
 _SSAnne10Text8::
-	text "Machoke: Gwoh!"
-	line "Goggoh!@@"
+	text "Machollo: Macho!"
+	line "Machollo!@@"
 
 _SSAnne10BattleText1::
-	text "You know what they"
-	line "say about sailors"
-	cont "and fighting!"
+	text "Du weißt, wir"
+	line "Seeleute lieben"
+	cont "es zu kämpfen!"
 	done
 
 _SSAnne10EndBattleText1::
-	text "Right!"
-	line "Good fight, mate!"
+	text "JA! Was"
+	line "für ein Kampf!!!"
 	prompt
 
 _SSAnne10AfterBattleText1::
-	text "Haha! Want to be"
-	line "a sailor, mate?"
+	text "Willst Du Seemann"
+	line "werden, Kleiner?"
 	done
 
 _SSAnne10BattleText2::
-	text "My sailor's pride"
-	line "is at stake!"
+	text "Mein Ruf als"
+	line "Seebär steht auf"
+	cont "dem Spiel!!!"
 	done
 
 _SSAnne10EndBattleText2::
-	text "Your spirit sank"
-	line "me!"
+	text ""
+	line "Kiel unter! Das"
+	cont "war's für mich!"
 	prompt
 
 _SSAnne10AfterBattleText2::
-	text "Did you see the"
-	line "Fishing Guru in"
-	cont "Vermilion City?"
+	text "Hast Du schon den"
+	line "Profi-Angler in"
+	cont "Orania City"
+	cont "besucht?"
 	done
 
 _SSAnne10BattleText3::
-	text "Us sailors have"
-	line "#mon too!"
+	text "Auch Seeleute"
+	line "besitzen #mon!"
 	done
 
 _SSAnne10EndBattleText3::
-	text "OK, you're not"
-	line "too bad."
+	text "Das war"
+	line "eine reife"
+	cont "Leistung!"
 	prompt
 
 _SSAnne10AfterBattleText3::
-	text "We caught all our"
-	line "#mon while"
-	cont "out at sea!"
+	text "Seeleute fangen"
+	line "ihre #mon auf"
+	cont "hoher See!"
 	done
 
 _SSAnne10BattleText4::
-	text "I like feisty"
-	line "kids like you!@@"
+	text "Ich war früher"
+	line "genau so"
+	cont "aufgedreht wie"
+	cont "Du!@@"
 
 _SSAnne10EndBattleText4::
-	text "Argh!"
-	line "Lost it!"
+	text "Oh nein!"
+	line "Verloren!"
 	prompt
 
 _SSAnne10AfterBattleText4::
-	text "Sea #mon live"
-	line "in deep water."
-	cont "You'll need a Rod!"
+	text "Wasser-#mon"
+	line "leben unter"
+	cont "Wasser! Du"
+
+	para "benötigst eine"
+	line "Angel!"
 	done
 
 _SSAnne10BattleText5::
-	text "Matey, you're"
-	line "walking the plank"
-	cont "if you lose!"
+	text "Der Verlierer"
+	line "wird kielgeholt!"
+	cont "Los geh",$b3,"'s!"
 	done
 
 _SSAnne10EndBattleText5::
 	text "Argh!"
-	line "Beaten by a kid!"
+	line "Von einem"
+	cont "Kind besiegt..."
 	prompt
 
 _SSAnne10AfterBattleText5::
-	text "Jellyfish some-"
-	line "times drift into"
-	cont "the ship."
+	text "Manchmal treiben"
+	line "Quallen an das"
+	cont "Schiff. Der Koch"
+	cont "fängt sie dann..."
 	done
 
 _SSAnne10BattleText6::
-	text "Hello stranger!"
-	line "Stop and chat!"
+	text "Warte doch mal!"
+	line "Laß uns plaudern!"
 
-	para "All my #mon"
-	line "are from the sea!"
+	para "Ich besitze nur"
+	line "Wasser-#mon!"
 	done
 
 _SSAnne10EndBattleText6::
-	text "Darn!"
-	line "I let that one"
-	cont "get away!"
+	text "Mist!"
+	line "Der ist mir"
+	cont "entwischt!"
 	prompt
 
 _SSAnne10AfterBattleText6::
-	text "I was going to"
-	line "make you my"
-	cont "assistant too!"
+	text "Ich hätte Dich"
+	line "fast zum"
+	cont "Assistenten"
+	cont "gemacht!"
 	done
 
 _SSAnne10Text7::
-	text "My buddy, Machoke,"
-	line "is super strong!"
+	text "Mein #mon,"
+	line "Machollo ist"
+	cont "superstark!!!"
 
-	para "He has enough"
-	line "Strength to move"
-	cont "big rocks!"
+	para "Mit seiner Stärke"
+	line "kann er sogar"
+	cont "Felsen bewegen!"
 	done

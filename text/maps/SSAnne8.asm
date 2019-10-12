@@ -1,113 +1,114 @@
 _SSAnne8Text8::
-	text "Wigglytuff: Puup"
-	line "pupuu!@@"
+	text "Knuddeluff: "
+	line "Knuddel! Knuddel!@@"
 
 _SSAnne8BattleText1::
-	text "I travel alone"
-	line "on my journeys!"
+	text "Ich mache immer"
+	line "allein Urlaub!"
 
-	para "My #mon are my"
-	line "only friends!"
+	para "Nur meine #mon"
+	line "begleiten mich!"
 	done
 
 _SSAnne8EndBattleText1::
-	text "My, my friends..."
+	text "Oh"
+	line "weh, verloren!"
 	prompt
 
 _SSAnne8AfterBattleText1::
-	text "You should be"
-	line "nice to friends!"
+	text "Sei immer nett zu"
+	line "Deinen #mon!"
 	done
 
 _SSAnne8BattleText2::
-	text "You pup! How dare"
-	line "you barge in!"
+	text "Du Rotznase! Was"
+	line "fällt Dir ein?"
 	done
 
 _SSAnne8EndBattleText2::
-	text "Humph!"
-	line "You rude child!"
+	text "Mist!"
+	line "Du bist ganz"
+	cont "schön gut!"
 	prompt
 
 _SSAnne8AfterBattleText2::
-	text "I wish to be left"
-	line "alone! Get out!"
+	text "Ich will meine"
+	line "Ruhe haben!"
+
+	para "Verschwinde!"
 	done
 
 _SSAnne8BattleText3::
-	text "I love #mon!"
-	line "Do you?"
+	text "Ich bin total in"
+	line "#mon vernarrt!"
+	cont "Du auch?"
 	done
 
 _SSAnne8EndBattleText3::
-	text "Wow! "
-	line "You're great!"
+	text "Wow! Du"
+	line "bist cool!"
 	prompt
 
 _SSAnne8AfterBattleText3::
-	text "Let me be your"
-	line "friend, OK?"
+	text "Laß uns Freunde"
+	line "werden, OK?"
 
-	para "Then we can trade"
-	line "#mon!"
+	para "Dann können wir"
+	line "#mon tauschen!"
 	done
 
 _SSAnne8BattleText4::
-	text "I collected these"
-	line "#mon from all"
-	cont "around the world!"
+	text "Auf meinen Reisen"
+	line "um die Welt habe"
+	cont "ich unzählige"
+	cont "#mon gefangen!"
 	done
 
 _SSAnne8EndBattleText4::
-	text "Oh no!"
-	line "I went around the"
-	cont "world for these!"
+	text "Nein!"
+	line "Ich habe die"
+	cont "ganze Welt für"
+	cont "diese #mon"
+	cont "bereist!"
 	prompt
 
 _SSAnne8AfterBattleText4::
-	text "You hurt my poor"
-	line "worldly #mon!"
+	text "So behandelt man"
+	line "keine #mon"
+	cont "von Weltklasse!"
 
-	para "I demand that you"
-	line "heal them at a"
-	cont "#mon Center!"
+	para "Ich verlange eine"
+	line "Kur in einem "
+	cont "PKMN-Center für"
+	cont "meine #mon!!!"
 	done
 
 _SSAnne8Text5::
-	text "Oh, room service!"
-	line "I would like a"
-	cont "cherry pie!"
+	text "Steward, ich"
+	line "hätte gern ein"
+	cont "Stückchen Torte!"
 	done
 
 _SSAnne8Text6::
-	text "A cruise is so"
-	line "elegant yet cozy!"
+	text "Ach, so eine"
+	line "Kreuzfahrt ist"
+	cont "wundervoll!"
 	done
 
 _SSAnne8Text7::
-	text "I always travel"
-	line "with Wigglytuff!"
+	text "Ich reise immer"
+	line "mit Knuddeluff!"
 	done
 
 _SSAnne8Text9::
-	text "We are cruising"
-	line "around the world."
+	text "Wir machen eine"
+	line "große Weltreise!"
 	done
 
 _SSAnne8Text11::
-	text "Hello there!"
-	line "How did you know"
-	cont "to find me?"
+	text "Pst! Ich bin"
+	line "ein Geheimagent!"
 
-	para "My code name,"
-	line "it is Looker."
-	cont "It is what they"
-	cont "call me."
-
-	para "I'm a Global"
-	line "Police agent."
-	cont "On the trail of"
-	cont "Team Rocket!"
-	
-	para "Allons-y!"
+	para "Ich verfolge das"
+	line "Team Rocket! Pst!"
 	done

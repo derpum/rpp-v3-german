@@ -1,167 +1,194 @@
 _Route15BattleText1::
-	text "Let me try out the"
-	line "#mon I just"
-	cont "got in a trade!"
+	text "Wunderbar! Dann"
+	line "kann ich gleich"
+	cont "ausprobieren, wie"
+	cont "gut die #mon"
+	cont "sind, die ich"
+	cont "getauscht habe!"
 	done
 
 _Route15EndBattleText1::
-	text "Not good enough!"
+	text "Nicht gut genug!"
 	prompt
 
 _Route15AfterBattleText1::
-	text "You can't change"
-	line "the nickname of"
-	cont "any #mon you"
-	cont "get in a trade."
+	text "Man kann den"
+	line "Spitznamen eines"
+	cont "#mon, das man"
+	cont "getauscht hat,"
+	cont "nicht ändern."
 
-	para "Only the Original"
-	line "Trainer can."
+	para "Nur der Original-"
+	line "Trainer kann den"
+	cont "Namen verändern."
 	done
 
 _Route15BattleText2::
-	text "You look gentle,"
-	line "so I think I can"
-	cont "beat you!"
+	text "Du siehst"
+	line "lammfromm aus!"
+	cont "Dann habe ich"
+	cont "eine Chance!"
 	done
 
 _Route15EndBattleText2::
-	text "No, wrong!"
+	text "Du"
+	line "bist ein Wolf im"
+	cont "Schafspelz!"
 	prompt
 
 _Route15AfterBattleText2::
-	text "I'm afraid of"
-	line "Bikers, they look"
-	cont "so ugly and mean!"
+	text "Ich habe Angst"
+	line "vor Bikern, sie"
+	cont "sind so häßlich"
+	cont "und brutal!"
 	done
 
 _Route15BattleText3::
-	text "When I whistle, I"
-	line "can summon bird"
-	cont "#mon!"
+	text "Wenn ich pfeife,"
+	line "kann ich"
+	cont "Vogel-#mon"
+	cont "herbeirufen!"
 	done
 
 _Route15EndBattleText3::
-	text "Ow!"
-	line "That's tragic!"
+	text "Au!"
+	line "Das ist tragisch!"
 	prompt
 
 _Route15AfterBattleText3::
-	text "Maybe I'm not cut"
-	line "out for battles."
+	text "Vielleicht bin"
+	line "ich keine"
+	cont "Kämpfernatur..."
 	done
 
 _Route15BattleText4::
-	text "Hmm? My birds are"
-	line "shivering! You're"
-	cont "good, aren't you?"
+	text "Hmm? Meine Vögel"
+	line "erschaudern?"
+
+	para "Du mußt wirklich"
+	line "sehr gut sein!"
 	done
 
 _Route15EndBattleText4::
-	text "Yep! Just as I"
-	line "thought!"
+	text "Ich"
+	line "lag also richtig!"
 	prompt
 
 _Route15AfterBattleText4::
-	text "Did you know moves"
-	line "like Earthquake"
-	cont "don't have any"
-	cont "effect on birds?"
+	text "Wußtest Du, daß"
+	line "manche Attacken,"
+	cont "wie Erdbeben,"
+	cont "keine Wirkung auf"
+	cont "Vögel haben?"
 	done
 
 _Route15BattleText5::
-	text "Oh, you're a"
-	line "little cutie!"
+	text "Du bist ein"
+	line "gewitzter Kerl!"
 	done
 
 _Route15EndBattleText5::
-	text "You looked so"
-	line "cute, too!"
+	text ""
+	line "Und Du siehst"
+	cont "so süß aus!"
 	prompt
 
 _Route15AfterBattleText5::
-	text "I forgive you!"
-	line "I can take it!"
+	text "OK, Du hast mich"
+	line "besiegt. Es macht"
+	cont "mir nichts aus!"
 	done
 
 _Route15BattleText6::
-	text "I raise #mon"
-	line "because I live"
-	cont "alone!"
+	text "Ich trainiere"
+	line "#mon, weil ich"
+	cont "alleine lebe!"
 	done
 
 _Route15EndBattleText6::
-	text "I didn't ask for"
-	line "this!"
+	text "So"
+	line "habe ich es"
+	cont "mir aber nicht"
+	cont "vorgestellt!"
 	prompt
 
 _Route15AfterBattleText6::
-	text "I just like going"
-	line "home to be with"
-	cont "my #mon!"
+	text "Ich verbringe"
+	line "zu Hause sehr"
+	cont "viel Zeit mit"
+	cont "meinen #mon!"
 	done
 
 _Route15BattleText7::
-	text "Hey kid! C'mon!"
-	line "I just got these!"
+	text "Hey, Kleiner!"
+	line "Laß uns kämpfen!"
 	done
 
 _Route15EndBattleText7::
-	text "Why not?"
+	text "Warum"
+	line "hab ich verloren?"
 	prompt
 
 _Route15AfterBattleText7::
-	text "You only live"
-	line "once, so I live"
-	cont "as an outlaw!"
-	cont "Team Rocket rules!"
+	text "Man lebt nur"
+	line "einmal! Daher bin"
+	cont "ich ein Bandit!"
+	cont "Das Team Rocket"
+	cont "ist cool!"
 	done
 
 _Route15BattleText8::
-	text "Fork over all your"
-	line "cash when you"
-	cont "lose to me, kid!"
+	text "Her mit Deinen"
+	line "Moneten! Wenn Du"
+	cont "verlierst, gibst"
+	cont "Du mir Dein Geld!"
 	done
 
 _Route15EndBattleText8::
-	text "That can't be"
-	line "true!"
+	text "Das darf"
+	line "nicht wahr sein!"
 	prompt
 
 _Route15AfterBattleText8::
-	text "I was just joking"
-	line "about the money!"
+	text "Vergiß die Sache"
+	line "mit dem Geld, das"
+	cont "war ein Scherz!"
 	done
 
 _Route15BattleText9::
-	text "What's cool?"
-	line "Trading #mon!"
+	text "#mon zu"
+	line "tauschen ist"
+	cont "wirklich cool!"
 	done
 
 _Route15EndBattleText9::
-	text "I said trade!"
+	text "Ich"
+	line "sagte tauschen!"
 	prompt
 
 _Route15AfterBattleText9::
-	text "I trade #mon"
-	line "with my friends!"
+	text "Ich tausche mit"
+	line "meinen Freunden"
+	cont "#mon!"
 	done
 
 _Route15BattleText10::
-	text "Want to play with"
-	line "my #mon?"
+	text "Möchtest Du mit"
+	line "meinen #mon"
+	cont "spielen?"
 	done
 
 _Route15EndBattleText10::
-	text "I was way too"
-	line "impatient!"
+	text "Ich"
+	line "war zu ungestüm!"
 	prompt
 
 _Route15AfterBattleText10::
-	text "I'll go train with"
-	line "weaker people.@@"
+	text "Ich muß ein wenig"
+	line "mit schwächeren"
+	cont "Trainern üben...@@"
 
 _Route15Text12::
-	text "Route 15"
-	line "West to Fuchsia"
-	cont "City"
+	text "Route 15, Westen:"
+	line "Fuchsania City"
 	done

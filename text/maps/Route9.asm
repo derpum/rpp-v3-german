@@ -1,152 +1,172 @@
 _Route9BattleText1::
-	text "You have #mon"
-	line "with you!"
-	cont "You're mine!"
+	text "Du trägst #mon"
+	line "bei Dir! Laß uns"
+	cont "kämpfen!"
 	done
 
 _Route9EndBattleText1::
-	text "You deceived me!"
+	text "Du"
+	line "hast gewonnen!"
 	prompt
 
 _Route9AfterBattleText1::
-	text "You need light to"
-	line "get through that"
-	cont "dark tunnel ahead."
+	text "Du benötigst eine"
+	line "Lichtquelle, um"
+	cont "den Tunnel zu"
+	cont "durchqueren!"
 	done
 
 _Route9BattleText2::
-	text "Who's that walking"
-	line "with those good"
-	cont "looking #mon?"
+	text "Hey, wer bist Du?"
+	line "Deine #mon"
+	cont "sehen fit aus!"
 	done
 
 _Route9EndBattleText2::
-	text "Out like a light!"
+	text "Schnell und"
+	line "präzise besiegt!"
 	prompt
 
 _Route9AfterBattleText2::
-	text "Keep walking!"
+	text "OK, geh einfach"
+	line "weiter!"
 	done
 
 _Route9BattleText3::
-	text "I'm taking Rock"
-	line "Tunnel to go to"
-	cont "Lavender..."
+	text "Ich gehe durch"
+	line "den Felstunnel"
+	cont "nach Lavandia..."
 	done
 
 _Route9EndBattleText3::
-	text "Can't measure up!"
+	text "Mit Dir habe ich"
+	line "mich übernommen!"
 	prompt
 
 _Route9AfterBattleText3::
-	text "Are you off to"
-	line "Rock Tunnel too?"
+	text "Möchtest Du auch"
+	line "den Felstunnel"
+	cont "benutzen?"
 	done
 
 _Route9BattleText4::
-	text "Don't you dare"
-	line "condescend me!"
+	text "Trau Dich ruhig,"
+	line "mit mir zu"
+	cont "kämpfen!"
 	done
 
 _Route9EndBattleText4::
-	text "No!"
-	line "You're too much!"
+	text "Das"
+	line "war zuviel des"
+	cont "Guten!"
 	prompt
 
 _Route9AfterBattleText4::
-	text "You're obviously"
-	line "talented! Good"
-	cont "luck to you!"
+	text "Du hast sehr viel"
+	line "Talent! Viel"
+	cont "Glück auf Deinem"
+	cont "weiteren Weg!"
 	done
 
 _Route9BattleText5::
-	text "Bwahaha!"
-	line "Great! I was"
-	cont "bored, eh!"
+	text "Endlich"
+	line "kommt jemand!"
+	cont "Mir war richtig"
+	cont "langweilig!"
 	done
 
 _Route9EndBattleText5::
-	text "Keep it coming,"
-	line "eh!"
+	text "War das"
+	line "etwa schon alles?"
 
-	para "Oh wait. I'm out"
-	line "of #mon!"
+	para "Oh! Ich habe kein"
+	line "einsatzbereites"
+	cont "#mon übrig!"
 	prompt
 
 _Route9AfterBattleText5::
-	text "You sure had guts"
-	line "standing up to me"
-	cont "there, eh?"
+	text "Deine Knie haben"
+	line "ganz schön"
+	cont "geschlackert,"
+	cont "oder?"
 	done
 
 _Route9BattleText6::
-	text "Hahaha!"
-	line "Aren't you a"
-	cont "little toughie!"
+	text "Du hast"
+	line "keine Chance, Du"
+	cont "kleiner Rabauke!"
 	done
 
 _Route9EndBattleText6::
-	text "What's that?"
+	text "Was ist"
+	line "passiert?"
 	prompt
 
 _Route9AfterBattleText6::
-	text "Hahaha! Kids"
-	line "should be tough!"
+	text "Haha! Kinder"
+	line "sollten kleine"
+	cont "Rabauken sein!"
 	done
 
 _Route9BattleText7::
-	text "I got up early"
-	line "every day to"
-	cont "raise my #mon"
-	cont "from cocoons!"
+	text "Ich stehe jeden"
+	line "Tag früh auf, um"
+	cont "meine #mon"
+	cont "in ihrem Kokon zu"
+	cont "pflegen!"
 	done
 
 _Route9EndBattleText7::
-	text "WHAT?"
+	text "WAS?"
 
-	para "What a total"
-	line "waste of time!"
+	para "Das war"
+	line "die reinste Zeit-"
+	cont "verschwendung!"
 	prompt
 
 _Route9AfterBattleText7::
-	text "I have to collect"
-	line "more than bugs to"
-	cont "get stronger..."
+	text "Ich sollte lieber"
+	line "ein paar Stärkere"
+	cont "sammeln..."
 	done
 
 _Route9BattleText8::
-	text "Hahahaha!"
-	line "Come on, dude!"
+	text "Ha! Wie"
+	line "wäre es mit einem"
+	cont "Kampf?"
 	done
 
 _Route9EndBattleText8::
-	text "Hahahaha!"
-	line "You beat me fair!"
+	text "Haha!"
+	line "Ein fairer Kampf!"
 	prompt
 
 _Route9AfterBattleText8::
-	text "Hahahaha!"
-	line "Us hearty guys"
-	cont "always laugh!"
+	text "Haha!"
+	line "Wir Scherzbolde"
+	cont "lachen ständig!"
 	done
 
 _Route9BattleText9::
-	text "Go, my super bug"
-	line "#mon!"
+	text "Du hast keine"
+	line "Chance gegen"
+	cont "meine KÄFER-"
+	cont "#mon!"
 	done
 
 _Route9EndBattleText9::
-	text "My bugs..."
+	text "Meine"
+	line "Käfer-#mon..."
 	prompt
 
 _Route9AfterBattleText9::
-	text "If you don't like"
-	line "bug #mon, you"
-	cont "bug me!"
+	text "Wer keine Käfer"
+	line "mag, den mag ich"
+	cont "auch nicht!"
 	done
 
 _Route9Text11::
 	text "Route 9"
-	line "Cerulean City -"
-	cont "Rock Tunnel"
+	line "Azuria City -"
+	cont "Felstunnel"
 	done

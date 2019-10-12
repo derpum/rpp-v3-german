@@ -1938,7 +1938,7 @@ PrintListMenuEntries::
 	jp PlaceString
 
 ListMenuCancelText::
-	db "Cancel@"
+	db "Zurück@"
 
 GetMonName::
 	push hl
@@ -2046,7 +2046,7 @@ GetMachineName::
 TechnicalPrefix::
 	db "TM"
 HiddenPrefix::
-	db "HM"
+	db "VM"
 
 ; sets carry if item is HM, clears carry if item is not HM
 ; Input: a = item ID
@@ -3044,8 +3044,8 @@ Func_35f4::
 InitYesNoTextBoxParameters::
 	xor a ; YES_NO_MENU
 	ld [wTwoOptionMenuID], a
-	coord hl, 14, 7
-	ld bc, $80f
+	coord hl, 13, 7
+	ld bc, $80e
 	ret
 
 YesNoChoicePokeCenter::

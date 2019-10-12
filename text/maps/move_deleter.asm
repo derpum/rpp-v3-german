@@ -1,49 +1,56 @@
 _MoveDeleterGreetingText::
-	text "Umm..."
+	text "Ähm..."
 
-	para "Oh, yes, I'm the"
-	line "Move Deleter."
+	para "Oh, ja, ich bin"
+	line "der Attacken-"
+	cont "Verlerner."
 
-	para "I can make"
-	line "#mon forget"
-	cont "moves."
+	para "Ich verfüge über"
+	cont "die Fähigkeit,"
+	line "#mon ihre"
+	cont "Attacken ver-"
+	cont "gessen zu lassen."
 
-	para "Shall I make a"
-	line "#mon forget?"
+	para "Soll ein"
+	line "#mon eine"
+	cont "Attacke ver-"
+	cont "gessen?"
 	done
 
 _MoveDeleterSaidYesText::
-	text "Which #mon"
-	line "should forget a"
-	cont "move?"
+	text "Welches #mon"
+	line "soll eine"
+	cont "Attacke ver-"
+	cont "gessen?"
 	prompt
 
 _MoveDeleterWhichMoveText::
-	text "Which move should"
-	line "it forget, then?"
+	text "Welche Attacke"
+	line "soll vergessen"
+	cont "werden?"
 	done
 
 _MoveDeleterConfirmText::
-	text "Make it forget"
+	text "Soll "
 	line "@"
 	TX_RAM wcf4b
-	text "?"
+	text "vergessen werden?"
 	prompt
 
 _MoveDeleterForgotText::
 	text "@"
 	TX_RAM wcf4b
-	text " was"
-	line "forgotten!"
+	text " wurde"
+	line "vergessen!"
 	prompt
 
 _MoveDeleterByeText::
-	text "Come visit me"
-	line "again!"
+	text "Besuche mich"
+	line "wieder!"
 	done
 
 _MoveDeleterOneMoveText::
-	text "That #mon"
-	line "knows only one"
-	cont "move."
+	text "Dieses #mon"
+	line "kann nur eine"
+	cont "Attacke."
 	done

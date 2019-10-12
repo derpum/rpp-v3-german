@@ -283,10 +283,10 @@ HoFPrintTextAndDelay:
 	jp DelayFrames
 
 HoFPlayTimeText:
-	db "Play Time@"
+	db "Spielzeit@"
 
 HoFMoneyText:
-	db "Money@"
+	db "Geld@"
 
 DexSeenOwnedText:
 	TX_FAR _DexSeenOwnedText

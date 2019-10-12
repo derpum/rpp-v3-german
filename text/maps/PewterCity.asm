@@ -1,118 +1,134 @@
 _PewterCityText1::
-	text "It's rumored that"
-	line "Clefairys came"
-	cont "from the moon!"
+	text "Gerüchten zufolge"
+	line "sollen die Piepis"
+	cont "vom Mond stammen!"
 
-	para "They appeared "
-	line "after Moon Stones"
-	cont "fell on Mt. Moon."
+	para "Nachdem der"
+	line "Mondstein auf den"
+	cont "Mondberg fiel,"
+	cont "sind sie erstmals"
+	cont "aufgetaucht!"
 	done
 
 _PewterCityText2::
-	text "There aren't many"
-	line "serious #mon"
-	cont "trainers here!"
+	text "Hier gibt es nur"
+	line "wenige ernsthafte"
+	cont "#mon-Trainer!"
 
-	para "They're all like"
-	line "Bug Catchers,"
-	cont "but Pewter Gym's"
-	cont "Brock is totally"
-	cont "into it!"
+	para "Aber Rocko, der"
+	line "Arenaleiter von"
+	cont "Marmoria City,"
+	cont "versteht sein"
+	cont "Geschäft!"
 	done
 
 _PewterCityText_193f1::
-	text "Did you check out"
-	line "the Museum?"
+	text "Warst Du schon"
+	line "im Museum?"
 	done
 
 _PewterCityText_193f6::
-	text "Weren't those"
-	line "fossils from Mt."
-	cont "Moon amazing?"
+	text "Waren die"
+	line "Fossilien vom"
+	cont "Mondberg nicht"
+	cont "einmalig?"
 	done
 
 _PewterCityText_193fb::
-	text "Really?"
-	line "You absolutely"
-	cont "have to go!"
+	text "Wirklich nicht?"
+	line "Es ist aber einen"
+	cont "Besuch wert!"
 	done
 
 _PewterCityText13::
-	text "It's right here!"
-	line "You have to pay"
-	cont "to get in, but"
-	cont "it's worth it!"
-	cont "See you around!"
+	text "Es ist gleich da"
+	line "drüben! Man muß"
+	cont "zwar Eintritt"
+	cont "bezahlen, aber"
+	cont "das ist es wert!"
 	done
 
 _PewterCityText_19427::
-	text "Psssst!"
-	line "Do you know what"
-	cont "I'm doing?"
+	text "Pst! Weißt Du,"
+	line "was ich hier"
+	cont "mache?"
 	done
 
 _PewterCityText_1942c::
-	text "That's right!"
-	line "It's hard work!"
+	text "Stimmt! Es ist"
+	line "harte Arbeit!"
 	done
 
 _PewterCityText_19431::
-	text "I'm spraying Repel"
-	line "to keep #mon"
-	cont "out of my garden!"
+	text "Ich versprühe"
+	line "Schutz, um"
+	cont "#mon von"
+	cont "meinem Garten"
+	cont "fernzuhalten!"
 	done
 
 _PewterCityText_1945d::
-	text "You're a trainer"
-	line "right? Brock's"
-	cont "looking for new"
-	cont "challengers!"
-	cont "Follow me!"
+	text "Du bist Trainer?"
+	line "Rocko ist ständig"
+	cont "auf der Suche"
+	cont "nach neuen"
+	cont "Herausforderern!"
+	cont "Folge mir!"
 	done
 
 _PewterCityText14::
-	text "If you have the"
-	line "right stuff, go"
-	cont "take on Brock!"
+	text "Wenn Du genug"
+	line "Mumm hast, dann"
+	cont "versuche Dich an"
+	cont "Rocko!"
 	done
 
 _PewterCityText6::
-	text "Trainer Tips"
+	text "TIPS FÜR TRAINER"
 
-	para "Any #mon that"
-	line "takes part in"
-	cont "battle, however"
-	cont "short, earns Exp!"
+	para "Unabhängig von"
+	line "der Dauer seines"
+	cont "Einsatzes erhält"
+	cont "jedes #mon"
+	cont "für die Teilnahme"
+	cont "an einem Kampf"
+	cont "Erfahrungspunkte"
+	cont "EP! "
 	done
 
 _PewterCityText7::
-	text "Notice!"
+	text "ACHTUNG!"
 
-	para "Thieves have been"
-	line "stealing #mon"
-	cont "fossils at Mt."
-	cont "Moon! Please call"
-	cont "Pewter Police"
-	cont "with any info!"
+	para "Diebe haben"
+	line "#mon-Fossilien"
+	cont "vom Mondberg"
+	cont "gestohlen! Wenn"
+	cont "Sie sachdienliche"
+	cont "Hinweise haben,"
+	cont "wenden Sie sich"
+	cont "bitte an die"
+	cont "Polizei in"
+	cont "Marmoria City!"
 	done
 
 _PewterCityText10::
-	text "Pewter Museum"
-	line "of Science"
+	text "Marmoria City"
+	line "Wissenschafts-"
+	cont "Museum"
 	done
 
 _PewterCityText11::
-	text "Pewter City"
-	line "#mon Gym"
-	cont "Leader: Brock"
+	text "Marmoria City"
+	line "PKMN-Arena"
+	cont "Arenaleiter:"
+	cont "Rocko"
 
-	para "The rock solid"
-	line "#mon trainer!"
+	para "Der steinharte"
+	line "#mon-Trainer!"
 	done
 
 _PewterCityText12::
-	text "Pewter City"
-	
-	para "A stone gray"
-	line "city"
+	text "Marmoria City"
+	line "Die steingraue"
+	cont "Stadt!"
 	done

@@ -68,4 +68,4 @@ RepelWoreOffText:: ; Moved out of Bank 0
 	db "@"
 
 UseAnotherText:
-	text "Use another one?@@"
+	text "Weitere benutzen?@"

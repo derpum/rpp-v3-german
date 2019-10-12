@@ -1,9 +1,9 @@
 _Route2Text3::
 	text "Route 2"
-	line "Viridian City -"
-	cont "Pewter City"
+	line "Vertania City -"
+	cont "Marmoria City"
 	done
 
 _Route2Text4::
-	text "Diglett's Cave"
+	text "Digdas Höhle"
 	done

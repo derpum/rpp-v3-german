@@ -1,3 +1,3 @@
 _CeladonMansion4Text1::
-	text "I know everything!"
+	text "ICH WEISS ALLES!"
 	done

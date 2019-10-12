@@ -1,22 +1,26 @@
 _CeladonHouseText1::
-	text "Hehehe! The slots"
-	line "just reel in the"
-	cont "dough, big time!"
+	text "Haha! Mit den"
+	line "Spielautomaten"
+	cont "verdienen wir uns"
+	cont "eine goldene"
+	cont "Nase!"
 	done
 
 _CeladonHouseText2::
-	text "Chief!"
+	text "Boss!"
 
-	para "We just shipped"
-	line "2000 #mon as"
-	cont "slot prizes!"
+	para "Wir haben gerade"
+	line "2000 #mon als"
+	cont "Preise versandt!"
 	done
 
 _CeladonHouseText3::
-	text "Don't touch the"
-	line "poster at the"
-	cont "Game Corner!"
+	text "Schenke dem"
+	line "Poster in der"
+	cont "Spielhalle keine"
+	cont "Beachtung."
 
-	para "There's no secret"
-	line "switch behind it!"
+	para "Dahinter ist"
+	line "kein versteckter"
+	cont "Schalter!"
 	done

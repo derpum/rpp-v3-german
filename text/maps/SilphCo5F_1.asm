@@ -1,51 +1,52 @@
 _SilphCo5Text_1a010::
-	text "Team Rocket is"
-	line "in an uproar over"
-	cont "some intruder."
-	cont "That's you right?"
+	text "Ein Eindringling"
+	line "mischt das Team"
+	cont "Rocket auf... Das"
+	cont "bist Du, oder?"
 	done
 
 _SilphCo5Text_1a015::
-	text "Team Rocket took"
-	line "off! You're our"
-	cont "hero! Thank you!"
+	text "Das Team Rocket"
+	line "ist geflüchtet!"
+	cont "Du bist ein Held!"
 	done
 
 _SilphCo5BattleText2::
-	text "I heard a kid was"
-	line "wandering around."
+	text "Ich hörte, ein"
+	line "Kind läuft im"
+	cont "Gebäude herum..."
 	done
 
 _SilphCo5EndBattleText2::
-	text "Boom!"
+	text "Schluß! Aus!"
 	prompt
 
 _SilphCo5AfterBattleText2::
-	text "It's not smart"
-	line "to pick a fight"
-	cont "with Team Rocket!"
+	text "Es war sehr dumm,"
+	line "sich mit dem Team"
+	cont "Rocket anzulegen!"
 	done
 
 _SilphCo5BattleText3::
-	text "We study #"
-	line "Ball technology"
-	cont "on this floor!"
+	text "Wir entwickeln in"
+	line "diesen Labors"
+	cont "neue #bälle!"
 	done
 
 _SilphCo5EndBattleText3::
-	text "Dang!"
-	line "Blast it!"
+	text "Finito!"
+	line "Das war's!"
 	prompt
 
 _SilphCo5AfterBattleText3::
-	text "We worked on the"
-	line "ultimate #"
-	cont "Ball which would"
-	cont "catch anything!"
+	text "Unsere neueste"
+	line "Entwicklung ist"
+	cont "ein Ball, der"
+	cont "alles fängt!"
 	done
 
 _SilphCo5BattleText4::
-	text "Whaaat? There"
-	line "shouldn't be any"
-	cont "children here!"
+	text "Waaas? Wer hat"
+	line "denn das Kind"
+	cont "reingelassen?"
 	done

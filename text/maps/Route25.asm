@@ -1,150 +1,171 @@
 _Route25BattleText1::
-	text "Local trainers"
-	line "come here to"
-	cont "practice!"
+	text "Die Trainer der"
+	line "Gegend kommen"
+	cont "zum Üben"
+	cont "hierher!"
 	done
 
 _Route25EndBattleText1::
-	text "You're decent."
+	text "Du bist"
+	line "richtig gut!"
 	prompt
 
 _Route25AfterBattleText1::
-	text "All #mon have"
-	line "weaknesses. It's"
-	cont "best to raise"
-	cont "different kinds."
+	text "Jedes #mon hat"
+	line "seine Schwächen!"
+	cont "Man sollte daher"
+	cont "unterschiedliche"
+	cont "#mon"
+	cont "trainieren."
 	done
 
 _Route25BattleText2::
-	text "Dad took me to a"
-	line "great party on"
-	cont "S.S. Anne at"
-	cont "Vermilion City!"
+	text "Ich habe in"
+	line "Orania City mit"
+	cont "meinem Papa auf"
+	cont "der M.S. Anne"
+	cont "eine Party"
+	cont "besucht!"
 	done
 
 _Route25EndBattleText2::
-	text "I'm not mad!"
+	text "Ich bin"
+	line "nicht sauer!"
 	prompt
 
 _Route25AfterBattleText2::
-	text "On S.S. Anne, I"
-	line "saw trainers from"
-	cont "around the world."
+	text "Auf der M.S. Anne"
+	line "habe ich Trainer"
+	cont "aus aller Welt"
+	cont "gesehen!"
 	done
 
 _Route25BattleText3::
-	text "I'm a cool guy."
-	line "I've got a girl"
-	cont "friend!"
+	text "Ich bin richtig"
+	line "cool! Ich habe"
+	cont "eine Freundin!"
 	done
 
 _Route25EndBattleText3::
-	text "Aww, darn..."
+	text "Ach,"
+	line "so ein Mist..."
 	prompt
 
 _Route25AfterBattleText3::
-	text "Oh well. My girl"
-	line "will cheer me up."
+	text "Naja, meine"
+	line "Freundin wird"
+	cont "mich aufheitern!"
 	done
 
 _Route25BattleText4::
-	text "Hi! My boy"
-	line "friend is cool!"
+	text "Hallo! Mein"
+	line "Freund ist cool!"
 	done
 
 _Route25EndBattleText4::
-	text "I'm in a slump!"
+	text "Ich war"
+	line "nicht in Form!"
 	prompt
 
 _Route25AfterBattleText4::
-	text "I wish my guy was"
-	line "as good as you!"
+	text "Ach, wäre mein"
+	line "Freund doch auch"
+	cont "so toll wie Du!"
 	done
 
 _Route25BattleText5::
-	text "I knew I had to"
-	line "fight you!"
+	text "Ich wußte, daß"
+	line "wir miteinander"
+	cont "kämpfen würden!"
 	done
 
 _Route25EndBattleText5::
-	text "I knew I'd lose"
-	line "too!"
+	text "Ich"
+	line "wußte auch, daß"
+	cont "ich verlieren"
+	cont "würde!"
 	prompt
 
 _Route25AfterBattleText5::
-	text "If your #mon"
-	line "gets confused or"
-	cont "falls asleep,"
-	cont "switch it!"
+	text "Wenn eines Deiner"
+	line "#mon verwirrt"
+	cont "ist oder schläft,"
+	cont "wechsle es aus!"
 	done
 
 _Route25BattleText6::
-	text "My friend has a"
-	line "cute #mon."
-	cont "I'm so jealous!"
+	text "Meine Freundin"
+	line "hat so ein süßes"
+	cont "#mon! Ich"
+	cont "bin furchtbar"
+	cont "neidisch!"
 	done
 
 _Route25EndBattleText6::
-	text "I'm not so"
-	line "jealous!"
+	text "Ich bin"
+	line "nicht neidisch!"
 	prompt
 
 _Route25AfterBattleText6::
-	text "You came from Mt."
-	line "Moon? May I have"
-	cont "a Clefairy?"
+	text "Du warst auf dem"
+	line "Mondberg? Hast"
+	cont "Du ein Piepi"
+	cont "gefunden?"
 	done
 
 _Route25BattleText7::
-	text "I just got down"
-	line "from Mt. Moon,"
-	cont "but I'm ready!"
+	text "Ich komme gerade"
+	line "vom Mondberg"
+	cont "und bin topfit!"
 	done
 
 _Route25EndBattleText7::
-	text "You worked hard!"
+	text "Du hast"
+	line "schwer gekämpft!"
 	prompt
 
 _Route25AfterBattleText7::
-	text "Drat!"
-	line "A Zubat bit me"
-	cont "back in there."
+	text "Mist!"
+	line "Mich hat ein"
+	cont "Zubat gebissen!"
 	done
 
 _Route25BattleText8::
-	text "I'm off to see a"
-	line "#mon collector"
-	cont "at the cape!"
+	text "Ich bin auf dem"
+	line "Weg zu einem"
+	cont "#mon-Sammler!"
 	done
 
 _Route25EndBattleText8::
-	text "You got me."
+	text "Du hast"
+	line "mich besiegt."
 	prompt
 
 _Route25AfterBattleText8::
-	text "The collector has"
-	line "many rare kinds"
-	cont "of #mon."
+	text "Dieser Sammler"
+	line "besitzt viele"
+	cont "seltene #mon."
 	done
 
 _Route25BattleText9::
-	text "You're going to"
-	line "see Bill? First,"
-	cont "let's fight!"
+	text "Du möchtest zu"
+	line "Bill? Aber erst"
+	cont "wird gekämpft!"
 	done
 
 _Route25EndBattleText9::
-	text "You're something."
+	text "Du hast"
+	line "viel Erfahrung!"
 	prompt
 
 _Route25AfterBattleText9::
-	text "The trail below"
-	line "is a shortcut to"
-	cont "Cerulean City."
+	text "Der Pfad dort"
+	line "unten ist eine"
+	cont "Abkürzung nach"
+	cont "Azuria City."
 	done
 
 _Route25Text11::
-	text "Sea Cottage"
-	
-	para "Bill lives here!"
+	text "Küstenhaus"
+	line "Hier wohnt Bill!"
 	done

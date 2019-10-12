@@ -1,33 +1,31 @@
 _Mansion1BattleText2::
-	text "I wanted to do"
-	line "some exploring,"
-	cont "but I got lost!"
+	text "Wer bist Du?"
+	line "Hier hat niemand"
+	cont "etwas zu suchen!"
 	done
 
 _Mansion1EndBattleText2::
-	text "Hey!"
-    line "You're tougher"
-    cont "than I thought!"
+	text "Autsch!"
 	prompt
 
 _Mansion1AfterBattleText2::
-	text "If we were back"
-	line "home in Hoenn,"
-	cont "you'd have earned"
-    cont "a HeatBadge for"
-    cont "that!"
+	text "Ein Schlüssel?"
+	line "Keine Ahnung,"
+	cont "wovon Du redest!"
 	done
 
 _MansionSwitchText::
-	text "A secret switch!"
+	text "Ein versteckter"
+	line "Schalter!"
 
-	para "Press it?"
+	para "Schalter drücken?"
 	done
 
 _MansionSwitchPressedText::
-	text "Who wouldn't?"
+	text "Wer würde es"
+	line "nicht tun?"
 	prompt
 
 _MansionSwitchNotPressedText::
-	text "Not quite yet!"
+	text "Lieber nicht!"
 	done

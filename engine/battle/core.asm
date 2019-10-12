@@ -2209,12 +2209,12 @@ DisplayBattleMenu:
 	ld bc, NAME_LENGTH
 	call CopyData
 ; the following simulates the keystrokes by drawing menus on screen
-	coord hl, 9, 14
+	coord hl, 7, 14
 	ld [hl], "▶"
 	ld c, 80
 	call DelayFrames
 	ld [hl], " "
-	coord hl, 9, 16
+	coord hl, 7, 16
 	ld [hl], "▶"
 	ld c, 50
 	call DelayFrames
@@ -2222,7 +2222,7 @@ DisplayBattleMenu:
 	ld a, $2 ; select the "ITEM" menu
 	jp .upperLeftMenuItemWasNotSelected
 .oldManName
-	db "Old Man@"
+	db "Greis@"
 .handleBattleMenuInput
 	ld a, [wBattleAndStartSavedMenuItem]
 	ld [wCurrentMenuItem], a
@@ -2239,13 +2239,13 @@ DisplayBattleMenu:
 	ld a, " "
 	jr z, .safariLeftColumn
 ; put cursor in left column for normal battle menu (i.e. when it's not a Safari battle)
-	Coorda 15, 14 ; clear upper cursor position in right column
-	Coorda 15, 16 ; clear lower cursor position in right column
-	ld b, $9 ; top menu item X
+	Coorda 12, 14 ; clear upper cursor position in right column
+	Coorda 12, 16 ; clear lower cursor position in right column
+	ld b, $7 ; top menu item X
 	jr .leftColumn_WaitForInput
 .safariLeftColumn
-	Coorda 13, 14
-	Coorda 13, 16
+	Coorda 12, 14
+	Coorda 12, 16
 	coord hl, 7, 14
 	ld de, wNumSafariBalls
 	lb bc, 1, 2
@@ -2272,9 +2272,9 @@ DisplayBattleMenu:
 	ld a, " "
 	jr z, .safariRightColumn
 ; put cursor in right column for normal battle menu (i.e. when it's not a Safari battle)
-	Coorda 9, 14 ; clear upper cursor position in left column
-	Coorda 9, 16 ; clear lower cursor position in left column
-	ld b, $f ; top menu item X
+	Coorda 7, 14 ; clear upper cursor position in left column
+	Coorda 7, 16 ; clear lower cursor position in left column
+	ld b, $c ; top menu item X
 	jr .rightColumn_WaitForInput
 .safariRightColumn
 	Coorda 1, 14 ; clear upper cursor position in left column
@@ -2283,7 +2283,7 @@ DisplayBattleMenu:
 	ld de, wNumSafariBalls
 	lb bc, 1, 2
 	call PrintNumber
-	ld b, $d ; top menu item X
+	ld b, $c ; top menu item X
 .rightColumn_WaitForInput
 	ld hl, wTopMenuItemY
 	ld a, $e
@@ -8232,12 +8232,12 @@ PrintStatText:
 	jp CopyData
 
 StatsTextStrings:
-	db "Attack@"
-	db "Defense@"
-	db "Speed@"
-	db "Special@"
-	db "Accuracy@"
-	db "Evasion@"
+	db "Angr@"
+	db "Vert@"
+	db "Init@"
+	db "Spez@"
+	db "Gena@"
+	db "Flu@"
 
 StatModifierRatios:
 ; first byte is numerator, second byte is denominator

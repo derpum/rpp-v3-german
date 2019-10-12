@@ -1,63 +1,67 @@
 _TM35PreReceiveText::
-	text "I'm giving out"
-	line "free TMs."
+	text "Ich verschenke"
+	line "TMs."
 
-	para "Here you go, take"
-	line "one!"
+	para "Hier, nimm!"
 	prompt
 
 _ReceivedTM35Text::
-	text "[PLAYER] received "
+	text "[PLAYER] erhält "
 	line "@"
 	TX_RAM wcf4b
 	text "!@@"
 
 _TM35ExplanationText::
-	text "That TM teaches a"
-	line "#MON to use"
-	cont "AncientPower!"
+	text "Diese TM bringt"
+	line "deinem #mon"
+	cont "Antik-Kraft bei!"
 
-	para "It was discovered"
-	line "while researching"
-	cont "fossils here in"
-	cont "the lab."
+	para "Wir haben sie"
+	line "bei Forschungen"
+	cont "an den Fossilien"
+	cont "entdeckt."
 	done
 
 _TM35NoRoomText::
-	text "Your pack is"
-	line "crammed full!"
+	text "Dein Rucksack"
+	line "ist zu voll!"
 	done
 
 _Lab3Text2::
-	text "Eevee can evolve"
-	line "into 1 of 8 kinds"
-	cont "of #mon."
+	text "Evoli kann sich"
+	line "zu einem von drei"
+	cont "verschiedenen"
+	cont "#mon"
+	cont "entwickeln."
 	done
 
 _Lab3Text3::
-	text "There's an e-mail"
-	line "message!"
+	text "Eine E-Mail ist"
+	line "angekommen!"
 
 	para "..."
 
-	para "The 3 legendary"
-	line "bird #mon are"
-	cont "Articuno, Zapdos"
-	cont "and Moltres."
+	para "Arktos, Zapdos"
+	line "und Lavados sind"
+	cont "die 3 legendären"
+	cont "Vogel-#mon."
 
-	para "Their whereabouts"
-	line "are unknown."
+	para "Niemand weiß, in"
+	line "welcher Gegend"
+	cont "sie leben."
 
-	para "We plan to explore"
-	line "the cavern close"
-	cont "to Cerulean."
+	para "Wir werden als"
+	line "nächstes in der"
+	cont "Höhle nahe Azuria"
+	cont "City suchen."
 
-	para "From: #mon"
-	line "Research Team"
+	para "Von: #mon-"
+	line "Forschungsteam"
 
 	para "..."
 	done
 
 _Lab3Text5::
-	text "An amber pipe!"
+	text "Eine Pfeife aus"
+	line "Bernstein!"
 	done

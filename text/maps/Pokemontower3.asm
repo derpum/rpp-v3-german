@@ -1,45 +1,48 @@
 _PokemonTower3BattleText1::
-	text "Urrg...Awaa..."
-	line "Huhu...graa.."
+	text "Buu... Huhu..."
+	line "Huhu... Buu.."
 	done
 
 _PokemonTower3EndBattleText1::
-	text "Hwa!"
-	line "I'm saved!"
+	text "Buu!"
+	line "Ich wurde erlöst!"
 	prompt
 
 _PokemonTower3AfterBattleText1::
-	text "The Ghosts can be"
-	line "identified by the"
-	cont "Silph Scope."
+	text "Das Silph Scope"
+	line "kann Geister"
+	cont "identifizieren!"
 	done
 
 _PokemonTower3BattleText2::
-	text "Kekeke...."
-	line "Kwaaah!"
+	text "Buhuhuhu..."
+	line "Hui... Buuh!"
 	done
 
 _PokemonTower3EndBattleText2::
 	text "Hmm?"
-	line "What am I doing?"
+	line "Was mache ich"
+	cont "hier?"
 	prompt
 
 _PokemonTower3AfterBattleText2::
-	text "Sorry! I was"
-	line "possessed!"
+	text "Tut mir leid!"
+	line "Ich war besessen!"
 	done
 
 _PokemonTower3BattleText3::
-	text "Be gone!"
-	line "Evil spirit!"
+	text "Verschwinde,"
+	line "böser Geist!"
 	done
 
 _PokemonTower3EndBattleText3::
-	text "Whew!"
-	line "The spirit left!"
+	text "Puh!"
+	line "Der Geist ist"
+	cont "verschwunden!"
 	prompt
 
 _PokemonTower3AfterBattleText3::
-	text "My friends were"
-	line "possessed too!"
+	text "Auch meine"
+	line "Freunde waren"
+	cont "besessen!"
 	done

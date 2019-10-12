@@ -232,10 +232,10 @@ NamePointers2:
 	dw wDayCareMonName
 
 Type1Text:
-	db "Type 1", $4e
+	db "Typ 1", $4e
 
 Type2Text:
-	db "Type 2", $4e
+	db "Typ 2", $4e
 
 IDNoText:
 	db $73, "№ ", $4e
@@ -351,10 +351,10 @@ PrintStat:
 	ret
 
 StatsText:
-	db   "Attack"
-	next "Defense"
-	next "Speed"
-	next "Special@"
+	db   "Angriff"
+	next "Vert."
+	next "Init."
+	next "Spezial@"
 
 StatusScreen2:
 	ld a, [hTilesetType]
@@ -526,8 +526,8 @@ CalcExpToLevelUp:
 	ret
 
 StatusScreenExpText:
-	db   "Exp.Points"
-	next "Next@"
+	db   "EP-Punkte"
+	next "Level Up@"
 
 StatusScreen_ClearName:
 	ld bc, 10

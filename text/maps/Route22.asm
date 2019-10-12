@@ -2,103 +2,122 @@ _Route22RivalBeforeBattleText1::
 	text "[RIVAL]: Hey!"
 	line "[PLAYER]!"
 
-	para "You're going to"
-	line "#mon League?"
+	para "Bist Du auf"
+	line "dem Weg zur"
+	cont "PKMN-Liga?"
 
-	para "Forget it! You"
-	line "probably don't"
-	cont "have any Badges!"
+	para "Vergiß es!"
+	line "Wahrscheinlich"
+	cont "besitzt Du nicht"
+	cont "einmal einen"
+	cont "Orden!"
 
-	para "The guard won't"
-	line "let you through!"
+	para "Die Wache wird"
+	line "Dich gar nicht"
+	cont "erst durchlassen!"
 
-	para "By the way, did"
-	line "your #mon"
-	cont "get any stronger?"
+	para "Ach, sind"
+	line "Deine #mon"
+	cont "eigentlich"
+	cont "stärker geworden?"
 	done
 
 _Route22RivalAfterBattleText1::
-	text "I heard #mon"
-	line "League has many"
-	cont "tough trainers!"
+	text "In der PKMN-Liga"
+	line "gibt es viele"
+	cont "starke Trainer!"
 
-	para "I have to figure"
-	line "out how to get"
-	cont "past them!"
+	para "Ich muß einen Weg"
+	line "finden, an ihnen"
+	cont "vorbeizukommen."
 
-	para "You should quit"
-	line "dawdling and get"
-	cont "a move on!"
+	para "Du solltest"
+	line "aufhören zu"
+	cont "bummeln und Dich"
+	cont "in Bewegung"
+	cont "setzen!"
 	done
 
 _Route22RivalDefeatedText1::
-	text "Awww!"
-	line "You just lucked"
-	cont "out!"
+	text "Oh nein!"
+	line "Soviel Glück wie"
+	cont "Du kann man"
+	cont "nicht haben!"
 	prompt
 
 _Route22Text_511bc::
-	text "[RIVAL]: What?"
-	line "Why do I have 2"
-	cont "#mon?"
+	text "[RIVAL]: Was?"
+	line "Warum ich zwei"
+	cont "#mon besitze?"
 
-	para "You should catch"
-	cont "some more too!"
+	para "Dumme Frage!"
+	line "Fang Dir lieber"
+	cont "selbst noch ein"
+	cont "paar!"
 	prompt
 
 _Route22RivalBeforeBattleText2::
 	text "[RIVAL]: What?"
-	line "[PLAYER]! What a"
-	cont "surprise to see"
-	cont "you here!"
+	line "[PLAYER]!"
 
-	para "So you're going to"
-	line "#mon League?"
+	para "Was für eine"
+	line "Überraschung!"
 
-	para "You collected all"
-	line "the Badges too?"
-	cont "That's cool!"
+	para "Du bist also auch"
+	line "auf dem Weg zur"
+	cont "PKMN-Liga, oder?"
 
-	para "Then I'll whip"
-	line "you, [PLAYER], as"
-	cont "a warmup for"
-	cont "#mon League!"
+	para "Du besitzt auch"
+	line "alle ORDEN?"
+	cont "Das ist cool!"
 
-	para "Come on!"
+	para "[PLAYER],  ich"
+	line "werde mich für"
+	cont "die PKMN-Liga"
+	cont "aufwärmen, indem"
+	cont "ich Dich besiege!"
+
+	para "Los geht's!"
 	done
 
 _Route22RivalAfterBattleText2::
-	text "That loosened me"
-	line "up! I'm ready for"
-	cont "#mon League!"
+	text "Das war ein gutes"
+	line "Aufwärmtraining!"
+	cont "Ich bin gut auf"
+	cont "die PKMN-Liga"
+	cont "vorbereitet!"
 
-	para "[PLAYER], you need"
-	line "more practice!"
+	para "[PLAYER], auch"
+	line "wenn Du gewonnen"
+	cont "hast, mußt Du"
+	cont "mehr trainieren!"
 
-	para "But hey, you know"
-	line "that! I'm out of"
-	cont "here. Smell ya!"
+	para "Ich glaube, Du"
+	line "bist Dir dessen"
+	cont "bewußt! Bis dann!"
 	done
 
 _Route22RivalDefeatedText2::
-	text "What!?"
+	text "Was!?"
 
-	para "I was just"
-	line "careless!"
+	para "Ich war zu"
+	line "unvorsichtig!"
 	prompt
 
 _Route22Text_511d0::
 	text "[RIVAL]: Hahaha!"
-	line "[PLAYER]! That's"
-	cont "your best? You're"
-	cont "nowhere near as"
-	cont "good as me, pal!"
+	line "[PLAYER]! War das"
+	cont "etwa alles? Du"
+	cont "bist nicht einmal"
+	cont "annähernd so gut"
+	cont "wie ich, Kumpel!"
 
-	para "Go train some"
-	line "more! You loser!"
+	para "Trainiere lieber"
+	line "noch ein bißchen,"
+	cont "Du Verlierer!"
 	prompt
 
 _Route22FrontGateText::
-	text "#mon League"
-	line "Front Gate"
+	text "PKMN-Liga"
+	line "Haupteingang"
 	done

@@ -1,19 +1,24 @@
 _SafariZoneRestHouse2Text1::
-	text "Tossing Rocks at"
-	line "#mon might"
-	cont "make them run,"
-	cont "but they'll be"
-	cont "easier to catch."
+	text "Wenn Du Steine"
+	line "auf #mon"
+	cont "wirfst, fliehen"
+	cont "sie meist. Aber"
+	cont "sind dann"
+	cont "leichter zu"
+	cont "fangen!"
 	done
 
 _SafariZoneRestHouse2Text2::
-	text "Using Bait will"
-	line "make #mon"
-	cont "easier to catch."
+	text "Wenn Du ihnen"
+	line "KÖDER zuwirfst,"
+	cont "sind die #mon"
+	cont "leichter zu"
+	cont "fangen!"
 	done
 
 _SafariZoneRestHouse2Text3::
-	text "I hiked a lot, but"
-	line "I didn't see any"
-	cont "#mon I wanted."
+	text "Ich habe lange"
+	line "gesucht, aber"
+	cont "keine neuen"
+	cont "#mon gefunden."
 	done

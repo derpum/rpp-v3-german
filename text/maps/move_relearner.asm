@@ -1,44 +1,47 @@
 _MoveRelearnerGreetingText::
-	text "I'm the #mon"
-	line "Move Maniac!"
+	text "Ich bin der"
+	line "#mon-Attacken-"
+	line "Maniac!"
 
-	para "I know every"
-	line "single move that"
-	cont "#mon learn"
-	cont "growing up."
+	para "Ich kenne jede"
+	line "Attacke die"
+	cont "#mon beim Level-"
+	cont "anstieg erlernen."
 
-	para "For ¥500, I can"
-	line "make a #mon"
-	cont "of yours remember"
-	cont "a move."
+	para "Für ¥500 bringe"
+	line "ich einem deiner"
+	cont "#mon eine"
+	cont "Attacke bei."
 	done
 
 _MoveRelearnerSaidYesText::
-	text "Which #mon"
-	line "should learn it?"
+	text "Welches #mon"
+	line "soll was lernen?"
 	prompt
 
 _MoveRelearnerNotEnoughMoneyText::
 	text "Hmmm..."
 
-	para "You don't have"
-	line "enough money!"
+	para "Du hast nicht"
+	line "genug Geld!"
 	done
 
 _MoveRelearnerWhichMoveText::
-	text "Which move should"
-	line "it learn?"
+	text "Welche Attacke"
+	line "soll es lernen?"
 	done
 
 _MoveRelearnerByeText::
-	text "If any of your"
-	line "#mon need to"
-	cont "remember a move,"
-	cont "come visit me!"
+	text "Wenn eins deiner"
+	line "#mon sich wieder"
+	cont "an eine Attacke"
+	cont "erinnern soll,"
+	cont "besuche mich"
+	cont "einfach!"
 	done
 
 _MoveRelearnerNoMovesText::
-	text "This #mon"
-	line "hasn't forgotten"
-	cont "any moves."
+	text "Dein #mon"
+	line "hat noch keine"
+	cont "Attacke verlernt!"
 	done

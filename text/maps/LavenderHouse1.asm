@@ -1,85 +1,98 @@
 _LavenderHouse1Text_1d8d1::
-	text "That's odd, Mr.Fuji"
-	line "isn't here."
-	cont "Where'd he go?"
+	text "Mr. Fuji ist"
+	line "nicht zu Hause."
+	cont "Wohin mag er"
+	cont "gegangen sein?"
 	done
 
 _LavenderHouse1Text_1d8d6::
-	text "Mr.Fuji had been"
-	line "praying alone for"
-	cont "Cubone's mother."
+	text "Mr. Fuji hat oft"
+	line "für Tragossos"
+	cont "Mutter gebetet."
 	done
 
 _LavenderHouse1Text_1d8f4::
-	text "This is really"
-	line "Mr. Fuji's house."
+	text "Das hier ist"
+	line "Mr. Fujis Haus."
 
-	para "He's really kind!"
+	para "Er ist sehr"
+	line "fürsorglich!"
 
-	para "He looks after"
-	line "abandoned and"
-	cont "orphaned #mon!"
+	para "Er kümmert sich"
+	line "um ausgesetzte"
+	cont "und verwaiste"
+	cont "#mon!"
 	done
 
 _LavenderHouse1Text_1d8f9::
-	text "It's so warm!"
-	line "#mon are so"
-	cont "nice to hug!"
+	text "Sie sind so"
+	line "putzig! #mon"
+	cont "sind wunderbare"
+	cont "Schmusetiere!"
 	done
 
 _LavenderHouse1Text3::
-	text "Psyduck: Gwappa!@@"
+	text "Enton: Quacka!@@"
 
 _LavenderHouse1Text4::
-	text "Nidorino: Gaoo!@@"
+	text "Nidorino: Nido!@@"
 
 _LavenderHouse1Text_1d94c::
 	text "Mr.Fuji: [PLAYER]."
 
-	para "Your #dex quest"
-	line "may fail without"
-	cont "love for your"
-	cont "#mon."
+	para "Du kannst Deinen"
+	line "#dex  nicht"
+	cont "vollenden, wenn"
+	cont "Du Deinen #mon"
+	cont "nicht genügend"
+	cont "Liebe und Respekt"
+	cont "entgegenbringst."
 
-	para "I think this may"
-	line "help your quest."
+	para "Dies wird Dir bei"
+	line "Deinem Abenteuer"
+	cont "helfen."
 	prompt
 
 _ReceivedFluteText::
-	text "[PLAYER] received"
-	line "a @"
+	text "[PLAYER] erhält"
+	line "eine @"
 	TX_RAM wcf4b
 	text "!@@"
 
 _FluteExplanationText::
 	db $0
-	para "Upon hearing #"
-	line "Flute, sleeping"
-	cont "#mon will"
-	cont "spring awake."
+	para "Schlafende"
+	line "#mon wachen"
+	cont "auf, wenn sie"
+	cont "das Spiel der"
+	cont "#flöte hören!"
 
-	para "It works on all"
-	line "sleeping #mon."
+	para "Du kannst damit"
+	line "alle schlafenden"
+	cont "#mon wecken!"
 	done
 
 _FluteNoRoomText::
-	text "You must make"
-	line "room for this!"
+	text "Du hast keinen"
+	line "Platz für weitere"
+	cont "Items!"
 	done
 
 _MrFujiAfterFluteText::
-	text "Mr.Fuji: Has my"
-	line "Flute helped you?"
+	text "Mr. Fuji: War die"
+	line "Flöte schon von"
+	cont "Nutzen für Dich?"
 	done
 
 _LavenderHouse1Text6::
-	text "#mon Monthly"
-	line "Grand Prize"
-	cont "Drawing!"
+	text "Grosses"
+	line "#mon-"
+	cont "Gewinnspiel!"
 
-	para "The application"
-	line "form is..."
+	para "Es sind keine"
+	line "Teilnahmekarten"
+	cont "mehr vorhanden!"
 
-	para "Gone! It's been"
-	line "clipped out!"
+	para "Sie wurden alle"
+	line "abgeschickt!"
 	done

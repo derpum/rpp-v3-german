@@ -1,26 +1,30 @@
 _CeruleanHouse2Text_74e77::
-	text "Berry Trees grow"
-	line "all over Kanto."
+	text "Beerenbäume gibt"
+	line "es überall"
+	cont "in Kanto."
 
-	para "I'm sure you've"
-	line "seen them by now."
+	para "Ich bin sicher das"
+	line "du beretis welche"
+	cont "gesehen hast."
 
-	para "Did you know they"
-	line "each do something"
-    cont "different?"
+	para "Wusstest du das"
+	line "die Beeren alle"
+    cont "unterschiedliche"
+    cont "Effekte haben?"
 	prompt
 
 _CeruleanHouse2Text_74e7c::
-	text "Now then..."
+	text "Nun dann..."
 
-	para "Which of the 10"
-	line "Berries should I"
-	cont "describe?"
+	para "Über welche der"
+	line "10 Beeren"
+	cont "möchtest du mehr"
+	cont "erfahren?"
 	done
 
 _CeruleanHouse2Text_74e81::
-	text "Come visit me any"
-	line "time you wish."
+	text "Besuche mich"
+	line "jederzeit wieder."
 	done
 
 _OranBerryText::

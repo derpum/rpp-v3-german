@@ -203,9 +203,9 @@ DoIslandMenu:
 	ret
 	
 WelcomeToSeagallopText:
-	text "Welcome aboard"
-	line "the Seagallop"
-	cont "Ferry!"
+	text "Willkommen an"
+	line "Bord der"
+	cont "M.S. Seegallop."
 	
 	para "We travel all"
 	line "over carrying"
@@ -231,7 +231,7 @@ GoingNowhereText:
 	db "@"
 
 AllAboardText:
-	text "All aboard!"
+	text "Alle an Bord!"
 	prompt
 	db "@"
 	

@@ -329,25 +329,25 @@ SpecialEnterMap:
 	jp EnterMap
 
 ContinueText:
-	db "Continue", $4e
+	db "Weiter", $4e
 
 NewGameText:
-	db   "New Game"
-	next "Options@"
+	db   "Neues Spiel"
+	next "Optionen@"
 
 CableClubOptionsText:
-	db   "Trade Center"
-	next "Colosseum"
-	next "Cancel@"
+	db   "Handelscenter"
+	next "Kolosseum"
+	next "Zurück@"
 
 DisplayContinueGameInfo:
 	xor a
 	ld [H_AUTOBGTRANSFERENABLED], a
-	coord hl, 4, 7
+	coord hl, 3, 7
 	ld b, 8
-	ld c, 14
+	ld c, 15
 	call TextBoxBorder
-	coord hl, 5, 9
+	coord hl, 4, 9
 	ld de, SaveScreenInfoText
 	call PlaceString
 	coord hl, 12, 9
@@ -367,13 +367,13 @@ DisplayContinueGameInfo:
 PrintSaveScreenText:
 	xor a
 	ld [H_AUTOBGTRANSFERENABLED], a
-	coord hl, 4, 0
+	coord hl, 3, 0
 	ld b, $8
-	ld c, $e
+	ld c, $f
 	call TextBoxBorder
 	call LoadTextBoxTilePatterns
 	call UpdateSprites
-	coord hl, 5, 2
+	coord hl, 4, 2
 	ld de, SaveScreenInfoText
 	call PlaceString
 	coord hl, 12, 2
@@ -421,10 +421,10 @@ PrintPlayTime:
 	jp PrintNumber
 
 SaveScreenInfoText:
-	db   "Player"
-	next "Badges    "
+	db   "Spieler"
+	next "Orden     "
 	next "#dex    "
-	next "Time@"
+	next "Zeit@"
 
 DisplayOptionMenu:
 	coord hl, 0, 0
@@ -579,19 +579,19 @@ DisplayOptionMenu:
 	jp .eraseOldMenuCursor
 
 TextSpeedOptionText:
-	db   "Text Speed:"
-	next " Fast  Normal Slow@"
+	db   "Text-Tempo:"
+	next " 3     2      1@"
 
 BattleAnimationOptionText:
-	db   "Battle Effects:"
-	next " On       Off@"
+	db   "Kampfanimation:"
+	next " An       Aus@"
 
 BattleStyleOptionText:
-	db   "Battle Style:"
-	next " Shift    Set@"
+	db   "Kampfstil:"
+	next " Wechsel  Folgend@"
 
 OptionMenuCancelText:
-	db "Back@"
+	db "Zurück@"
 
 ; sets the options variable according to the current placement of the menu cursors in the options menu
 SetOptionsFromCursorPositions:

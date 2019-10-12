@@ -1,22 +1,23 @@
 _ViridianPokeCenterText2::
 _ViridianPokeCenterText1::
-	text "Everything in a"
-	line "#mon Center is"
-	cont "completely free"
-	cont "to use."
+	text "Du kannst den PC"
+	line "in der Ecke dort"
+	cont "drüben benutzen!"
 
-	para "The receptionist"
-	line "told me. So kind!"
+	para "Darauf hat man"
+	line "mich am Empfang"
+	cont "freundlicherweise"
+	cont "hingewiesen."
 	done
 
 _ViridianPokeCenterText3::
-	text "The big computer"
-	line "in the middle"
-	cont "accesses the"
-	cont "Wonder Trade"
-	cont "system."
+	text "Mit dem PC in"
+	line "der Mitte, kannst"
+	cont "kannst du das"
+	cont "Wundertausch-"
+	cont "system benutzen."
 	
-	para "You should try it"
-	line "out if you're a"
-	cont "trainer!"
+	para "Du musst es"
+	line "unbeding mal aus-"
+	cont "probieren!"
 	done

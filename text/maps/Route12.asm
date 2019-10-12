@@ -1,140 +1,167 @@
 _Route12Text1::
-	text "A sleeping #mon"
-	line "blocks the way!"
+	text "Ein schlafendes"
+	line "#mon"
+	cont "versperrt den"
+	cont "Weg!"
 	done
 
 _Route12Text13::
-	text "Snorlax woke up!"
+	text "Relaxo ist"
+	line "aufgewacht!"
 
-	para "It attacked in a"
-	line "grumpy rage!"
+	para "Es ist brummig"
+	line "und greift"
+	cont "verschlafen an!"
 	done
 
 _Route12Text14::
-	text "Snorlax calmed"
-	line "down! With a big"
-	cont "yawn, it returned"
-	cont "to the mountains!"
+	text "Relaxo hat sich"
+	line "wieder beruhigt!"
+	cont "Es gähnt und"
+	cont "läuft in die"
+	cont "Berge zurück!"
 	done
 
 _Route12BattleText1::
-	text "Yeah! I got a"
-	line "bite, here!"
+	text "Cool! Mir ist"
+	line "etwas ins Netz"
+	cont "gegangen!"
 	done
 
 _Route12EndBattleText1::
-	text "Tch!"
-	line "Just a small fry!"
+	text "Mist!"
+	line "Bloß ein kleiner"
+	cont "Fisch!"
 	prompt
 
 _Route12AfterBattleText1::
-	text "Hang on! My line's"
-	line "snagged!"
+	text "Irgendwann werde"
+	line "ich den großen"
+	cont "Fang machen!"
 	done
 
 _Route12BattleText2::
-	text "Be patient!"
-	line "Fishing is a"
-	cont "waiting game!"
+	text "Nur mit der Ruhe!"
+	line "Als Angler muß"
+	cont "man geduldig"
+	cont "sein!"
 	done
 
 _Route12EndBattleText2::
-	text "That one got"
-	line "away!"
+	text "Der ist"
+	line "mir entwischt!"
 	prompt
 
 _Route12AfterBattleText2::
-	text "With a better Rod,"
-	line "I could catch"
-	cont "better #mon!"
+	text "Hätte ich eine"
+	line "bessere Angel,"
+	cont "würde ich bessere"
+	cont "#mon fangen!"
 	done
 
 _Route12BattleText3::
-	text "Have you found a"
-	line "Moon Stone?"
+	text "Besitzt Du einen"
+	line "Mondstein?"
 	done
 
 _Route12EndBattleText3::
-	text "Oww!"
+	text "Aua!"
 	prompt
 
 _Route12AfterBattleText3::
 IF DEF(_HARD)
-	text "I had to make"
+	text "Da ich einen"
+	line "Mondstein hatte,"
+	cont "konnten sich"
 ELSE
-	text "I could have made"
+	text "Wenn ich einen"
+	line "Mondstein hätte,"
+	cont "könnten sich"
 ENDC
-	line "my #mon evolve"
-	cont "with Moon Stone!"
+	cont "meine #mon"
+	cont "weiterentwickeln!"
 	done
 
 _Route12BattleText4::
-	text "Poison is my"
-	line "specialty!"
+	text "Elektrizität ist"
+	line "meine Stärke!"
 	done
 
 _Route12EndBattleText4::
-	text "Life goes on..."
+	text ""
+	line "Stromkreis"
+	cont "unterbrochen!"
 	prompt
 
 _Route12AfterBattleText4::
-	text "I ain't lookin'"
-	line "for nothin' but"
-	cont "a good time!"
+	text "Wasser leitet"
+	line "Elektrizität."
+	cont "Greife Wasser-"
+	cont "#mon mit"
+	cont "Elektrizität an!"
 	done
 
 _Route12BattleText5::
-	text "The Fishing Fool"
-	line "vs. #mon Kid!"
+	text "Der Angelkönig"
+	line "gegen das"
+	cont "#mon-Kind!"
 	done
 
 _Route12EndBattleText5::
-	text "Too much!"
+	text "Das war"
+	line "spitze!"
 	prompt
 
 _Route12AfterBattleText5::
-	text "You beat me at"
-	line "#mon, but I'm"
-	cont "good at fishing!"
+	text "Von #mon"
+	line "verstehst Du sehr"
+	cont "viel, doch ich"
+	cont "bin der bessere"
+	cont "Angler!"
 	done
 
 _Route12BattleText6::
-	text "I'd rather be"
-	line "working!"
+	text "Eigentlich würde"
+	line "ich lieber"
+	cont "arbeiten..."
 	done
 
 _Route12EndBattleText6::
-	text "It's not easy..."
+	text "Das war"
+	line "wahrlich kein"
+	cont "Zuckerschlecken!"
 	prompt
 
 _Route12AfterBattleText6::
-	text "It's all right."
-	line "Losing doesn't"
-	cont "bug me anymore."
+	text "OK, mit der Zeit"
+	line "gewöhnt man sich"
+	cont "daran, zu"
+	cont "verlieren!"
 	done
 
 _Route12BattleText7::
-	text "You never know"
-	line "what you could"
-	cont "catch!"
+	text "Man weiß nie, was"
+	line "der nächste Fang"
+	cont "sein wird!"
 	done
 
 _Route12EndBattleText7::
-	text "Lost it!"
+	text "Ich hab"
+	line "verloren!"
 	prompt
 
 _Route12AfterBattleText7::
-	text "I catch Magikarp"
-	line "all the time, but"
-	cont "they're so weak!"
+	text "Ich fange immer"
+	line "Karpadors. Doch"
+	cont "sie sind so"
+	cont "schwach!"
 	done
 
 _Route12Text11::
-	text "Route 12"
-	line "North to Lavender"
+	text "Route 12, Norden:"
+	line "Lavandia."
 	done
 
 _Route12Text12::
-	text "Silence Bridge"
-	line "Sport Fishing Area"
+	text "Sportangel-Zone"
 	done

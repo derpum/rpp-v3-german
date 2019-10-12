@@ -1514,11 +1514,11 @@ VitaminNoEffectText:
 	db "@"
 
 VitaminText:
-	db "Health@"
-	db "Attack@"
-	db "Defense@"
-	db "Speed@"
-	db "Special@"
+	db "Gesu@"
+	db "Angr@"
+	db "Vert@"
+	db "Init@"
+	db "Spez@"
 
 ItemUseBait:
 	ld hl,ThrewBaitText
@@ -2395,8 +2395,8 @@ ItemUseTMHM:
 	call PrintText
 	ld hl,TeachMachineMoveText
 	call PrintText
-	coord hl, 14, 7
-	lb bc, 8, 15
+	coord hl, 13, 7
+	lb bc, 8, 14
 	ld a,TWO_OPTION_MENU
 	ld [wTextBoxID],a
 	call DisplayTextBoxID ; yes/no menu

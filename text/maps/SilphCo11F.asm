@@ -1,135 +1,153 @@
 _SilphCoPresidentText::
-	text "President: Thank"
-	line "you for saving"
-	cont "Silph!"
+	text "Präsident: Ich"
+	line "danke Dir für"
+	cont "die Rettung der"
+	cont "Silph Co."
 
-	para "I will never"
-	line "forget you saved"
-	cont "us in our moment"
-	cont "of peril!"
+	para "Ich werde niemals"
+	line "vergessen, wie Du"
+	cont "uns trotz größter"
+	cont "Gefahren tapfer"
+	cont "gerettet hast!"
 
-	para "I have to thank"
-	line "you in some way!"
+	para "Wie kann ich Dir"
+	line "bloß meinen Dank"
+	cont "aussprechen?"
 
-	para "Because I am rich,"
-	line "I can give you"
-	cont "anything!"
+	para "Ich bin reich,"
+	line "ich könnte Dir"
+	cont "alles geben!"
 
-	para "Here, maybe this"
-	line "will do!"
+	para "Aber vielleicht"
+	line "ist das hier eher"
+	cont "etwas für Dich!"
 	prompt
 
 _ReceivedSilphCoMasterBallText::
-	text "[PLAYER] got a"
-	line "@"
+	text "[PLAYER] erhält"
+	line "einen @"
 	TX_RAM wcf4b
 	text "!@@"
 
 _SilphCo10Text_6231c::
-	text "President: You"
-	line "can't buy that"
-	cont "anywhere!"
+	text "Präsident: Man"
+	line "kann das nirgends"
+	cont "kaufen!"
 
-	para "It's our secret"
-	line "prototype Master"
-	cont "Ball!"
+	para "Es ist der"
+	line "streng geheime"
+	cont "Prototyp des"
+	cont "Meisterballs!"
 
-	para "It will catch any"
-	line "#mon without"
-	cont "fail!"
+	para "Du kannst mit ihm"
+	line "Jedes #mon"
+	cont "Beim 1. Versuch"
+	cont "einfangen!"
 
-	para "You should be"
-	line "quiet about using"
-	cont "it, though."
+	para "Wäge jedoch"
+	line "sorgfältig ab,"
+	cont "wann Du ihn"
+	cont "einsetzt!"
 	done
 
 _SilphCoMasterBallNoRoomText::
-	text "You have no"
-	line "room for this."
+	text "Du hast keinen"
+	line "Platz mehr!"
 	done
 
 _SilphCo11Text2::
-	text "Secretary: Thank"
-	line "you for rescuing"
-	cont "all of us!"
+	text "Sekretärin: Wir"
+	line "danken Dir für"
+	cont "Deinen Heldenmut!"
 
-	para "We admire your"
-	line "courage."
+	para "Du hast uns alle"
+	line "gerettet! Danke!"
 	done
 
 _SilphCo11Text3::
 	text "Ah, [PLAYER]!"
-	line "So we meet again!"
+	line "So trifft man"
+	cont "sich wieder!"
 
-	para "The President and"
-	line "I are discussing"
-	cont "a vital business"
-	cont "proposition."
+	para "Ich führe gerade"
+	line "äußerst wichtige"
+	cont "Verhandlungen mit"
+	cont "dem Präsidenten."
 
-	para "Keep your nose"
-	line "out of grown-up"
-	cont "matters..."
+	para "Halte Dich ein"
+	line "für allemal aus"
+	cont "den Geschäften"
+	cont "Erwachsener"
+	cont "heraus!"
 
-	para "or, experience a"
-	line "world of pain!"
+	para "Oder Du lernst"
+	line "eine Welt voller"
+	cont "Schmerzen kennen!"
 	done
 
 _SilphCo10Text_62330::
-	text "Arrgh!!"
-	line "I lost again!?"
+	text "Arrgh!"
+	line "Wieder verloren!"
 	prompt
 
 _SilphCo10Text_62335::
-	text "Blast it all!"
-	line "You ruined our"
-	cont "plans for Silph!"
+	text "Verdammter Mist!"
+	line "Du hast unsere"
+	cont "Übernahme der"
+	cont "Silph Co. "
+	cont "vereitelt!"
 
-	para "But, Team Rocket"
-	line "will never fall!"
+	para "Aber das"
+	line "Team Rocket wird"
+	cont "niemals aufgeben!"
 
-	para "[PLAYER]! Never"
-	line "forget that all"
-	cont "#mon exist"
-	cont "for Team Rocket!"
 
-	para "I must go, but I"
-	line "shall return!"
+	para "[PLAYER]! Vergiß"
+	line "nicht, daß alle"
+	cont "#mon nur zum"
+	cont "Nutzen des Team"
+	cont "Rocket da sind!"
+
+	para "Ich muß gehen,"
+	line "aber meine Zeit"
+	cont "wird kommen!"
 	done
 
 _SilphCo11BattleText1::
-	text "Beat it, kid!"
-	line "This is as far"
-	cont "as you go!"
+	text "Halt! Keinen"
+	line "Schritt weiter!"
 	done
 
 _SilphCo11EndBattleText1::
-	text "What?! How could"
-	line "I lose?"
+	text "Bitte!"
+	line "Verschone mich..."
 	prompt
 
 _SilphCo11AfterBattleText1::
-	text "So, you want to"
-	line "see my Boss?"
+	text "Du willst also"
+	line "zum Boss?"
 	done
 
 _SilphCo11BattleText2::
-	text "Halt! Do you have"
-	line "an appointment"
-	cont "with my Boss?"
+	text "Stop! Hast Du"
+	line "einen Termin"
+	cont "beim Boss?"
 	done
 
 _SilphCo11EndBattleText2::
-	text "Gaah!"
-	line "Demolished!"
+	text "OK! Ich"
+	line "lasse Dich durch!"
 	prompt
 
 _SilphCo11AfterBattleText2::
-	text "Watch your step,"
-	line "my Boss likes his"
-	cont "#mon tough!"
+	text "Die #mon von"
+	line "unserem Boss"
+	cont "werden Dich"
+	cont "fertig machen! "
 	done
 
 _SilphCo10Text_6237b::
-	text "The monitor has"
-	line "#mon on it!"
+	text "Auf dem Monitor"
+	line "sind #mon"
+	cont "zu sehen!"
 	done

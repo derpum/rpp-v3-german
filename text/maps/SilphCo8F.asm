@@ -1,57 +1,63 @@
 _SilphCo8Text_565be::
-	text "I wonder if Silph"
-	line "is finished..."
+	text "Ob die Silph Co."
+	line "schon erledigt"
+	cont "ist?"
 	done
 
 _SilphCo8Text_565c3::
-	text "Thanks for saving"
-	line "us!"
+	text "Vielen Dank für"
+	line "unsere Rettung!"
 	done
 
 _SilphCo8BattleText1::
-	text "That's as far as"
-	line "you'll go!"
+	text "Endstation! Bis"
+	line "hierher und nicht"
+	cont "weiter!"
 	done
 
 _SilphCo8EndBattleText1::
-	text "Not enough grit!"
+	text "Mist, "
+	line "der Mut hat mich"
+	cont "verlassen!"
 	prompt
 
 _SilphCo8AfterBattleText1::
-	text "If you don't turn"
-	line "back, I'll call"
-	cont "for backup!"
+	text "Hau lieber ab,"
+	line "sonst rufe ich"
+	cont "Verstärkung!"
 	done
 
 _SilphCo8BattleText2::
-	text "You're causing us"
-	line "problems!"
+	text "Du bereitest uns"
+	line "nichts als Ärger!"
 	done
 
 _SilphCo8EndBattleText2::
-	text "Huh?"
-	line "I lost?"
+	text "Huch!"
+	line "Verloren?"
 	prompt
 
 _SilphCo8AfterBattleText2::
-	text "So, what do you"
-	line "think of Silph"
-	cont "Building's maze?"
+	text "Das Silph Co.-"
+	line "Gebäude ist ein"
+	cont "wahres Labyrinth,"
+	cont "nicht wahr?"
 	done
 
 _SilphCo8BattleText3::
-	text "You think you can"
-	line "beat me?"
-	
-	para "Ha, don't make me"
-	line "laugh!"
+	text "Ich bin einer der"
+	line "vier berüchtigten"
+	cont "Rocket-Brüder!"
 	done
 
 _SilphCo8EndBattleText3::
-	text "Whoo!"
+	text "Ups!"
+	line "Brüder, ich habe"
+	cont "versagt!"
 	prompt
 
 _SilphCo8AfterBattleText3::
-	text "I'll leave you up"
-	line "to the others!"
+	text "Dann werden sich"
+	line "meine Brüder"
+	cont "um Dich kümmern!"
 	done

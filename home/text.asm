@@ -226,7 +226,7 @@ Char54Text::
 Char56Text::
 	db "……@"
 Char5AText::
-	db "Enemy @"
+	db "Gegn. @"
 Char4AText::
 	db $E1,$E2,"@" ; PKMN
 

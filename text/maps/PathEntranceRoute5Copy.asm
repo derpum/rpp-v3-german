@@ -1,35 +1,42 @@
 _UGPathRoute7EntranceUnusedText_5d773::
-	text "I want to shop at"
-	line "the Dept. Store"
-	cont "in Celadon but..."
+	text "Ich würde gerne"
+	line "nach Prismania"
+	cont "City in das große"
+	cont "Einkaufszentrum"
+	cont "gehen!"
 
-	para "There are so many"
-	line "rough looking"
-	cont "people there."
+	para "Aber dort laufen"
+	line "so viele seltsame"
+	cont "Gestalten herum."
 	done
 
 _UGPathRoute7EntranceUnusedText_5d778::
-	text "Team Rocket had a"
-	line "secret hideout in"
-	cont "Celadon City?"
+	text "In Prismania City"
+	line "gab es einen"
+	cont "Unterschlupf des"
+	cont "Team Rocket?"
 	done
-
 _UGPathRoute7EntranceUnusedText_5d77d::
-	text "You're here to"
-	line "shop in Celadon?"
+	text "Möchtest Du in"
+	line "Prismania City"
+	cont "einkaufen gehen?"
 
-	para "Just step outside"
-	line "and head west!"
+	para "Du mußt draußen"
+	line "nur den Weg nach"
+	cont "Westen nehmen!"
 	done
 
 _UGPathRoute7EntranceUnusedText_5d782::
-	text "The Underground"
-	line "Path goes beneath"
-	cont "Saffron and leads"
-	cont "to Lavender."
+	text "Der Tunnelpfad"
+	line "führt Dich unter"
+	cont "Saffronia City"
+	cont "hindurch nach"
+	cont "Lavandia."
 
-	para "If you're heading"
-	line "to Cerulean, go"
-	cont "to the building"
-	cont "across the road."
+	para "Wenn Du nach"
+	line "Azuria City"
+	cont "möchtest, mußt"
+	cont "Du durch das Haus"
+	cont "auf der anderen "
+	cont "Seite gehen."
 	done

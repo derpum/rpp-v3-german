@@ -1,22 +1,35 @@
 _PewterHouse1Text1::
-	text "Nidoran: Bowbow!@@"
+	text "Nidoran: Nidoran!@@"
 
 _PewterHouse1Text2::
-	text "Here you go,"
+	text "Hier, für dich,"
 	line "Nidoran!"
 	
-	para "Here's a nice"
-	line "Pecha Berry for"
-	cont "you!"
+	para "Eine leckere"
+	line "Pirsifbeere!"
 	done
 
 _PewterHouse1Text3::
-	text "My son doesn't"
-	line "agree with me on"
-	cont "how to pronounce"
-	cont "Pecha Berry."
+	text "Unser #mon ist"
+	line "ein Außenseiter,"
+	cont "deshalb ist es"
+	cont "schwer zu"
+	cont "erziehen!"
 
-	para "He thinks it's"
-	line "like Petcha, but"
-	cont "I say it's Pecca."
+	para "Ein Außenseiter"
+	line "ist ein #mon,"
+	cont "das man in einem"
+	cont "Tausch erhält."
+
+	para "Es entwickelt"
+	line "sich rasch, doch"
+	cont "im Kampf kann es"
+	cont "vorkommen, daß es"
+	cont "unerfahrenen"
+	cont "Trainern nicht"
+	cont "gehorcht!"
+
+	para "Wenn wir doch nur"
+	line "ein paar Orden"
+	cont "hätten..."
 	done

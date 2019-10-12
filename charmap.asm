@@ -226,13 +226,18 @@ charmap "w", $B6
 charmap "x", $B7
 charmap "y", $B8
 charmap "z", $B9
-charmap "é", $BA
-charmap "'d", $BB
-charmap "'l", $BC
-charmap "'s", $BD
-charmap "'t", $BE
-charmap "'v", $BF
-
+charmap "à", $BA
+charmap "è", $BB
+charmap "é", $BC
+charmap "ù", $BD
+charmap "ß", $BE
+charmap "ç", $BF
+charmap "Ä", $C9
+charmap "Ö", $CA
+charmap "Ü", $CB
+charmap "ä", $CC
+charmap "ö", $CD
+charmap "ü", $CE
 charmap "[SHINY]",$DF
 charmap "'", $E0
 

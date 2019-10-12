@@ -1,23 +1,24 @@
 _TalkAboutBirds::
-	text "Oh, hello. I'm"
-	line "studying the"
-	cont "Legendary Bird"
-	cont "#mon."
+	text "Oh, Hallo. Ich"
+	line "studiere die "
+	cont "Legendäre Vögel"
 	
-	para "Have you seen"
-	line "them?"
+	para "Hast du sie"
+	line "schon gesehen?"
 	prompt
 
 
 _MysticTooBadText::
-	text "Hmm, I guess not."
-	line "They don't seem"
-	cont "to be in your"
+	text "Hmm, scheinbar."
+	line "nicht. Sie sind"
+	cont "zumindest nicht"
+	cont "in deinem"
 	cont "#dex."
 	
-	para "Come back and see"
-	line "me once you've"
-	cont "seen them all."
+	para "Komm' nochmal"
+	line "vorbei wenn du"
+	cont "alle gesehen"
+	cont "hast."
 	done
 
 
@@ -36,29 +37,28 @@ _SeenAllBirdsText::
 
 
 _ReceivedMysticTicketText::
-	text "[PLAYER] received"
-	line "a MysticTicket!"
+	text "[PLAYER] erhält"
+	line "ein Geheimticket!"
 	done
 
 
 _TalkAboutNavelRockText::
-	text "You can use that"
-	line "MysticTicket to"
-	cont "travel to Navel"
-	cont "Rock."
+	text "Du kannst mit dem"
+	line "Geheimticket zum"
+	cont "Nebelfels reisen."
 	
-	para "Just visit the"
-	line "Seagallop Ferry"
-	cont "in Vermilion."
+	para "Nutze dazu die"
+	line "Seesprint-Fähre"
+	cont "in Orania City!"
 	done
 
 
 _NoMoreRoomForMysticText::
-	text "Oh wait, you seem"
-	line "to have no room"
-	cont "for this."
+	text "Ohje, scheinbar"
+	line "hast du keinen"
+	cont "Platz dafür."
 	
-	para "Come back and see"
-	line "me when you have"
-	cont "room."
+	para "Komm noch mal"
+	line "her wenn du Platz"
+	cont "geschaffen hast."
 	done

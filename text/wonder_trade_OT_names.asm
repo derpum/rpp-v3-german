@@ -89,7 +89,7 @@ WonderTradeOTNames1:
 	db "Amanita@" ; $57
 	db "Cassius@" ; $58
 	db "Molayne@" ; $59
-	db "Brock@@@" ; $5a
+	db "Rocko@@@" ; $5a
 	db "Misty@@@" ; $5b
 	db "Surge@@@" ; $5c
 	db "Erika@@@" ; $5d

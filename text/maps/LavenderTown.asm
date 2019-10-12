@@ -1,66 +1,71 @@
 _LavenderTownText_4413c::
-	text "Do you believe in"
-	line "Ghosts?"
+	text "Glaubst Du an"
+	line "Geister?"
 	done
 
 _LavenderTownText_44141::
-	text "Really? So there"
-	line "are believers..."
+	text "Echt? Hätte ich"
+	line "nicht gedacht!"
 	done
 
 _LavenderTownText_44146::
-	text "Hahaha, I guess"
-	line "not."
+	text "Hahaha, natürlich"
+	line "nicht!"
 
-	para "That white hand"
-	line "on your shoulder,"
-	cont "it's not real."
+	para "Und diese weiße"
+	line "Hand da auf"
+	cont "Deiner Schulter"
+	cont "ist natürlich"
+	cont "nicht echt!"
 	done
 
 _LavenderTownText2::
-	text "This town is known"
-	line "as the grave site"
-	cont "of #mon."
+	text "Diese Stadt ist"
+	line "als Ruhestätte"
+	cont "für #mon"
+	cont "bekannt."
 
-	para "Memorial services"
-	line "are held in"
-	cont "#mon Tower."
+	para "Im #mon-Turm"
+	line "werden Andachten"
+	cont "gehalten."
 	done
 
 _LavenderTownText3::
-	text "Ghosts appeared"
-	line "in #mon Tower."
+	text "Geister spuken"
+	line "im #mon-Turm."
 
-	para "I think they're"
-	line "the spirits of"
-	cont "#mon that the"
-	cont "Rockets killed."
+	para "Ich glaube, das"
+	line "sind die Geister"
+	cont "jener #mon,"
+	cont "die das Team"
+	cont "Rocket auf dem"
+	cont "Gewissen hat!"
 	done
 
 _LavenderTownText4::
-	text "Lavender Town"
-	
-	para "The noble purple"
-	line "town"
+	text "LAVANDIA"
+	line "Die edle,"
+	cont "violette Stadt!"
 	done
 
 _LavenderTownText5::
-	text "New Silph Scope!"
+	text "Silph Scope!"
 
-	para "Make the invisible"
-	line "plain to see!"
+	para "Macht das"
+	line "Unsichtbare"
+	cont "sichtbar!"
 
 	para "Silph Co."
 	done
 
 _LavenderTownText8::
-	text "Lavender Volunteer"
-	line "#mon House"
+	text "LAVANDIA"
+	line "#mon-Haus"
 	done
 
 _LavenderTownText9::
-	text "May the souls of"
-	line "#mon rest easy"
-	
-	para "#mon Tower"
+	text "Mögen die Seelen"
+	line "der #mon im"
+	cont "#mon-Turm"
+	cont "in Frieden ruhen!"
 	done

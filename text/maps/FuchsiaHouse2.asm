@@ -1,83 +1,87 @@
 _WardenGibberishText1::
-	text "Warden: Hif fuff"
-	line "hefifoo!"
+	text "Wärter: Hef faff"
+	line "heffee!"
 
 	para "Ha lof ha feef ee"
-	line "hafahi ho. Heff"
-	cont "hee fwee!"
+	line "haffhe he. Heff"
+	cont "hee fiee!"
 	done
 
 _WardenGibberishText2::
-	text "Ah howhee ho hoo!"
-	line "Eef ee hafahi ho!"
+	text "Eff heffe fefe!"
+	line "Eef  hafahi-fone!"
 	done
 
 _WardenGibberishText3::
-	text "Ha? He ohay heh"
-	line "ha hoo ee haheh!"
+	text "Ha? Hei heff heh"
+	line "ha hef ee haheh!"
 	done
 
 _WardenTeethText1::
-	text "[PLAYER] gave the"
-	line "Gold Teeth to the"
-	cont "Warden!@@"
+	text "[PLAYER] gibt"
+	line "dem Wärter die"
+	cont "Goldzähne!@@"
 
 _WardenTeethText2::
 	db $0
-	para "The Warden popped"
-	line "in his teeth!"
+	para "Der Wärter setzt"
+	line "das Gebiß ein!"
 	prompt
 
 _WardenThankYouText::
-	text "Warden: Thanks,"
-	line "kid! No one could"
-	cont "understand a word"
-	cont "that I said."
+	text "Wärter: Danke,"
+	line "Junge! Niemand"
+	cont "hat auch nur ein"
+	cont "Wort von mir"
+	cont "verstanden!"
 
-	para "I couldn't work"
-	line "that way."
-	cont "Let me give you"
-	cont "something for"
-	cont "your trouble."
+	para "So konnte ich"
+	line "nicht arbeiten."
+	cont "Nimm das hier"
+	cont "für Deine Mühen."
 	prompt
 
 _ReceivedHM04Text::
-	text "[PLAYER] received"
+	text "[PLAYER] erhält"
 	line "@"
 	TX_RAM wcf4b
 	text "!@@"
 
 _HM04ExplanationText::
-	text "Warden: HM04"
-	line "teaches Strength!"
+	text "WÄRTER: VM04"
+	line "ist Stärke!"
 
-	para "It lets #mon"
-	line "move boulders"
-	cont "when you're out-"
-	cont "side of battle."
+	para "Damit lernen"
+	line "#mon, Felsen"
+	cont "zu verschieben,"
+	cont "auch wenn sie"
+	cont "nicht kämpfen!"
 
-	para "Oh yes, did you"
-	line "find Secret House"
-	cont "in Safari Zone?"
+	para "Hast Du bereits"
+	line "das Geheime Haus"
+	cont "in der Safari-"
+	cont "Zone gefunden?"
 
-	para "If you do, you"
-	line "win an HM!"
+	para "Man gewinnt eine"
+	line "VM, wenn man es"
+	cont "findet!"
 
-	para "I hear it's the"
-	line "rare Surf HM."
+	para "Angeblich handelt"
+	line "es sich bei der"
+	cont "VM um Surfer."
 	done
 
 _HM04NoRoomText::
-	text "Your pack is"
-	line "stuffed full!"
+	text "Dein Rucksack"
+	line "ist zu voll!"
 	done
 
 _FuchsiaHouse2Text_75176::
-	text "#mon photos"
-	line "and fossils."
+	text "Fotos von #mon"
+	line "und Fossilien."
 	done
 
 _FuchsiaHouse2Text_7517b::
-	text "Old #mon"
-	line "merchandise."
+	text "Alte #mon-"
+	line "Spielsachen."
 	done

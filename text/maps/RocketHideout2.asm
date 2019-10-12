@@ -1,16 +1,19 @@
 _RocketHideout2BattleText2::
-	text "Boss said you can"
-	line "see Ghosts with"
-	cont "the Silph Scope!"
+	text "Der Boss sagt,"
+	line "das Silph Scope"
+	cont "macht Geister"
+	cont "sichtbar!"
 	done
 
 _RocketHideout2EndBattleText2::
-	text "I surrender!"
+	text "STOP!"
+	line "Ich ergebe mich!"
 	prompt
 
 _RocketHideout2AfterBattleTxt2::
-	text "The Team Rocket"
-	line "HQ has 4 basement"
-	cont "floors. Can you"
-	cont "reach the Boss?"
+	text "Das Team Rocket-"
+	line "Hauptquartier hat"
+	cont "4 Untergeschosse."
+	cont "Du findest den"
+	cont "Boss niemals!!!"
 	done

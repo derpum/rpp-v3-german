@@ -1,9 +1,11 @@
 _DiglettsCaveRoute2Text1::
-	text "I went to Rock"
-	line "Tunnel, but it's"
-	cont "dark and scary."
+	text "Im Felstunnel ist"
+	line "es stockdunkel"
+	cont "und furchtbar"
+	cont "gruselig!"
 
-	para "If a #mon's"
-	line "Flash could light"
-	cont "it up..."
+	para "Wenn nur ein"
+	line "#mon mit einem"
+	cont "Blitz für Licht"
+	cont "sorgen könnte..."
 	done

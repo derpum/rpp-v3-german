@@ -146,7 +146,7 @@ LoadTownMap_Nest:
 	ret
 
 MonsNestText:
-	db "'s nest@"
+	db " Fundort@"
 
 LoadTownMap_Fly:
 	ld a, [hTilesetType]
@@ -264,7 +264,7 @@ LoadTownMap_Fly:
 	jr .pressedDown
 
 ToText:
-	db "To@"
+	db " ‘@"
 
 BuildFlyLocationsList:
 	ld hl, wFlyLocationsList - 1
@@ -422,7 +422,7 @@ DisplayWildLocations:
 	jp CopyData
 
 AreaUnknownText:
-	db " Area unknown@"
+	db " Gebiet unb.@"
 
 TownMapCoordsToOAMCoords:
 ; in: b = y, c = x

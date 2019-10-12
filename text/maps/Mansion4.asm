@@ -1,39 +1,45 @@
 _Mansion4BattleText1::
-	text "Uh-oh. Where am"
-	line "I now?"
+	text "Wo bin ich hier"
+	line "gelandet?"
 	done
 
 _Mansion4EndBattleText1::
-	text "Awooh!"
+	text "Autsch!"
 	prompt
 
 _Mansion4AfterBattleText1::
-	text "You can find stuff"
-	line "lying around."
+	text "Hier liegt viel"
+	line "nützliches Zeug"
+	cont "herum!"
 	done
 
 _Mansion4BattleText2::
-	text "This place is"
-	line "ideal for a lab."
+	text "Hier wäre der"
+	line "ideale Platz für"
+	cont "ein Labor!"
 	done
 
 _Mansion4EndBattleText2::
-	text "What was that"
-	line "for?"
+	text "Was hab"
+	line "ich nur falsch"
+	cont "gemacht?"
 	prompt
 
 _Mansion4AfterBattleText2::
-	text "I like it here!"
-	line "It's conducive to"
-	cont "my studies!"
+	text "Hier gefällt es"
+	line "mir! Man kann"
+	cont "prima forschen!"
 	done
 
 _Mansion4Text7::
-	text "Diary; Sept. 1"
-	line "Mewtwo is far too"
-	cont "powerful."
+	text "Tagebuch:"
+	line "1. September"
 
-	para "We have failed to"
-	line "curb its vicious"
-	cont "tendencies..."
+	para "Mewtu wird immer"
+	line "stärker."
+
+	para "Wir konnten die"
+	line "unkontrollierten"
+	cont "Wutausbrüche"
+	cont "nicht eindämmen!"
 	done

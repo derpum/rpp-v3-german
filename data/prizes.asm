@@ -9,7 +9,7 @@ PrizeDifferentMenuPtrs:
 	dw PrizeMenuTMsCost
 
 NoThanksText:
-	db "No thanks@"
+	db "Tschüss@"
 
 PrizeMenuMon1Entries:
 	db ABRA

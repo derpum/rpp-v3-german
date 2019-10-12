@@ -1,9 +1,10 @@
 _CeruleanHouse1Text1::
-	text "My husband likes"
-	line "trading #mon."
+	text "Mein Mann tauscht"
+	line "für sein Leben"
+	cont "gern #mon."
 
-	para "If you are a"
-	line "collector, would"
-	cont "you please trade"
-	cont "with him?"
+	para "Bist Du auch ein"
+	line "Sammler? Würdest"
+	cont "Du bitte #mon"
+	cont "mit ihm tauschen?"
 	done

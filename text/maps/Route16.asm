@@ -1,117 +1,135 @@
 _Route16BattleText1::
-	text "What do you want?"
+	text "Was willst Du?"
 	done
 
 _Route16EndBattleText1::
-	text "Don't you dare"
-	line "laugh!"
+	text "Wage ja"
+	line "nicht zu lachen!"
 	prompt
 
 _Route16AfterBattleText1::
-	text "We like just"
-	line "hanging here,"
-	cont "what's it to you?"
+	text "Wir lungern hier"
+	line "herum! Wie sieht"
+	cont "es bei Dir aus?"
 	done
 
 _Route16BattleText2::
-	text "Nice Bike!"
-	line "Hand it over!"
+	text "Du besitzt ein"
+	line "schönes Fahrrad!"
+	cont "Her damit!"
 	done
 
 _Route16EndBattleText2::
-	text "Knock-out!"
+	text "K.O.!"
 	prompt
 
 _Route16AfterBattleText2::
-	text "Forget it, who"
-	line "needs your Bike!"
+	text "Naja, vergiß es!"
+	line "Wer braucht schon"
+	cont "ein Fahrrad?"
 	done
 
 _Route16BattleText3::
-	text "Come out and play,"
-	line "little mouse!"
+	text "Laß uns spielen,"
+	line "Hasenfuß!"
 	done
 
 _Route16EndBattleText3::
-	text "You little rat!"
+	text "Du"
+	line "kleine Ratte!"
 	prompt
 
 _Route16AfterBattleText3::
-	text "I hate losing!"
-	line "Get away from me!"
+	text "Ich hasse es, zu"
+	line "verlieren! Mach,"
+	cont "daß Du wegkommst!"
 	done
 
 _Route16BattleText4::
-	text "Hey, you just"
-	line "bumped me!"
+	text "Hey! Du hast"
+	line "mich angerempelt!"
 	done
 
 _Route16EndBattleText4::
-	text "Kaboom!"
+	text "Rumms!"
+	line "Überrumpelt!"
 	prompt
 
 _Route16AfterBattleText4::
-	text "You can also get"
-	line "to Fuchsia from"
-	cont "Vermilion using a"
-	cont "coastal road."
+	text "Mann kann über"
+	line "eine Küstenstraße"
+	cont "von Orania City"
+	cont "nach Fuchsania"
+	cont "City gelangen."
 	done
 
 _Route16BattleText5::
-	text "I'm feeling"
-	line "hungry and mean!"
+	text "Ich bin furchtbar"
+	line "gemein und"
+	cont "erfolgssüchtig!"
 	done
 
 _Route16EndBattleText5::
-	text "Bad, bad, bad!"
+	text "Nein,"
+	line "nein, nein!"
 	prompt
 
 _Route16AfterBattleText5::
-	text "I like my #mon"
-	line "ferocious! They"
-	cont "tear up enemies!"
+	text "Ich mag wilde"
+	line "#mon!"
+
+	para "Sie strotzen nur"
+	line "so vor Kraft!"
 	done
 
 _Route16BattleText6::
-	text "Sure, I'll go!"
+	text "Ja, sicher! Ich"
+	line "mache Dir Platz!"
 	done
 
 _Route16EndBattleText6::
-	text "Don't make me"
-	line "angry!"
+	text "Treibe"
+	line "mich nicht in den"
+	cont "Wahnsinn!"
 	prompt
 
 _Route16AfterBattleText6::
-	text "I like harassing"
-	line "people with my"
-	cont "vicious #mon!"
+	text "Ich liebe es,"
+	line "andere mit meinen"
+	cont "bissigen #mon"
+	cont "zu schikanieren!"
 	done
 
 _Route16Text7::
-	text "A sleeping #mon"
-	line "blocks the way!"
+	text "Ein schlafendes"
+	line "#mon versperrt"
+	cont "den Weg!"
 	done
 
 _Route16Text10::
-	text "Snorlax woke up!"
+	text "RELAXO ist"
+	line "aufgewacht!"
 
-	para "It attacked in a"
-	line "grumpy rage!"
+	para "Es ist brummig"
+	line "und greift"
+	cont "verschlafen an!"
 	done
 
 _Route16Text11::
-	text "With a big yawn,"
-	line "Snorlax returned"
-	cont "to the mountains!"
+	text "Relaxo hat sich"
+	line "wieder beruhigt!"
+	cont "Es gähnt und"
+	cont "läuft in die"
+	cont "Berge zurück!"
 	done
 
 _Route16Text8::
-	text "Enjoy the slope!"
-	line "Cycling Road"
+	text "Radweg"
+	line "Gute Abfahrt!"
 	done
 
 _Route16Text9::
 	text "Route 16"
-	line "Celadon City -"
-	cont "Fuchsia City"
+	line "Prismania City -"
+	cont "Fuchsania City"
 	done

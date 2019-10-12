@@ -1,6 +1,10 @@
 _Route2HouseText1::
-	text "A fainted #mon"
-	line "can't fight. But, "
-	cont "it can still use "
-	cont "moves like Cut!"
+	text "Auch wenn ein"
+	line "#mon"
+	cont "ausscheidet,"
+	cont "kann es weiter"
+	cont "Spezial-Techniken"
+	cont "wie zum Beispiel"
+	cont "den Zerschneider"
+	cont "anwenden!"
 	done

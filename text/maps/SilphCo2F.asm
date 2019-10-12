@@ -1,92 +1,101 @@
 _SilphCo2Text_59ded::
-	text "Eeek!"
-	line "No! Stop! Help!"
+	text "Zu Hilfe! Nein!"
+	line "Bitte nicht!"
 
-	para "Oh, you're not"
-	line "with Team Rocket."
-	cont "I thought..."
-	cont "I'm sorry. Here,"
-	cont "please take this!"
+	para "Du bist gar nicht"
+	line "vom Team Rocket!"
+	cont "Ich dachte schon,"
+	cont "es ginge zu Ende!"
+	cont "Nimm das hier!"
 	prompt
 
 _ReceivedTM36Text::
-	text "[PLAYER] got"
+	text "[PLAYER] erhält"
 	line "@"
 	TX_RAM wcf4b
 	text "!@@"
 
 _TM36ExplanationText::
-	text "TM01 is"
-	line "DynamicPunch!"
+	text "TM01 ist die"
+	line "Wuchtschlag!"
 
-	para "It's powerful, so"
-	line "use it wisely."
+	para "Eine verheerende"
+	line "Attacke!"
 	done
 
 _TM36NoRoomText::
-	text "You don't have any"
-	line "room for this."
+	text "Du kannst nicht"
+	line "mehr tragen!!!"
 	done
 
 _SilphCo2BattleText1::
-	text "Help! I'm a Silph"
-	line "employee."
+	text "Hilfe! Ich bin"
+	line "ein Mitarbeiter"
+	cont "der Silph Co.!"
 	done
 
 _SilphCo2EndBattleText1::
-	text "How did you know"
-	line "I was a Rocket?"
+	text "Woher"
+	line "wußtest Du, daß"
+	cont "ich zum Team"
+	cont "Rocket gehöre?"
 	prompt
 
 _SilphCo2AfterBattleText1::
-	text "I work for both"
-	line "Silph and Team"
-	cont "Rocket!"
+	text "Ich bin ein Spion"
+	line "und infiltriere"
+	cont "die Silph Co.!"
 	done
 
 _SilphCo2BattleText2::
-	text "It's off limits"
-	line "here! Go home!"
+	text "Hau ab! Du hast"
+	line "keinen Zutritt!"
 	done
 
 _SilphCo2EndBattleText2::
-	text "You're good."
+	text "Nicht schlecht,"
+	line "Herr Specht!"
 	prompt
 
 _SilphCo2AfterBattleText2::
-	text "Can you solve the"
-	line "maze in here?"
+	text "Aber findest Du"
+	line "auch durch dieses"
+	cont "Labyrinth?"
 	done
 
 _SilphCo2BattleText3::
-	text "No kids are"
-	line "allowed in here!"
+	text "Hey, Du hast hier"
+	line "nichts verloren!"
 	done
 
 _SilphCo2EndBattleText3::
-	text "Tough!"
+	text "Das ist"
+	line "hart! Verloren!"
 	prompt
 
 _SilphCo2AfterBattleText3::
-	text "Diamond-shaped"
-	line "tiles are"
-	cont "teleport blocks!"
+	text "Die"
+	line "diamantförmigen"
+	cont "Felder sind"
+	cont "Teleporter!"
 
-	para "They're hi-tech"
-	line "transporters!"
+	para "Eine Art Hi-Tech-"
+	line "Transportsystem!"
 	done
 
 _SilphCo2BattleText4::
-	text "Hey kid! What are"
-	line "you doing here?"
+	text "Hey Kleiner! Was"
+	line "machst Du hier?"
 	done
 
 _SilphCo2EndBattleText4::
-	text "I goofed!"
+	text "Ich bin"
+	line "ein Versager!"
 	prompt
 
 _SilphCo2AfterBattleText4::
-	text "Silph Co. will"
-	line "be merged with"
-	cont "Team Rocket!"
+	text "Die Silph Co. und"
+	line "das Team Rocket"
+	cont "werden demnächst"
+	cont "fusionieren!"
 	done

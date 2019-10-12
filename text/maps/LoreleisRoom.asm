@@ -1,41 +1,48 @@
 _LoreleiBeforeBattleText::
-	text "Welcome to"
-	line "#mon League!"
+	text "Willkommen"
+	line "in der PKMN-Liga!"
 
-	para "I am Lorelei of"
-	line "the Elite Four!"
+	para "Ich bin Lorelei"
+	line "und gehöre zu den"
+	cont "Top Vier!"
 
-	para "No one can best"
-	line "me when it comes"
-	cont "to icy #mon!"
+	para "Niemand kann sich"
+	line "mit mir messen,"
+	cont "wenn es um"
+	cont "Eis-#mon geht!"
 
-	para "Freezing moves"
-	line "are powerful!"
+	para "Die Kraft von"
+	line "Eis-Attacken ist"
+	cont "unglaublich!"
 
-	para "Your #mon will"
-	line "be at my mercy"
-	cont "when they are"
-	cont "frozen solid!"
+	para "Du wirst um Gnade"
+	line "winseln, wenn ich"
+	cont "Deine  #mon"
+	cont "eingefroren habe!"
 
 	para "Hahaha!"
-	line "Are you ready?"
+	line "Bist Du bereit?"
 	done
 
 _LoreleiEndBattleText::
-	text "How dare you!"
+	text "Wie"
+	line "kannst Du es"
+	cont "wagen?"
 	prompt
 
 _LoreleiAfterBattleText::
-	text "You're better"
-	line "than I thought!"
-	cont "Go on ahead!"
+	text "Du bist besser,"
+	line "als ich dachte!"
+	cont "Geh ruhig weiter!"
 
-	para "You only got a"
-	line "taste of #mon"
-	cont "League power!"
+	para "Das hier war nur"
+	line "ein Vorgeschmack"
+	cont "auf die Dinge,"
+	cont "die Dich noch"
+	cont "erwarten..."
 	done
 
 _LoreleiDontRunAwayText::
-	text "Someone's voice:"
-	line "Don't run away!"
+	text "Eine Stimme:"
+	line "Lauf nicht davon!"
 	done

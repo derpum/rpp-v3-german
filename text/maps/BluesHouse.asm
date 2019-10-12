@@ -1,49 +1,55 @@
 _DaisyInitialText::
-	text "Hi [PLAYER]!"
-	line "[RIVAL] is out at"
-	cont "Grandpa's lab."
+	text "Hallo [PLAYER]!"
+	line "[RIVAL] wartet"
+	cont "in Opas Labor."
 	done
 
 _DaisyOfferMapText::
-	text "Grandpa asked you"
-	line "to run an errand?"
-	cont "Here, this will"
-	cont "help you!"
+	text "Opa hat Dich um"
+	line "einen Botengang"
+	cont "gebeten? Hier,"
+	cont "das wird Dir"
+	cont "weiterhelfen!"
 	prompt
 
 _GotMapText::
-	text "[PLAYER] got a"
+	text "[PLAYER] erhält"
 	line "@"
 	TX_RAM wcf4b
 	text "!@@"
 
 _DaisyBagFullText::
-	text "You have too much"
-	line "stuff with you."
+	text "Du trägst zu"
+	line "viele Dinge mit"
+	cont "Dir herum!"
 	done
 
 _DaisyUseMapText::
-	text "Use the Town Map"
-	line "to find out where"
-	cont "you are."
+	text "Benutze die"
+	line "Karte, um Deinen"
+	cont "Standort zu"
+	cont "bestimmen."
 	done
 
 _BluesHouseText2::
-	text "#mon are living"
-	line "things! If they"
-	cont "get tired, give"
-	cont "them a rest!"
+	text "#mon sind"
+	line "Lebewesen! Gönne"
+	cont "ihnen eine Pause,"
+	cont "wenn sie müde"
+	cont "sind!"
 	done
 
 _BluesHouseText3::
-	text "A map of the"
-	line "Kanto region!"
+	text "Eine große Karte!"
+	line "Sie ist nützlich!"
 	done
 
 _BluesTVText::
-	text "It's a nature show!"
+	text "Es läuft eine"
+	line "Dokumentation!"
 	
-	para "It's all about"
-	line "different types"
-	cont "of #mon."
+	para "Es geht um die"
+	line "verschiedenen"
+	cont "Typen der"
+	cont "#mon."
 	done

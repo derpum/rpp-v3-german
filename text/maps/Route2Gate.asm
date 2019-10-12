@@ -1,12 +1,15 @@
 _Route2GateText_5d616::
-	text "The TM Flash"
-	line "lights even the"
-	cont "darkest dungeons."
+	text "Mit der VM Blitz"
+	line "kann man selbst"
+	cont "die dunkelsten"
+	cont "Höhlen erhellen."
 	done
 
 _Route2GateText2::
-	text "Once a #mon"
-	line "learns Flash, you"
-	cont "can get through"
-	cont "Rock Tunnel."
+	text "Sobald eines"
+	line "Deiner #mon"
+	cont "Blitz erlernt"
+	cont "hat, kannst"
+	cont "Du Dich in den"
+	cont "Felstunnel wagen!"
 	done

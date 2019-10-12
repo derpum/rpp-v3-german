@@ -1,109 +1,119 @@
 _SilphCo6Text_1a24a::
-	text "The Rockets came"
-	line "and took over the"
-	cont "building!"
+	text "Das Team Rocket"
+	line "hat die Kontrolle"
+	cont "über das Gebäude"
+	cont "übernommen!"
 	done
 
 _SilphCo6Text_1a24f::
-	text "Well, better get"
-	line "back to work!"
+	text "OK, die Arbeit"
+	line "ruft! Los geht's!"
 	done
 
 _SilphCo6Text_1a261::
-	text "Oh dear, oh dear."
-	line "Help me please!"
+	text "Oje, ojemine!"
+	line "Bitte hilf mir!"
 	done
 
 _SilphCo6Text_1a266::
-	text "We got engaged!"
-	line "Heheh!"
+	text "Wir sind"
+	line "verlobt!"
 	done
 
 _SilphCo6Text_1a278::
-	text "Look at him! He's"
-	line "such a coward!"
+	text "Schau ihn Dir an,"
+	line "den Feigling!"
 	done
 
 _SilphCo6Text_1a27d::
-	text "I feel so sorry"
-	line "for him, I have"
-	cont "to marry him!"
+	text "Ich glaube, ich"
+	line "werde ihn aus"
+	cont "Mitleid heiraten!"
 	done
 
 _SilphCo6Text_1a28f::
-	text "Team Rocket is"
-	line "trying to conquer"
-	cont "the world with"
-	cont "#mon!"
+	text "Das Team Rocket"
+	line "benutzt die"
+	cont "#mon bei dem"
+	cont "Versuch, die Welt"
+	cont "zu erobern!"
 	done
 
 _SilphCo6Text_1a294::
-	text "Team Rocket ran"
-	line "because of you!"
+	text "Du hast das"
+	line "Team Rocket"
+	cont "in die Flucht"
+	cont "geschlagen!"
 	done
 
 _SilphCo6Text_1a2a6::
-	text "They must have"
-	line "targeted Silph"
-	cont "for our #mon"
-	cont "products."
+	text "Sie müssen es"
+	line "wegen unserer"
+	cont "#mon-Produkte"
+	cont "auf die Silph Co."
+	cont "abgesehen haben!"
 	done
 
 _SilphCo6Text_1a2ab::
-	text "Come work for"
-	line "Silph when you"
-	cont "get older!"
+	text "Wir würden uns"
+	line "sehr freuen, wenn"
+	cont "Du später einmal"
+	cont "für die Silph Co."
+	cont "arbeiten würdest!"
 	done
 
 _SilphCo6BattleText2::
-	text "What's a kid like"
-	line "you doing in a"
-	cont "place like this?"
-	
-	para "Doesn't matter!"
-	line "You're going down!"
+	text "Ich bin einer der"
+	line "vier berüchtigten"
+	cont "Rocket-Brüder!"
 	done
 
 _SilphCo6EndBattleText2::
-	text "Flame out!"
+	text "Nein!"
+	line "Ich bin raus!"
 	prompt
 
 _SilphCo6AfterBattleText2::
-	text "No matter!"
-	line "The others will"
-	cont "avenge me!"
+	text "Egal! Meine"
+	line "Brüder werden"
+	cont "mich rächen!"
 	done
 
 _SilphCo6BattleText3::
-	text "That rotten"
-	line "President!"
+	text "Dieser verdammte"
+	line "Präsident!"
 
-	para "He shouldn't have"
-	line "sent me to the"
-	cont "Tiksi Branch!"
+	para "Warum will er"
+	line "ausgerechnet"
+	cont "mich nach Tiksi"
+	cont "schicken?"
 	done
 
 _SilphCo6EndBattleText3::
-	text "Shoot!"
+	text "Mist!"
 	prompt
 
 _SilphCo6AfterBattleText3::
-	text "Tiksi Branch?"
-	line "It's in Russian"
-	cont "no man's land!"
+	text "Tiksi? Das"
+	line "liegt tief im"
+	cont "Niemandsland!"
 	done
 
 _SilphCo6BattleText4::
-	text "You dare betray"
-	line "Team Rocket?"
+	text "Du wagst es,"
+	line "Dich dem"
+	cont "Team Rocket zu"
+	cont "widersetzen?"
 	done
 
 _SilphCo6EndBattleText4::
-	text "You traitor!"
+	text "Du"
+	line "elender Verräter!"
 	prompt
 
 _SilphCo6AfterBattleText4::
-	text "If you stand for"
-	line "justice, you"
-	cont "betray evil!"
+	text "Wenn Du ehrlich"
+	line "und rechtschaffen"
+	cont "bist, bekämpfst"
+	cont "Du das Böse!"
 	done

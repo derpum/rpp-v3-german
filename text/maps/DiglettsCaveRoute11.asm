@@ -1,8 +1,9 @@
 _DiglettsCaveEntRoute11Text1::
-	text "What a surprise!"
-	line "Digletts dug this"
-	cont "long tunnel!"
+	text "Das ist cool!"
+	line "Digda hat einen"
+	cont "Tunnel gegraben!"
 
-	para "It goes right to"
-	line "Viridian City!"
+	para "Er führt direkt"
+	line "nach Vertania"
+	cont "City!"
 	done

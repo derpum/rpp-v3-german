@@ -1,22 +1,23 @@
 _CeladonMart2Text3::
-	text "Super Repel keeps"
-	line "weak #mon at"
-	cont "bay..."
+	text "Superschutz hält"
+	line "#MON auf"
+	cont "Distanz..."
 
-	para "Hmm, it's a more"
-	line "powerful Repel!"
+	para "Es ist besser als"
+	line "normaler Schutz!"
 	done
 
 _CeladonMart2Text4::
-	text "For long outings,"
-	line "you should buy"
-	cont "Revive."
+	text "Vor längeren"
+	line "Ausflügen"
+	cont "solltest Du"
+	cont "Beleber kaufen."
 	done
 
 _CeladonMart2Text5::
-	text "Top Grade Items"
-	line "for Trainers!"
+	text "Nützliche Items"
+	line "für Trainer!"
 
-	para "2F: Trainer's"
-	line "    Market"
+	para "S1: Zubehör Für"
+	line "Trainer"
 	done

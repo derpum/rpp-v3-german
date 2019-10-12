@@ -1,46 +1,52 @@
 _MtMoonPokecenterText1::
-	text "I've 6 # Balls"
-	line "set in my belt."
+	text "An meinem Gürtel"
+	line "hängen sechs"
+	cont "#bälle."
 
-	para "At most, you can"
-	line "carry 6 #mon."
+	para "Man kann maximal"
+	line "sechs #mon"
+	cont "mit sich führen."
 	done
 
 _MtMoonPokecenterText3::
-	text "Team Rocket"
-	line "attacks Cerulean"
-	cont "citizens..."
+	text "Das Team Rocket"
+	line "terrorisiert die"
+	cont "Einwohner von"
+	cont "Azuria City!"
 
-	para "Team Rocket is"
-	line "always in the"
-	cont "news!"
+	para "Kein Tag vergeht"
+	line "ohne Meldungen"
+	cont "über Team Rockets"
+	cont "Schandtaten!"
 	done
 
 _MagikarpSalesmanText1::
-	text "Man: Hello, there!"
-	line "Have I got a deal"
-	cont "just for you!"
+	text "Mann: Hallo!"
+	line "Möchtest Du ein"
+	cont "Geschäft machen?"
 
-	para "I'll let you have"
-	line "a swell Magikarp"
-	cont "for just ¥500!"
-	cont "What do you say?"
+	para "Ich gebe Dir"
+	line "einen exzellenten"
+	cont "Karpador für"
+	cont "läppische ¥500!"
+	cont "Interessiert?"
 	done
 
 _MagikarpSalesmanNoText::
-	text "No? I'm only"
-	line "doing this as a"
-	cont "favor to you!"
+	text "Nein? Ich wollte"
+	line "Dir doch einen"
+	cont "Gefallen tun!"
 	done
 
 _MagikarpSalesmanNoMoneyText::
-	text "You'll need more"
-	line "money than that!"
+	text "Schade, Du hast"
+	line "nicht genug Geld!"
 	done
 
 _MagikarpSalesmanText2::
-	text "Man: Well, I don't"
-	line "give refunds!"
+	text "Mann:"
+	line "Der Umtausch ist"
+	cont "ausgeschlossen!"
 	done
 
 _MtMoonPokecenterText5::

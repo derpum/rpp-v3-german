@@ -1,23 +1,23 @@
 _MasterBallDescription::
-	text "The best Ball."
-	line "It never misses."
+	text "Der beste Ball."
+	line "Erfolg garantiert!"
 	prompt
 
 _UltraBallDescription::
-	text "A Ball with a"
-	line "high rate of"
-	cont "success."
+	text "Ein BALL mit"
+	line "hoher Erfolgs-"
+	cont "quote."
 	prompt
 
 _GreatBallDescription::
-	text "A Ball with a"
-	line "decent success"
-	cont "rate."
+	text "Ein BALL mit"
+	line "guter Erfolgs-"
+	cont "quote."
 	prompt
 
 _PokeBallDescription::
-	text "An item for"
-	line "catching #mon."
+	text "Damit fängst"
+	line "du #mon."
 	prompt
 
 _TownMapDescription::

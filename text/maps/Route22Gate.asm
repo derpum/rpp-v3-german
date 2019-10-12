@@ -1,19 +1,22 @@
 _Route22GateText_1e704::
-	text "Only truly skilled"
-	line "trainers are"
-	cont "allowed through."
+	text "Hier dürfen nur"
+	line "erfahrene Trainer"
+	cont "passieren!"
 
-	para "You don't have the"
-	line "BoulderBadge yet!@@"
+	para "Und Du besitzt"
+	line "den Felsorden"
+	cont "noch nicht!@@"
 
 _Route22GateText_1e715::
 	db $0
-	para "The rules are"
-	line "rules. I can't"
-	cont "let you pass."
+	para "Befehl ist"
+	line "Befehl! Ich"
+	cont "darf Dich nicht"
+	cont "durchlassen!"
 	done
 
 _Route22GateText_1e71a::
-	text "Oh! That is the"
-	line "BoulderBadge!"
-	cont "Go right ahead!@@"
+	text "Oh! Du trägst"
+	line "den Felsorden!"
+	cont "Dann darfst Du"
+	cont "weitergehen!@@"

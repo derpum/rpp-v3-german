@@ -1,40 +1,45 @@
 _Route11GateUpstairsText_494a3::
-	text "There are items on"
-	line "the ground that"
-	cont "can't be seen."
+	text "Auf dem Boden"
+	line "liegen oft Items,"
+	cont "die man nicht"
+	cont "sehen kann."
 
-	para "Item Finder will"
-	line "detect an item"
-	cont "close to you."
+	para "Der Detektor"
+	line "spürt Items in"
+	cont "Deiner Nähe auf!"
 
-	para "It can't pinpoint"
-	line "it, so you have"
-	cont "to look yourself!"
+	para "Allerdings ortet"
+	line "er nicht die"
+	cont "exakte Position!"
+	cont "Du mußt Dich"
+	cont "gut umschauen!"
 	done
 
 _BinocularsSnorlaxText::
-	text "Looked into the"
-	line "binoculars."
+	text "Du schaust durch"
+	line "das Fernrohr."
 
-	para "A big #mon is"
-	line "asleep on a road!"
+	para "Mitten auf dem"
+	line "Weg schläft ein"
+	cont "großes #mon!"
 	done
 
 _BinocularsNoSnorlaxText::
-	text "Looked into the"
-	line "binoculars."
+	text "Du schaust durch"
+	line "das Fernrohr."
 
-	para "It's a beautiful"
-	line "view!"
+	para "Du hast eine"
+	line "wunderschöne"
+	cont "Aussicht!"
 	done
 
 _Route11GateUpstairsText_494d5::
-	text "Looked into the"
-	line "binoculars."
+	text "Du schaust durch"
+	line "das Fernrohr."
 
-	para "The only way to"
-	line "get from Cerulean"
-	cont "City to Lavender"
-	cont "is by way of the"
-	cont "Rock Tunnel."
+	para "Der einzige Weg"
+	line "von Azuria City"
+	cont "nach Lavandia"
+	cont "führt durch den"
+	cont "Felstunnel."
 	done

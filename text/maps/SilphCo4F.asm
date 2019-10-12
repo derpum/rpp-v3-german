@@ -1,17 +1,19 @@
 _SilphCo4Text_19de0::
-	text "Sssh! Can't you"
-	line "see I'm hiding?"
+	text "Pst! Siehst Du"
+	line "nicht, daß ich"
+	cont "mich verstecke?"
 	done
 
 _SilphCo4Text_19de5::
-	text "Huh? Team Rocket"
-	line "is gone?"
+	text "Das Team Rocket"
+	line "ist verschwunden?"
 	done
 
 _SilphCo4BattleText2::
-	text "Team Rocket has"
-	line "taken command of"
-	cont "Silph Co.!"
+	text "Das Team Rocket"
+	line "hat die Kontrolle"
+	cont "über Silph Co. "
+	cont "übernommen!!!"
 	done
 
 _SilphCo4EndBattleText2::
@@ -19,37 +21,42 @@ _SilphCo4EndBattleText2::
 	prompt
 
 _SilphCo4AfterBattleText2::
-	text "Fwahahaha!"
-	line "My Boss has been"
-	cont "after this place!"
+	text "Auf diesen Moment"
+	line "hat der Boss sehr"
+	cont "lange gewartet!"
 	done
 
 _SilphCo4BattleText3::
-	text "My #mon are my"
-	line "loyal soldiers!"
+	text "Mein #mon"
+	line "erwartet Dich!!!"
 	done
 
 _SilphCo4EndBattleText3::
-	text "Darn!"
-	line "You weak #mon!"
+	text "Du"
+	line "schwächliches"
+	cont "#mon! Mist!"
 	prompt
 
 _SilphCo4AfterBattleText3::
-	text "The doors are"
-	line "electronically"
-	cont "locked! A Card"
-	cont "Key opens them!"
+	text "Die Türen sind"
+	line "elektronisch"
+	cont "verriegelt! Ohne"
+	cont "Türöffner kommt"
+	cont "man nicht durch!"
 	done
 
 _SilphCo4BattleText4::
-	text "Intruder spotted!"
+	text "Eindringling"
+	line "gesichtet!"
 	done
 
 _SilphCo4EndBattleText4::
-	text "Who are you?"
+	text "Wer oder"
+	line "was bist Du?"
 	prompt
 
 _SilphCo4AfterBattleText4::
-	text "I better tell the"
-	line "Boss on 11F!"
+	text "Ich muß den Boss"
+	line "im 10. Stock"
+	cont "warnen!"
 	done

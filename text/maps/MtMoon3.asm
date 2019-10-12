@@ -1,104 +1,116 @@
 _MtMoon3BattleText1::
-	text "Hmm? Fossils?"
-	line "Oh no, those"
-	cont "aren't mine."
+	text "Was? Fossilien?"
+	line "Nein, das sind"
+	cont "nicht meine."
 
-	para "I'm trying to"
-	line "find Old Amber."
+	para "Ich bin auf der"
+	line "Suche nach dem"
+	cont "Altbernstein."
 	done
 
 _MtMoon3EndBattleText1::
 	text "Oh!"
-	line "You made a fossil"
-	cont "out of me!"
+	line "Du hast aus mir"
+	cont "ein Fossil gemacht!"
 	prompt
 
 _MtMoon3AfterBattleText1::
-	text "The Dome Fossil"
-	line "is Kabuto, and"
-	cont "the Helix Fossil"
-	cont "is Omanyte."
+	text "Aus dem Domfossil"
+	line "wird ein Kabuto"
+	cont "und aus dem"
+	cont "Helixfossil ein"
+	cont "Amonitas."
 	
-	para "They're both cool"
-	line "and all, but I"
-	cont "want Aerodactyl."
+	para "Beide sind toll,"
+	line "aber ich möchte"
+	cont "ein Aerodactyl."
 	
-	para "That's why I'm"
-	line "looking for Old"
-	cont "Amber!"
+	para "Deswegen suche"
+	line "ich den"
+	cont "Altbernstein!"
 	done
 
 _MtMoon3BattleText2::
-	text "It's none of your"
-	line "business what we"
-	cont "want with the"
-	cont "fossils!"
+	text "Es geht dich"
+	line "nichts an was wir"
+	cont "mit den Fossilien"
+	cont "vorhaben."
 	
-	para "I won't let some"
-	line "kid like you get"
-	cont "in the way of"
-	cont "this operation."
+	para "Ich werde nicht"
+	line "zulassen das ein"
+	cont "kleines Kind da-"
+	cont "zwischen funkt!"
 	done
 
 _MtMoon3EndBattleText2::
-	text "Urgh!"
-	line "Now I'm mad!"
+	text "Grr! Das"
+	line "gibt es nicht!"
 	prompt
 
 _MtMoon3AfterBattleText2::
-	text "This isn't the"
-	line "end, it's only"
-	cont "the beginning."
+	text "Das ist erst"
+	line "der Anfang!"
 	
-	para "Just you wait and"
-	line "see!"
+	para "Warte es einfach"
+	line "ab!"
 	done
 
 _MtMoon3BattleText3::
-	text "E-he-he-he! What"
-	line "do we have here?"
+	text "Ahahahaha! Was"
+	line "haben wir denn"
+	text "hier?"
 	
-	para "A little twerp"
-	line "looking to get"
-	cont "in the way!"
+	para "Ein kleiner Kerl,"
+	line "welcher sich in"
+	cont "den Weg stellt!"
 	done
 
 _MtMoon3EndBattleText3::
-	text "I blew it!"
+	text "NEIN!"
+	line "Ich hab's"
+	cont "vermasselt!"
 	prompt
 
 _MtMoon3AfterBattleText3::
-	text "Darn it all! My"
-	line "partner wouldn't"
-	cont "stand for this!"
+	text "Verdammt! Wie"
+	line "erkläre ich das"
+	cont "meinen Partnern?"
 	done
 
 _MtMoon3BattleText4::
-	text "Prepare for"
-	line "trouble!"
+	text "Wir drehen hier"
+	line "ein dickes Ding!"
+	cont "Mach Dich vom"
+	cont "Acker!"
 	done
 
 _MtMoon3EndBattleText4::
-	text "So, you are good."
+	text "Du bist"
+	line "'ne harte Nuß,"
+	cont "Kleiner!"
 	prompt
 
 _MtMoon3AfterBattleText4::
-	text "Get lost, you"
-	line "little brat!"
+	text "Wenn Du ein Fossil"
+	line "hast, gib es her"
+	cont "und verschwinde!"
 	done
 
 _MtMoon3BattleText5::
-	text "Little kids"
-	line "should leave"
-	cont "grown-ups alone!"
+	text "Geh Erwachsenen"
+	line "nicht auf den"
+	cont "Wecker, Du"
+	cont "Nervensäge!"
 	done
 
 _MtMoon3EndBattleText5::
-	text "I'm steamed!"
+	text ""
+	line "Ich bin sauer!"
 	prompt
 
 _MtMoon3AfterBattleText5::
-	text "#mon lived"
-	line "here long before"
-	cont "people came."
+	text "Schon lange vor"
+	line "den Menschen"
+	cont "haben #mon"
+	cont "hier gelebt..."
 	done

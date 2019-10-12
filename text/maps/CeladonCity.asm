@@ -1,151 +1,172 @@
 _CeladonCityText1::
-	text "I got my Koffing"
-	line "from my friend!"
+	text "Ich habe Smogon"
+	line "auf der"
+	cont "Zinnoberinsel"
+	cont "gefangen!"
 
-	para "We get along now,"
-	line "because I was"
-	cont "very nice to it!"
+	para "Es ist nett, doch"
+	line "wenn man es"
+	cont "ärgert, atmet es"
+	cont "Gift aus!"
 	done
 
 _CeladonCityText2::
-	text "Heheh! This Gym"
-	line "is great! It's"
-	cont "full of women!"
+	text "Hehe! Diese"
+	line "Arena ist voller"
+	cont "Frauen..."
 	done
 
 _CeladonCityText3::
-	text "The Game Corner"
-	line "is bad for our"
-	cont "city's image!"
+	text "Die Spielhalle"
+	line "schadet dem Ruf"
+	cont "unserer Stadt!"
 	done
 
 _CeladonCityText4::
-	text "Moan! I blew it"
-	line "all at the slots!"
+	text "Mist! Ich habe"
+	line "alles verspielt!"
 
-	para "I knew I should"
-	line "have cashed in my"
-	cont "coins for prizes!"
+	para "Hätte ich doch"
+	line "meine Münzen"
+	cont "rechtzeitig gegen"
+	cont "einen Preis"
+	cont "eingetauscht!"
 	done
 
 _TM41PreText::
-	text "Hello, there!"
+	text "Hallo erstmal!"
 
-	para "I've seen you,"
-	line "but I never had a"
-	cont "chance to talk!"
+	para "Ich kenne Dich"
+	line "vom Sehen! Aber"
+	cont "ich hatte bisher"
+	cont "keine Zeit, Dich"
+	cont "anzusprechen!"
 
-	para "Here's a gift for"
-	line "dropping by!"
+	para "Hier, nimm dieses"
+	line "Geschenk!"
 	prompt
 
 _ReceivedTM41Text::
-	text "[PLAYER] received"
+	text "[PLAYER] erhält"
 	line "@"
 	TX_RAM wcf4b
 	text "!@@"
 
 _TM41ExplanationText::
-	text "TM43 teaches"
+	text "TM43 ist"
 	line "Dark Pulse!"
 
-	para "It's kinda strong,"
-	line "so use it wisely!"
+	para "Es ist sehr"
+	line "stark, also nutze"
+	cont "es weise!"
 	done
 
 _TM41NoRoomText::
-	text "Oh, your pack is"
-	line "full of items!"
+	text "Oh, Du trägst"
+	line "zu viele Items!"
 	done
 
 _CeladonCityText6::
-	text "This is my trusted"
-	line "pal, Slowking!"
+	text "Quappo ist"
+	line "mein bester"
+	cont "Freund!"
 
-	para "It evolved from"
-	line "Slowpoke when I"
-	cont "used a Moon Stone!"
+	para "Es entwickelte"
+	line "sich, als ich"
+	cont "einem Quaputzi"
+	cont "einen Wasserstein"
+	cont "gab!"
 	done
 
 _CeladonCityText7::
-	text "Slowking: ..."
-	line "...Yawn?@@"
+	text "Quappo: Quappo!"
+	line "Quappo!@@"
 
 _CeladonCityText8::
-	text "What are you"
-	line "staring at?"
+	text "Was starrst Du"
+	line "mich so an?"
 	done
 
 _CeladonCityText9::
-	text "Keep out of Team"
-	line "Rocket's way!"
+	text "Halte Dich aus"
+	line "Team Rockets"
+	cont "Angelegenheiten"
+	cont "heraus!"
 	done
 
 _CeladonCityText10::
-	text "Trainer Tips"
+	text "TIPS FÜR TRAINER"
 
-	para "X Accuracy boosts"
-	line "the accuracy of"
-	cont "techniques!"
+	para "X-Treffer erhöht"
+	line "die Genauigkeit"
+	cont "von Attacken!"
 
-	para "Dire Hit jacks up"
-	line "the likelihood of"
-	cont "critical hits!"
+	para "Angriffplus"
+	line "erhöht die"
+	cont "Wahrscheinlich-"
+	cont "keit, einen"
+	cont "Volltreffer zu"
+	cont "landen!"
 
-	para "Get your items at"
-	line "Celadon Dept."
-	cont "Store!"
+	para "Diese Items"
+	line "kannst Du im"
+	cont "Einkaufszentrum"
+	cont "von Prismania"
+	cont "City kaufen!"
 	done
 
 _CeladonCityText11::
-	text "Celadon City"
-	
-	para "The city of"
-	line "rainbow dreams"
+	text "Prismania City"
+	line "Die Stadt der"
+	cont "Regenbogen-"
+	cont "Träume!"
 	done
 
 _CeladonCityText13::
-	text "Celadon City"
-	line "#mon Gym"
-	cont "Leader: Erika"
+	text "Prismania City"
+	line "Pkmn-Arena"
+	cont "Arenaleiterin:"
+	cont "Erika"
 
-	para "The nature-loving"
-	line "princess!"
+	para "Die Prinzessin"
+	line "der Natur!"
 	done
 
 _CeladonCityText14::
-	text "Celadon Mansion"
+	text "Prismania-Villa"
 	done
 
 _CeladonCityText15::
-	text "Find what you"
-	line "need at Celadon"
-	cont "Dept. Store!"
+	text "Im Prismania City"
+	line "Einkaufszentrum"
+	cont "findest Du alles,"
+	cont "was Du brauchst!"
 	done
 
 _CeladonCityText16::
-	text "Trainer Tips"
+	text "TIPS FÜR TRAINER"
 
-	para "Guard Spec."
-	line "protects #mon"
-	cont "against Special"
-	cont "attacks!"
+	para "Megablock schützt"
+	line "#MON vor "
+	cont "Spezial-Attacken"
+	cont "wie Feuer- oder"
+	cont "Wasser-Attacken!"
 
-	para "Get your items at"
-	line "Celadon Dept."
-	cont "Store!"
+	para "Diese Items"
+	line "kannst Du im"
+	cont "Einkaufszentrum"
+	cont "von Prismania"
+	cont "City erstehen!"
 	done
 
 _CeladonCityText17::
-	text "Coins exchanged"
-	line "for prizes!"
-	
-	para "Prize Exchange"
+	text "Tausche Münzen"
+	line "gegen Preise!"
+	cont "Wechselstube"
 	done
 
 _CeladonCityText18::
-	text "Rocket Game Corner"
-	
-	para "The playground"
-	line "for everybody!"
+	text "Rocket Spielhalle"
+	line "Ein Spielplatz"
+	cont "für Erwachsene!"
 	done

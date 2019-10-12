@@ -1,66 +1,67 @@
 _SilphCo9Text_5d8e5::
-	text "You look tired!"
-	line "You should take a"
-	cont "quick nap!"
+	text "Du siehst müde"
+	line "aus! Komm, ruhe"
+	cont "Dich kurz aus!"
 	prompt
 
 _SilphCo9Text_5d8ea::
-	text "Don't give up!"
+	text "Gib nicht auf!"
 	done
 
 _SilphCo9Text_5d8ef::
-	text "Thank you so"
-	line "much!"
+	text "Vielen, vielen"
+	line "Dank!"
 	done
 
 _SilphCo9BattleText1::
-	text "Your #mon seem"
-	line "to adore you, kid!"
+	text "Deine #mon"
+	line "scheinen Dich"
+	cont "sehr zu mögen!"
 	done
 
 _SilphCo9EndBattleText1::
-	text "Ghaaah!"
+	text "Waaah!"
 	prompt
 
 _SilphCo9AfterBattleText1::
-	text "If I had started"
-	line "as a trainer at"
-	cont "your age..."
+	text "Hätte ich doch"
+	line "auch schon in"
+	cont "Deinem Alter als"
+	cont "Trainer begonnen!"
 	done
 
 _SilphCo9BattleText2::
-	text "Your #mon have"
-	line "weak points! I"
-	cont "can nail them!"
+	text "Ich finde die"
+	line "Schwachstellen"
+	cont "Deiner #mon"
+	cont "und besiege sie!"
 	done
 
 _SilphCo9EndBattleText2::
-	text "You hammered me!"
+	text "Du hast"
+	line "mich besiegt!"
 	prompt
 
 _SilphCo9AfterBattleText2::
-	text "Exploiting weak"
-	line "spots does work!"
-	cont "Think about"
-	cont "element types!"
+	text "Mache Dir die"
+	line "Schwachstellen"
+	cont "zu Nutze! Denke"
+	cont "auch mal an"
+	cont "die Elemente!"
 	done
 
 _SilphCo9BattleText3::
-	text "Looking for the"
-	line "Boss?"
-	
-	para "I'm the only boss"
-	line "you'll get to"
-	cont "fight!"
+	text "Ich bin einer der"
+	line "vier berüchtigten"
+	cont "Rocket-Brüder!"
 	done
 
 _SilphCo9EndBattleText3::
-	text "No!"
-	line "How could I lose?"
+	text "Oje! Ich"
+	line "wurde besiegt!"
 	prompt
 
 _SilphCo9AfterBattleText3::
-	text "Don't get too"
-	line "cocky because"
-	cont "you beat me!"
+	text "Aber meine Brüder"
+	line "rächen mich!"
 	done

@@ -253,22 +253,22 @@ DisplayIntroNameTextBox:
 	db "Name@"
 
 DefaultNamesPlayer:
-	db   "New Name"
-	next "Red"
+	db   "Name"
+	next "Rot"
 	next "Ash"
 	next "Jack"
 	db   "@"
 	
 DefaultNamesGirl:
-	db   "New Name"
-	next "Green"
+	db   "Name"
+	next "Grün"
 	next "Ashley"
 	next "Leaf"
 	db   "@"
 
 DefaultNamesRival:
-	db   "New Name"
-	next "Blue"
+	db   "Name"
+	next "Blau"
 	next "Gary"
 	next "John"
 	db   "@"
@@ -298,23 +298,23 @@ GetDefaultName:
 	jp CopyData
 
 DefaultNamesPlayerList:
-	db "New Name@"
+	db "Name@"
 RedDefaultName:
-	db "Red@"
+	db "Rot@"
 	db "Ash@"
 	db "Jack@"
 
 DefaultNamesRivalList:
-	db "New Name@"
+	db "Name@"
 RivalDefaultName:
-	db "Blue@"
+	db "Blau@"
 	db "Gary@"
 	db "John@"
 
 DefaultNamesGirlList:
-	db "New Name@"
+	db "Name@"
 LeafDefaultName:
-	db "Green@"
+	db "Grün@"
 	db "Ashley@"
 	db "Leaf@"
 

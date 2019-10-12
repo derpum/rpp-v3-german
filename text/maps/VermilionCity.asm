@@ -1,131 +1,141 @@
 _VermilionCityText1::
-	text "We get visitors"
-	line "from all over."
+	text "Wir haben hier"
+	line "Touristen aus der"
+	cont "gesamten Welt!"
 
-	para "I met someone from"
-	line "the Hoenn region"
-	cont "once."
+	para "Letzten war sogar"
+	line "aus der Hoenn"
+	cont "Region hier."
 	done
 
 _VermilionCityText_198a7::
-	text "Did you see S.S."
-	line "Anne moored in"
-	cont "the harbor?"
+	text "Hast Du gesehen?"
+	line "Die M.S. Anne"
+	cont "ankert im Hafen!"
 	done
 
 _VermilionCityText_198ac::
-	text "So, S.S. Anne has"
-	line "departed!"
+	text "Die M.S.Anne ist"
+	line "ausgelaufen!"
 
-	para "She'll be back in"
-	line "about a year."
+	para "Sie wird in einem"
+	line "Jahr wieder hier"
+	cont "anlegen."
 	done
 
 _SSAnneWelcomeText4::
-	text "Welcome to S.S."
-	line "Anne!"
+	text "Willkommen auf"
+	line "der M.S. Anne!"
 	done
 
 _SSAnneWelcomeText9::
-	text "Welcome to S.S."
-	line "Anne!"
+	text "Willkommen auf"
+	line "der M.S. Anne!"
 
-	para "Excuse me, do you"
-	line "have a ticket?"
+	para "Verzeihung, hast"
+	line "Du ein Ticket?"
 	prompt
 
 _SSAnneFlashedTicketText::
-	text "[PLAYER] showed"
-	line "the S.S. Ticket!"
+	text "[PLAYER] zeigt"
+	line "das Bootsticket!"
 
-	para "Great! Welcome to"
-	line "S.S. Anne!"
+	para "Großartig!"
+	line "Willkommen auf"
+	cont "der M.S. Anne!"
 	done
 
 _SSAnneNoTicketText::
-	text "[PLAYER] doesn't"
-	line "have the needed"
-	cont "S.S. Ticket."
+	text "[PLAYER] hat "
+	line "kein Bootsticket!"
 
-	para "Sorry!"
+	para "Tut mir leid!"
 
-	para "You need a ticket"
-	line "to get aboard."
+	para "Du brauchst ein"
+	line "Ticket, um an"
+	cont "Bord gehen zu"
+	cont "können."
 	done
 
 _SSAnneNotHereText::
-	text "The ship set sail."
+	text "Das Schiff ist in"
+	line "See gestochen!"
 	done
 
 _VermilionCityText4::
-	text "I'm putting up a"
-	line "building on this"
-	cont "plot of land."
+	text "Ich möchte auf"
+	line "diesem Land"
+	cont "bauen."
 
-	para "My #mon is"
-	line "tamping the land."
+	para "Mein #mon"
+	line "ebnet den Boden!"
 	done
 
 _VermilionCityText5::
-	text "Machop: Guoh!"
-	line "Gogogoh!@@"
+	text "Maschock: Macho!"
+	line "Maschock!@@"
 
 _VermilionCityText14::
 	text ""
-	para "A Machop is"
-	line "stomping the land"
-	cont "flat."
+	para "Ein Maschock"
+	line "ebnet das Land!"
 	done
 
 _VermilionCityText6::
-	text "S.S. Anne is a"
-	line "famous luxury"
-	cont "cruise ship."
+	text "Die M.S. Anne ist"
+	line "ein luxuriöses"
+	cont "Kreuzfahrtschiff."
 
-	para "We visit Vermilion"
-	line "once a year."
+	para "Wir besuchen"
+	line "Orania City"
+	cont "einmal im Jahr."
 	done
 
 _VermilionCityText7::
-	text "Vermilion City"
-	
-	para "The port of"
-	line "exquisite sunsets"
+	text "Orania City"
+	line "Die Hafenstadt"
+	cont "der einmaligen"
+	cont "Sonnenuntergänge!"
 	done
 
 _VermilionCityText8::
-	text "Notice!"
+	text "Achtung!"
 
-	para "Route 12 may be"
-	line "blocked off by a"
-	cont "sleeping #mon."
+	para "Route 12 wird"
+	line "von einem"
+	cont "schlafenden"
+	cont "#mon"
+	cont "blockiert."
 
-	para "Detour through"
-	line "Rock Tunnel to"
-	cont "Lavender Town."
+	para "Umleitung: "
+	line "Felstunnel nach"
+	cont "Lavandia."
 
-	para "Vermilion Police"
+	para "Polizei von"
+	line "Orania City"
 	done
 
 _VermilionCityText11::
-	text "#mon Fan Club"
-	
-	para "All #mon fans"
-	line "welcome!"
+	text "#mon-Fanclub"
+	line "Alle #mon-Fans"
+	cont "sind willkommen!"
 	done
 
 _VermilionCityText12::
-	text "Vermilion City"
-	line "#mon Gym"
-	cont "Leader: Lt. Surge"
+	text "Orania City"
+	line "PKMN-Arena"
+	cont "Arenaleiter:"
+	cont "Major Bob"
 
-	para "The Lightning"
-	line "American!"
+	para "Der blitzschnelle"
+	line "Arenaleiter!"
 	done
 
 _VermilionCityText13::
-	text "Vermilion Harbor"
+	text "Hafen von"
+	line "Orania City"
 	done
+
 
 _FerrySailorText::
 	text "The Seagallop"

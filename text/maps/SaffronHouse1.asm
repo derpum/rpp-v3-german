@@ -1,26 +1,28 @@
 _SaffronHouse1Text1::
-	text "Thank you for"
-	line "writing. I hope"
-	cont "to see you soon!"
+	text "...vielen Dank"
+	line "für Deinen Brief!"
+	cont "Bis bald..."
 
-	para "Hey! Don't look"
-	line "at my letter!"
+	para "Hey! Lies meinen"
+	line "Brief nicht!"
 	done
 
 _SaffronHouse1Text2::
-	text "Pidgey: Kurukkoo!@@"
+	text "Taubsi: Taubsi!@@"
 
 _SaffronHouse1Text3::
-	text "The Copycat is"
-	line "cute! I'm getting"
-	cont "her a # Doll!"
+	text "Ich mag die"
+	line "Nachahmerin!"
+	cont "Ich kaufe ihr"
+	cont "eine #Puppe!"
 	done
 
 _SaffronHouse1Text4::
-	text "I was given a PP"
-	line "Up as a gift."
+	text "Ich habe ein"
+	line "Ap-Plus geschenkt"
+	cont "bekommen!"
 
-	para "It's used for"
-	line "increasing the PP"
-	cont "of techniques!"
+	para "Es erhöht die"
+	line "Angriffspunkte"
+	cont "einer Attacke!"
 	done

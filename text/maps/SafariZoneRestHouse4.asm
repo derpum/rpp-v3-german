@@ -1,27 +1,31 @@
 _SafariZoneRestHouse4Text1::
-	text "You can keep any"
-	line "item you find on"
-	cont "the ground here."
+	text "Alle Items,"
+	line "die Du findest,"
+	cont "gehören Dir!"
 
-	para "But, you'll run"
-	line "out of time if"
-	cont "you try for all"
-	cont "of them at once!"
+	para "Aber Dir wird die"
+	line "Zeit davonlaufen,"
+	cont "wenn Du alle auf"
+	cont "einmal einsammeln"
+	cont "möchtest!"
 	done
 
 _SafariZoneRestHouse4Text2::
-	text "Go to the deepest"
-	line "part of the"
-	cont "Safari Zone. You"
-	cont "will win a prize!"
+	text "Gehe in die"
+	line "Safari-Zone!"
+
+	para "Du kannst dort"
+	line "einen Preis"
+	cont "gewinnen!"
 	done
 
 _SafariZoneRestHouse4Text3::
-	text "My Eevee evolved"
-	line "into Flareon!"
+	text "Mein Evoli hat"
+	line "sich zu Flamara"
+	cont "entwickelt!"
 
-	para "But, a friend's"
-	line "Eevee turned into"
-	cont "a Vaporeon!"
-	cont "I wonder why?"
+	para "Aber bei einem"
+	line "Freund hat sich"
+	cont "Evoli zu Aquana"
+	cont "entwickelt!"
 	done

@@ -1,152 +1,170 @@
 _SaffronCityText1::
-	text "What do you want?"
-	line "Get lost!"
+	text "Was willst Du"
+	line "noch? Hau ab!"
 	done
 
 _SaffronCityText2::
-	text "Boss said he'll"
-	line "take this town!"
+	text "Der Boss hat"
+	line "versprochen, daß"
+	cont "wir diese Stadt"
+	cont "einnehmen werden."
 	done
 
 _SaffronCityText3::
-	text "Get out of the"
-	line "way!"
+	text "Mann, geh aus"
+	line "dem Weg!"
 	done
 
 _SaffronCityText4::
-	text "Saffron belongs"
-	line "to Team Rocket!"
+	text "Saffronia City"
+	line "gehört dem Team"
+	cont "Rocket!"
 	done
 
 _SaffronCityText5::
-	text "Being evil makes"
-	line "me feel so alive!"
+	text "Ich fühle mich"
+	line "wunderbar, wenn"
+	cont "ich böse bin!"
 	done
 
 _SaffronCityText6::
-	text "Ow! Watch where"
-	line "you're walking!"
+	text "Au! Paß auf, wo"
+	line "Du läufst!"
 	done
 
 _SaffronCityText7::
-	text "With Silph under"
-	line "control, we can"
-	cont "exploit #mon"
-	cont "around the world!"
+	text "Wenn wir erst die"
+	line "Silph Co. unter"
+	cont "Kontrolle haben,"
+	cont "können wir in der"
+	cont "ganzen Welt mit"
+	cont "#mon handeln!"
 	done
 
 _SaffronCityText8::
-	text "You beat Team"
-	line "Rocket all alone?"
-	cont "That's amazing!"
+	text "Du hast das Team"
+	line "Rocket besiegt?"
+	cont "Unglaublich!!!"
 	done
 
 _SaffronCityText9::
-	text "Yeah! Team Rocket"
-	line "is gone!"
-	cont "It's safe to go"
-	cont "out again!"
+	text "Hurra! Das Team"
+	line "Rocket ist fort!"
+	cont "Jetzt fühlt man"
+	cont "sich auf der"
+	cont "Straße wieder"
+	cont "sicher!"
 	done
 
 _SaffronCityText10::
-	text "People should be"
-	line "flocking back to"
-	cont "Saffron now."
+	text "Nun kommen auch"
+	line "wieder Touristen"
+	cont "nach Saffronia"
+	cont "City!"
 	done
 
 _SaffronCityText11::
-	text "I flew here on my"
-	line "Pidgeot when I"
-	cont "read about Silph."
+	text "Ich flog mit"
+	line "meinem Tauboss"
+	cont "hierher, nachdem"
+	cont "ich von der"
+	cont "Silph Co."
+	cont "gelesen habe!"
 
-	para "It's already over?"
-	line "I missed the"
-	cont "media action."
+	para "Ist schon alles"
+	line "vorbei? Na toll, "
+	cont "dann habe ich"
+	cont "wohl das Beste"
+	cont "verpaßt!"
 	done
 
 _SaffronCityText12::
-	text "Pidgeot: Bi bibii!@@"
+	text "Tauboss: Tauboss!@@"
 
 _SaffronCityText13::
-	text "I saw Rocket"
-	line "Boss escaping"
-	cont "Silph's building."
+	text "Der Boss des"
+	line "Team Rocket ist"
+	cont "aus dem Gebäude"
+	cont "der Silph Co."
+	cont "geflohen!"
 	done
 
 _SaffronCityText14::
-	text "I'm a security"
-	line "guard."
+	text "Ich bin der"
+	line "Wächter."
 
-	para "Suspicious kids I"
-	line "don't allow in!"
+	para "Verdächtige"
+	line "Kinder lasse ich"
+	cont "nicht herein!"
 	done
 
 _SaffronCityText15::
 	text "..."
-	line "Snore..."
+	line "Schnarch..."
 
-	para "Hah! He's taking"
-	line "a snooze!"
+	para "Ha! Er hält"
+	line "ein Nickerchen!"
 	done
 
 _SaffronCityText16::
-	text "Saffron City"
-	
-	para "Shining, golden"
-	line "land of commerce"
+	text "Saffronia City"
+	line "Die goldglänzende"
+	cont "Handelsstadt!"
 	done
 
 _SaffronCityText17::
-	text "Fighting Dojo"
+	text "Kampf-Dojo"
 	done
 
 _SaffronCityText18::
-	text "Saffron City"
-	line "#mon Gym"
-	cont "Leader: Sabrina"
+	text "Saffronia City"
+	line "PKMN-Arena"
+	cont "Arenaleiterin: "
+	cont "Sabrina"
 
-	para "The master of"
-	line "psychic #mon!"
+	para "Die Herrin der"
+	line "Psycho-#mon!"
 	done
 
 _SaffronCityText20::
-	text "Trainer Tips"
+	text "Tips Für Trainer"
 
-	para "Full Heal cures"
-	line "all ailments like"
-	cont "sleep and burns."
+	para "Hyperheiler"
+	line "kuriert alle"
+	cont "Verletzungen."
 
-	para "It costs a bit"
-	line "more, but it's"
-	cont "more convenient."
+	para "Er ist teuer,"
+	line "dafür aber"
+	cont "sehr praktisch."
 	done
 
 _SaffronCityText21::
-	text "Trainer Tips"
+	text "Tips Für Trainer"
 
-	para "New Great Ball"
-	line "offers improved"
-	cont "capture rates."
+	para "Der Superball"
+	line "erhöht die"
+	cont "Fangquote."
 
-	para "Try it on those"
-	line "hard-to-catch"
-	cont "#mon."
+	para "Probiere ihn bei"
+	line "#mon aus, die"
+	cont "schwer zu fangen"
+	cont "sind!"
 	done
 
 _SaffronCityText22::
 	text "Silph Co."
-	line "Office Building"
+	line "Bürogebäude"
 	done
 
 _SaffronCityText24::
-	text "Mr. Psychic's"
-	line "house"
+	text "Psychologen-Haus"
 	done
 
 _SaffronCityText25::
-	text "Silph's latest"
-	line "product!"
+	text "Das neueste"
+	line "Produkt der"
+	cont "Silph Co.!"
 
-	para "Release to be"
-	line "determined..."
+	para "Verkaufsstart:"
+	line "Demnächst!"
 	done

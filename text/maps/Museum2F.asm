@@ -1,48 +1,60 @@
 _Museum2FText1::
-	text "Moon Stone?"
+	text "Mondstein?"
 
-	para "What's so special"
-	line "about it?"
+	para "Was ist daran"
+	line "so einzigartig?"
 	done
 
 _Museum2FText2::
-	text "July 20, 1969!"
+	text "Der"
+	line "20. Juli 1969!"
 
-	para "The 1st lunar"
-	line "landing!"
+	para "Die erste"
+	line "Mondlandung!"
 
-	para "I bought a color"
-	line "TV to watch it!"
+	para "Für die Fernseh-"
+	line "übertragung hatte"
+	cont "ich extra einen"
+	cont "Farbfernseher"
+	cont "gekauft!"
 	done
 
 _Museum2FText3::
-	text "We have a space"
-	line "exhibit now."
+	text "Momentan haben"
+	line "wir eine"
+	cont "Raumfahrt-"
+	cont "Ausstellung."
 	done
 
 _Museum2FText4::
-	text "I want a Pikachu!"
-	line "It's so cute!"
+	text "Ich hätte gerne"
+	line "ein Pikachu!"
+	cont "Es ist so"
+	cont "furchtbar süß!"
 
-	para "I asked my Daddy"
-	line "to catch me one!"
+	para "Mein Papa soll"
+	line "mir eines fangen!"
 	done
 
 _Museum2FText5::
-	text "Yeah, a Pikachu"
-	line "soon, I promise!"
+	text "Ja, ein Pikachu!"
+	line "Ich verspreche,"
+	cont "ich fange eins!"
 	done
 
 _Museum2FText6::
 	text "Space Shuttle"
+	line "Columbia"
 	done
 
 _Museum2FText7::
-	text "Meteorite that"
-	line "fell on Mt. Moon."
+	text "Auf dem Mondberg"
+	line "gefundenes"
+	cont "Meteoritengestein"
+	cont "(Mondstein?)"
 	done
 
 _Museum2FText8::
-	text "A person wearing"
-	line "a space suit!"
+	text "Eine Person im"
+	line "Raumanzung!"
 	done

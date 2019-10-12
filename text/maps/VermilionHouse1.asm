@@ -1,21 +1,25 @@
 _VermilionHouse1Text1::
-	text "I'm getting my"
-	line "Pidgey to fly a"
-	cont "letter to Saffron"
-	cont "in the north!"
+	text "Ich lasse Taubsi"
+	line "einen Brief nach"
+	cont "Saffronia City im"
+	cont "Norden bringen!"
 	done
 
 _VermilionHouse1Text2::
-	text "Pidgey: Kurukkoo!@@"
+	text "Taubsi: Taubsi!@@"
 
 _VermilionHouse1Text3::
-	text "Dear Pippi, I hope"
-	line "to see you soon."
+	text "Liebe Nikki! Ich"
+	line "hoffe, wir sehen"
+	cont "uns bald wieder!"
 
-	para "I heard Saffron"
-	line "has problems with"
-	cont "Team Rocket."
+	para "Wie ich höre,"
+	line "stiftet das Team"
+	cont "Rocket in"
+	cont "Saffronia City"
+	cont "Unruhe!"
 
-	para "Vermilion appears"
-	line "to be safe."
+	para "In Orania City"
+	line "scheint es sicher"
+	cont "zu sein."
 	done

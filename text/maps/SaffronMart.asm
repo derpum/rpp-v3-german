@@ -1,13 +1,15 @@
 _SaffronMartText2::
-	text "Max Repel lasts"
-	line "longer than Super"
-	cont "Repel for keeping"
-	cont "weaker #mon"
-	cont "away!"
+	text "Top-Schutz hält"
+	line "schwache #mon"
+	cont "länger von Dir"
+	cont "fern als"
+	cont "Superschutz!"
 	done
 
 _SaffronMartText3::
-	text "Revive is costly,"
-	line "but it revives"
-	cont "fainted #mon!"
+	text "Beleber ist zwar"
+	line "teuer, aber"
+	cont "besiegte #mon"
+	cont "werden damit"
+	cont "wieder fit!"
 	done

@@ -1,24 +1,28 @@
 _Route15GateUpstairsText_4968c::
-	text "Exp. Share gives"
-	line "Exp points to all"
-	cont "the #mon with"
-	cont "you, even if they"
-	cont "don't fight."
+	text "Mit dem EP-Teiler"
+	line "bekommen alle"
+	cont "#MON, die Du"
+	cont "mit Dir führst,"
+	cont "nach einem Kampf"
+	cont "EP."
 
-	para "It does, however,"
-	line "halve the amount"
-	cont "of Exp for other"
-	cont "#mon."
+	para "Die EP werden"
+	line "nach dem Kampf"
+	cont "unter den #MON"
+	cont "aufgeteilt."
 
-	para "If you don't need"
-	line "it, you should "
-	cont "store it via PC."
+	para "Lege den"
+	line "EP-Teiler via PC"
+	cont "ab, wenn Du ihn"
+	cont "nicht benutzen"
+	cont "möchtest."
 	done
 
 _Route15GateUpstairsText_49698::
-	text "Looked into the"
-	line "binoculars."
+	text "Du schaust durch"
+	line "das Fernrohr."
 
-	para "It looks like a"
-	line "small island!"
+	para "Hmm, das sieht"
+	line "wie eine kleine"
+	cont "Insel aus!"
 	done

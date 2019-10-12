@@ -1,32 +1,32 @@
 _SafariZoneWestText5::
-	text "Rest House"
+	text "Rasthaus"
 	done
 
 _SafariZoneWestText6::
-	text "Request Notice"
+	text "Belohnung!"
 
-	para "Please find the"
-	line "Safari Warden's"
-	cont "lost Gold Teeth."
-	cont "They're around"
-	cont "here somewhere."
+	para "Wer die Goldzähne"
+	line "des Parkwächters"
+	cont "der Safari-Zone"
+	cont "findet, erhält"
+	cont "eine Belohnung!"
 
-	para "Reward offered!"
-	line "Contact: Warden"
+	para "Finder melden"
+	line "sich bitte beim"
+	cont "Parkwächter!"
 	done
 
 _SafariZoneWestText7::
-	text "Trainer Tips"
+	text "TIPS FÜR TRAINER"
 
-	para "Zone Exploration"
-	line "Campaign!"
+	para "Erforsche die"
+	line "Safari-Zone!"
 
-	para "The search for"
-	line "the Secret House!"
+	para "Finde das"
+	line "Versteckte Haus!"
 	done
 
 _SafariZoneWestText8::
-	text "Area 3 - West"
-	
-	para "East: Center Area"
+	text "Areal 3"
+	line "Osten: Zentrum"
 	done

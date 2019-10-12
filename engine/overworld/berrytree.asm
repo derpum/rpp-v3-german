@@ -53,14 +53,14 @@ BerryTreeScript::
 	ret
 	
 FruitTreeText:
-	text "It's a fruit-"
-	line "bearing tree."
+	text "Es ist ein"
+	line "Beerenbaum."
 	prompt
 	db "@"
 	
 NoBerryText:
-	text "Looks like there's"
-	line "nothing here."
+	text "Hier ist wohl"
+	line "nichts."
 	done
 	db "@"
 	

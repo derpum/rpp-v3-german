@@ -1,20 +1,22 @@
 _CopycatsHouse1FText1::
-	text "My daughter is so"
-	line "self-centered."
-	cont "She only has a"
-	cont "few friends."
+	text "Meine Tochter"
+	line "ist furchtbar"
+	cont "schüchtern! Sie"
+	cont "hat nur wenige"
+	cont "Freunde!"
 	done
 
 _CopycatsHouse1FText2::
-	text "My daughter likes"
-	line "to mimic people."
+	text "Meine Tochter"
+	line "ahmt gerne Leute"
+	cont "nach."
 
-	para "Her mimicry has"
-	line "earned her the"
-	cont "nickname Copycat"
-	cont "around here!"
+	para "Wegen ihres"
+	line "Mienenspiels"
+	cont "nennt man sie die"
+	cont "Nachahmerin!"
 	done
 
 _CopycatsHouse1FText3::
-	text "Chansey: Chaan"
-	line "sey!@@"
+	text "Chaneira: Cha!"
+	line "Neera!@@"

@@ -1,146 +1,167 @@
 _Route3Text1::
-	text "Whew... I better"
-	line "take a rest..."
-	cont "Groan..."
+	text "Puh! Ich muß"
+	line "eine Pause"
+	cont "machen!"
 
-	para "That tunnel from"
-	line "Cerulean takes a"
-	cont "lot out of you!"
+	para "Der Weg durch den"
+	line "Tunnel aus Azuria"
+	cont "City ist sehr"
+	cont "beschwerlich!"
 	done
 
 _Route3BattleText1::
-	text "Hi! I like shorts!"
-	line "They're comfy and"
-	cont "easy to wear!"
+	text "Hey! Ich kenne"
+	line "Dich aus dem"
+	cont "Vertania-Wald!"
 	done
 
 _Route3EndBattleText1::
-	text "Whew! Even that"
-	line "battle was short!"
+	text "Du"
+	line "hast mich wieder"
+	cont "besiegt!"
 	prompt
 
 _Route3AfterBattleText1::
-	text "I should look for"
-	line "#mon outside"
-	cont "of forests."
+	text "Neben den #mon"
+	line "hier im Wald gibt"
+	cont "es noch Unmengen"
+	cont "anderer #mon"
+	cont "zu entdecken!"
 	done
 
 _Route3BattleText2::
-	text "Hey! Check out my"
-	line "Zigzagoon!"
+	text "Hey! dir mein"
+	line "Zigzachs an!"
 
-	para "He's in the top"
-	line "percentage of"
-	cont "Zigzagoon!"
+	para "Es ist eins der"
+	line "besten Zigzachs"
+	cont "die es gibt!"
 	done
 
 _Route3EndBattleText2::
-	text "I don't believe"
-	line "it! I lost!"
+	text "Unglaublich! Ich"
+	line "habe verloren!"
 	prompt
 
 _Route3AfterBattleText2::
-	text "Until recently, I"
-	line "never ran into"
-	cont "Zigzagoons around"
-	cont "Kanto..."
+	text "Erst seit kurzem"
+	line "findet man in"
+	cont "Kanto Zigzachs."
 	done
 
 _Route3BattleText3::
-	text "You looked at me,"
-	line "didn't you?"
+	text "Was starrst Du"
+	line "mich so an?"
 	done
 
 _Route3EndBattleText3::
-	text "You're mean!"
+	text "Du bist"
+	line "gefährlich!"
 	prompt
 
 _Route3AfterBattleText3::
-	text "Quit staring if"
-	line "you don't want to"
-	cont "fight!"
+	text "Hör auf, Leute"
+	line "anzustarren! Dann"
+	cont "mußt Du auch"
+	cont "nicht kämpfen!"
 	done
 
 _Route3BattleText4::
-	text "Are you a trainer?"
-	line "Let's fight!"
+	text "Bist Du auch ein"
+	line "Trainer? Laß uns"
+	cont "kämpfen!"
 	done
 
 _Route3EndBattleText4::
-	text "If I had new"
-	line "#mon, I would"
-	cont "have won!"
+	text "Mit"
+	line "diesen #mon"
+	cont "hätte ich auch"
+	cont "leicht gewonnen!"
 	prompt
 
 _Route3AfterBattleText4::
-	text "If a #mon Box"
-	line "on the PC gets"
-	cont "full, just switch"
-	cont "to another Box!"
+	text "Wenn auf dem PC"
+	line "eine #mon-Box"
+	cont "voll ist, wechsle"
+	cont "einfach zu einer"
+	cont "anderen Box!"
 	done
 
 _Route3BattleText5::
-	text "That look you"
-	line "gave me, it's so"
-	cont "intriguing!"
+	text "Warum schaust"
+	line "Du mich so"
+	cont "fasziniert an?"
 	done
 
 _Route3EndBattleText5::
-	text "Be nice!"
+	text "Bleib"
+	line "immer nett!"
 	prompt
 
 _Route3AfterBattleText5::
-	text "Avoid fights by"
-	line "not letting"
-	cont "people see you!"
+	text "Vermeide Kämpfe,"
+	line "indem Du anderen"
+	cont "Trainern aus dem"
+	cont "Weg gehst!"
 	done
 
 _Route3BattleText6::
-	text "Hey! You're not"
-	line "wearing shorts!"
+	text "Hehe! Ich habe"
+	line "meinem Bruder"
+	cont "gesagt, er soll"
+	cont "Shorts anziehen!"
 	done
 
 _Route3EndBattleText6::
-	text "Lost! Lost! Lost!"
+	text "Nein!"
+	line "Verloren!"
 	prompt
 
 _Route3AfterBattleText6::
-	text "I always wear"
-	line "shorts, even in"
-	cont "winter!"
+	text "Man sollte nicht"
+	line "alles machen, was"
+	cont "der große Bruder"
+	cont "verlangt! Hehe!"
 	done
 
 _Route3BattleText7::
-	text "You can fight my"
-	line "new #mon!"
+	text "Meine neuen"
+	line "#mon wollen"
+	cont "kämpfen!"
 	done
 
 _Route3EndBattleText7::
-	text "Done like dinner!"
+	text "Du"
+	line "hast meine"
+	cont "#mon besiegt!"
 	prompt
 
 _Route3AfterBattleText7::
-	text "Trained #mon"
-	line "are stronger than"
-	cont "the wild ones!"
+	text "Die #mon eines"
+	line "Trainers sind"
+	cont "stärker als"
+	cont "wildlebende!"
 	done
 
 _Route3BattleText8::
-	text "Eek! Did you"
-	line "touch me?"
+	text "Huch! Sollen das"
+	line "etwa Annäherungs-"
+	cont "versuche sein?"
 	done
 
 _Route3EndBattleText8::
-	text "That's it?"
+	text ""
+	line "Bleib mir fern!"
 	prompt
 
 _Route3AfterBattleText8::
-	text "Route 4 is at the"
-	line "foot of Mt. Moon."
+	text "Die Route 4 liegt"
+	line "am Fuße des"
+	cont "Mondberges."
 	done
 
 _Route3Text10::
 	text "Route 3"
-	line "Pewter City -"
-	cont "Mt. Moon"
+	line "Mamoria City -"
+	cont "Mondberg"
 	done
