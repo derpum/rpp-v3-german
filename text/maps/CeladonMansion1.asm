@@ -1,7 +1,7 @@
 _CeladonMansion1Text1::
-	text "Hello, dearie."
-	line "Make yourself at"
-	cont "home."
+	text "Hey, du."
+	line "Fühl dich wie"
+	cont "zuhause."
 	done
 
 _CeladonMansion1Text5::

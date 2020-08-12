@@ -218,7 +218,7 @@ TextBoxTextAndCoordTable:
 ; note that there is no terminator
 
 BuySellQuitText:
-	db   "Kauf"
+	db   "@Kauf"
 	next "Verkauf"
 	next "Tschüss!@"
 

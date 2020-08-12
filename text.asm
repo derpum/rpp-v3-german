@@ -2146,18 +2146,18 @@ _MonsStatsRoseText::
 	text "@@"
 
 _GreatlyRoseText::
-	text $4c, "sharply@@"
+	text "@@"
 
 _RoseText::
 	text " nimmt zu!"
 	prompt
 
 _WontRiseAnymoreText::
-	text "[USER]s"
-	line "@"
+	text "@"
 	TX_RAM wcf4b
-	text " won't"
-	cont "go any higher!"
+	text " von"
+	line "[USER]"
+	cont "steigt nicht mehr!"
 	prompt
 
 _MonsStatsFellText::
@@ -2174,11 +2174,11 @@ _FellText::
 	prompt
 
 _WontFallAnymoreText::
-	text "[TARGET]'s"
-	line "@"
+	text "@"
 	TX_RAM wcf4b
-	text " won't"
-	cont "go any lower!"
+	text " von"
+	line "[USER]"
+	cont "sinkt nicht weiter!"
 	prompt
 
 _RanFromBattleText::
@@ -3324,7 +3324,7 @@ _NothingToCutText::
 _UsedCutText::
 	TX_RAM wcd6d
 	text " setzt"
-	line "den ZERSCHNEIDER"
+	line "den Zerschneider"
 	cont "ein!"
 	prompt
 

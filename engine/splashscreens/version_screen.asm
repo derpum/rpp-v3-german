@@ -35,7 +35,7 @@ DisplayHackVersionScreen::
 ; load the tilemap for the screen again
 	call CleanPikachuScreen
 ; display the third page
-	coord hl, 2, 6
+	coord hl, 2, 2
 	ld de, VersionScreenText3
 	call PlaceString
 	; wait for the player to press A
@@ -59,26 +59,30 @@ VersionScreenTilemap:
 VersionScreenTilemapEnd:
 
 VersionScreenText:
-	db   "Welcome to Red++"
-	next "You are playing"
+	db   "Willkommen bei"
+	next "Rot++"
+	next "Du spielst die"
 IF DEF(_HARD) ; Hard Rom
-	next "The Hard Patch"
+	next "schwere Version"
 ELSE ; Normal Rom
-	next "The Normal Patch"
+	next "normale Version"
 ENDC
 IF DEF(_SNOW)
-	next "v3.0.2 (Snowy)@"
+	next "v3.0.2 (Winter)@"
 ELSE
 	next "v3.0.2@"
 ENDC
 
 VersionScreenText2:
-	db   "Readme and FAQ"
-	next "are found at:"
+	db   "Readme und FAQ"
+	next "findest du unter"
 	next "www.github.com/"
 	next "TheFakeMateo/"
 	next "rpp-backup@"
 
 VersionScreenText3:
-	db   "Have fun!"
+	db   "Übersetzt von"
+	next "derPum"
+	next ""
+	next "Viel Spaß!"
 	next "  - Mateo, 2018@"

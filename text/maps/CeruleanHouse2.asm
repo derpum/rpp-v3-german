@@ -1,10 +1,10 @@
 _CeruleanHouse2Text_74e77::
 	text "Beerenbäume gibt"
-	line "es überall"
-	cont "in Kanto."
+	line "es überall in"
+	cont "Kanto."
 
 	para "Ich bin sicher das"
-	line "du beretis welche"
+	line "du bereits welche"
 	cont "gesehen hast."
 
 	para "Wusstest du das"
@@ -28,56 +28,63 @@ _CeruleanHouse2Text_74e81::
 	done
 
 _OranBerryText::
-	text "Restores 10 HP"
-	line "when used."
+	text "Stellt 10 KP"
+	line "wieder her."
 	prompt
 
 _SitrusBerryText::
-	text "Restores 30 HP"
-	line "when used."
+	text "Stellt 30 KP"
+	line "wieder her."
 	prompt
 
 _LeppaBerryText::
-	text "Restores 10 PP"
-	line "when used."
+	text "Stellt 10 AP"
+	line "wieder her."
 	prompt
 
 _PechaBerryText::
-	text "Cures a #mon of"
-	line "being Poisoned."
+	text "Heilt ein"
+	line "vergiftetes"
+	cont "#mon."
 	prompt
 
 _RawstBerryText::
-	text "Cures a #mon of"
-	line "being Burned."
+	text "Heilt ein"
+	line "brennendes"
+	cont "#mon."
 	prompt
 
 _AspearBerryText::
-	text "Cures a #mon of"
-	line "being Frozen."
+	text "Heilt ein"
+	line "eingefrorenes"
+	cont "#mon."
 	prompt
 
 _ChestoBerryText::
-	text "Wakes up a #mon"
-	line "that is Asleep."
+	text "Weckt ein"
+	line "schlafendes"
+	cont "#mon auf."
 	prompt
 
 _CheriBerryText::
-	text "Cures a #mon of"
-	line "Paralysis."
+	text "Heilt ein"
+	line "paralysiertes"
+	cont "#mon."
 	prompt
 
 _LumBerryText::
-    text "Cures a #mon of"
-    line "any negative"
-    cont "status condition."
+	text "Heilt alle"
+	line "Status-"
+	cont "veränderungen"
+	cont "von einem"
+	cont "#mon."
     prompt
     
 _SwegBerryText::
-    text "An extremely rare"
-    line "Berry."
+    text "Eine sehr seltene"
+    line "Beere."
     
-    para "It increases a"
-    line "#mon's level by"
-    cont "1 when used."
+    para "Sie erhöht das"
+    line "Level von einem"
+    cont "#mon."
     prompt
