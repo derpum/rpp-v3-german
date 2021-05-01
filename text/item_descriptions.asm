@@ -4,13 +4,13 @@ _MasterBallDescription::
 	prompt
 
 _UltraBallDescription::
-	text "Ein BALL mit"
+	text "Ein Ball mit"
 	line "hoher Erfolgs-"
 	cont "quote."
 	prompt
 
 _GreatBallDescription::
-	text "Ein BALL mit"
+	text "Ein Ball mit"
 	line "guter Erfolgs-"
 	cont "quote."
 	prompt
@@ -21,19 +21,21 @@ _PokeBallDescription::
 	prompt
 
 _TownMapDescription::
-	text "A very convenient"
-	line "map that can be"
-	cont "viewed anytime."
+	text "Eine praktische"
+	line "Karte, die"
+	cont "jederzeit auf-"
+	cont "gerufen werden"
+	cont "kann."
 
-	para "It even shows you"
-	line "your present"
-	cont "location in the"
-	cont "region."
+	para "Dein aktueller"
+	line "Standort wird"
+	cont "auch angezeigt."
 	prompt
 
 _BicycleDescription::
-	text "Allows for quick"
-	line "traveling!"
+	text "Ein Klapprad,"
+	line "um schneller"
+	cont "zu sein."
 	prompt
 
 _SurfboardDescription::
@@ -41,110 +43,120 @@ _SurfboardDescription::
 	prompt
 
 _SafariBallDescription::
-	text "A Ball used in"
-	line "the Safari Zone."
+	text "Ein Ball, der nur"
+	line "in der"
+	cont "Safari-Zone ein-"
+	cont "gesetzt wird."
 	prompt
 
 _PokedexDescription::
-	text "A #mon"
-	line "encyclopedia."
+	text "Eine #mon"
+	line "enzyklopädie."
 	prompt
 
 _MoonStoneDescription::
-	text "An odd stone that"
-	line "gleams like the"
-	cont "moon in the"
-	cont "evening sky."
-
-	para "It allows certain"
-	line "kinds of #mon"
-	cont "to evolve."
+	text "Dieser spezielle"
+	line "Stein löst bei"
+	cont "bestimmten"
+	cont "#mon die Ent-"
+	cont "wicklung aus."
 	prompt
 
 _AntidoteDescription::
-	text "Cures a poisoned"
-	line "#mon."
+	text "Heilt Vergiftungen"
+	line "bei #mon."
 	prompt
 
 _BurnHealDescription::
-	text "Cures a #MON"
-	line "of its burn."
+	text "Heilt"
+	line "Verbrennungen bei"
+	cont "bei #mon."
 	prompt
 
 _IceHealDescription::
-	text "Thaws a frozen"
-	line "#mon."
+	text "Taut ein"
+	line "eingefrorenes"
+	cont "#mon wieder"
+	cont "auf."
 	prompt
 
 _AwakeningDescription::
-	text "Wakes a sleeping"
-	line "#mon."
+	text "Weckt ein"
+	line "schlafendes"
+	cont "#mon wieder"
+	cont "auf."
 	prompt
 
 _ParalyzeHealDescription::
-	text "Cures a #mon"
-	line "of paralysis."
+	text "Heilt Paralyse"
+	line "bei #mon."
 	prompt
 
 _FullRestoreDescription::
-	text "Heals a #mon"
-	line "to its full HP"
-	cont "and restores all"
-	cont "status ailments."
+	text "Stellt gesamte KP"
+	line "und Status eines"
+	cont "#mon wieder"
+	cont "her."
 	prompt
 
 _MaxPotionDescription::
-	text "Heals a #mon"
-	line "to its full HP."
+	text "Füllt die KP eines"
+	line "#mon voll-"
+	cont "ständig auf."
 	prompt
 
 _HyperPotionDescription::
-	text "Heals a #mon"
-	line "by 200 HP."
+	text "Füllt die KP eines"
+	line "#mon um 200"
+	cont "Punkte auf."
 	prompt
 
 _SuperPotionDescription::
-	text "Heals a #mon"
-	line "by 50 HP."
+	text "Füllt die KP eines"
+	line "#mon um 50"
+	cont "Punkte auf."
 	prompt
 
 _PotionDescription::
-	text "Heals a #mon"
-	line "by 20 HP."
+	text "Die KP eines"
+	line "#mon werden um"
+	cont "20 Punkte"
+	cont "aufgefüllt."
 	prompt
 
 _SafariBaitDescription::
-	text "Tasty food used"
-	line "used to lure"
-	cont "#mon in the"
-	cont "Safari Zone."
+	text "Dieses Futter"
+	line "wird in der"
+	cont "Safari-Zone ge-"
+	cont "nutzt um"
+	cont "dort #mon"
+	cont "anzulocken."
 	prompt
 
 _SafariRockDescription::
-	text "Makes catching"
-	line "#mon in the"
-	cont "Safari Zone"
-	cont "easier."
+	text "Dadurch wird"
+	line "das Fangen von"
+	cont "#mon in der"
+	cont "Safari-Zone"
+	cont "einfacher."
 	prompt
 
 _OldSeaMapDescription::
-	text "A faded sea chart"
-	line "that shows the"
-	cont "way to a certain"
-	cont "island."
+	text "Alte Seekarte!"
+	line "Zeigt den Weg"
+	cont "zu einer Insel."
 	prompt
 
 _MysticTicketDescription::
-	text "A ticket required"
-	line "to board the ship"
-	cont "to Navel Rock."
+	text "Eine Fahrkarte für"
+	line "das Schiff zum"
+	cont "Nabelfelsen."
 	prompt
 
 _EonTicketDescription::
-	text "The ticket for a"
-	line "ferry to a"
-	cont "distant southern"
-	cont "island."
+	text "Das Bootsticket zu"
+	line "einer fernen Insel"
+	cont "im Süden."
 	prompt
 
 _TeruSama1ADescription::
@@ -160,376 +172,382 @@ _TeruSama1CDescription::
 	prompt
 
 _EscapeRopeDescription::
-	text "A long and"
-	line "durable rope."
-
-	para "Use it to escape"
-	line "instantly from a"
-	cont "cave or dungeon."
+	text "Ein langes, festes"
+	line "Seil, das die"
+	cont "sofortige Flucht"
+	cont "aus Höhlen oder"
+	cont "Ähnlichem"
+	cont "ermöglicht."
 	prompt
 
 _RepelDescription::
-	text "Repels weak wild"
-	line "#mon for 100"
-	cont "steps."
+	text "Hält 100 Schritte"
+	line "lang schwache,"
+	cont "wilde #mon"
+	cont "ab."
 	prompt
 
 _OldAmberDescription::
-	text "A stone"
-	line "containing the"
-	cont "genes of an"
-	cont "ancient #mon."
+	text "Ein Stück"
+	line "Bernstein, in dem"
+	cont "die Gene eines"
+	cont "antiken #mon"
+	cont "enthalten sind."
 	prompt
 
 _FireStoneDescription::
-	text "A peculiar stone"
-	line "that makes"
-	cont "certain #mon"
-	cont "evolve."
+	text "Dieser spezielle"
+	line "Stein löst bei"
+	cont "bestimmten"
+	cont "#mon die Ent-"
+	cont "wicklung aus."
 
-	para "The stone has a"
-	line "fiery orange"
-	cont "heart."
+	para "Er ist orange."
 	prompt
 
 _ThunderStoneDescription::
-	text "A peculiar stone"
-	line "that makes"
-	cont "certain #mon"
-	cont "evolve."
+	text "Dieser spezielle"
+	line "Stein löst bei"
+	cont "bestimmten"
+	cont "#mon die Ent-"
+	cont "wicklung aus."
 
-	para "It has a distinct"
-	line "thunderbolt"
-	cont "pattern."
+	para "Er hat ein"
+	line "Blitzmuster."
 	prompt
 
 _WaterStoneDescription::
-	text "A peculiar stone"
-	line "that makes"
-	cont "certain #mon"
-	cont "evolve."
+	text "Dieser spezielle"
+	line "Stein löst bei"
+	cont "bestimmten"
+	cont "#mon die Ent-"
+	cont "wicklung aus."
 
-	para "It is a clear"
-	line "light blue."
+	para "Er ist hellblau."
 	prompt
 
 _HPUpDescription::
-	text "Raises the base"
-	line "HP stat of a"
-	cont "#mon."
+	text "Hebt die KP"
+	line "eines #mon."
 	prompt
 
 _ProteinDescription::
-	text "Raises the base"
-	line "Attack stat of a"
-	cont "#mon."
+	text "Hebt den"
+	line "Angriff"
+	cont "eines #mon."
 	prompt
 
 _IronDescription::
-	text "Raises the base"
-	line "Defense stat of a"
-	cont "#mon."
+	text "Hebt die"
+	line "Verteidigung"
+	cont "eines #mon."
 	prompt
 
 _CarbosDescription::
-	text "Raises the base"
-	line "Speed stat of a"
-	cont "#mon."
+	text "Hebt die"
+	line "Initiative"
+	cont "eines #mon."
 	prompt
 
 _CalciumDescription::
-	text "Raises the base"
-	line "Special stat of a"
-	cont "#mon."
+	text "Hebt den"
+	line "Spezial-Wert"
+	cont "eines #mon."
 	prompt
 
 _RareCandyDescription::
-	text "A candy that is"
-	line "packed with"
-	cont "energy."
-
-	para "Raises the level"
-	line "of a #mon by"
-	cont "one."
+	text "Ein energiereiches"
+	line "Bonbon, das den"
+	cont "Level eines"
+	cont "#mon um eins"
+	cont "anhebt."
 	prompt
 
 _DomeFossilDescription::
-	text "A fossil of an"
-	line "ancient, seafloor"
-	cont "dwelling #mon."
+	text "Ein Fossil eines"
+	line "antiken #mon"
+	cont "das am Meeres-"
+	cont "grund lebte."
 
-	para "It appears to be"
-	line "part of a shell."
+	para "Es sieht aus wie"
+	line "ein Panzer."
 	prompt
 
 _HelixFossilDescription::
-	text "A fossil of an"
-	line "ancient, seafloor"
-	cont "dwelling #mon."
+	text "Ein Fossil eines"
+	line "antiken #mon"
+	cont "das am Meeres-"
+	cont "grund lebte."
 
-	para "It appears to be"
-	line "part of a"
-	cont "seashell."
+	para "Es sieht aus wie"
+	line "ein Panzer."
 	prompt
 
 _SecretKeyDescription::
-	text "Unlocks a door."
+	text "Öffnet eine Türe."
 	prompt
 
 _SunStoneDescription::
-	text "A peculiar stone"
-	line "that makes"
-	cont "certain #mon"
-	cont "evolve."
+	text "Dieser spezielle"
+	line "Stein löst bei"
+	cont "bestimmten"
+	cont "#mon die Ent-"
+	cont "wicklung aus."
 
-	para "It is as red as"
-	line "the sun."
+	para "Er ist rot wie"
+	line "die Sonne."
 	prompt
 
 _BikeVoucherDescription::
-	text "Can be redeemed"
-	line "for a Bicycle."
+	text "Gutschein für"
+	line "ein Fahrrad."
 	prompt
 
 _XAccuracyDescription::
-	text "Raises accuracy"
-	line "of attacks during"
-	cont "battle."
+	text "Hebt die"
+	line "Genauigkeit eines"
+	cont "eines #mon"
+	cont "im Kampf."
 	prompt
 
 _LeafStoneDescription::
-	text "A peculiar stone"
-	line "that makes"
-	cont "certain #mon"
-	cont "evolve."
+	text "Dieser spezielle"
+	line "Stein löst bei"
+	cont "bestimmten"
+	cont "#mon die Ent-"
+	cont "wicklung aus."
 
-	para "It has a leaf"
-	line "pattern."
+	para "Er hat ein"
+	line "Blattmuster."
 	prompt
 
 _CardKeyDescription::
-	text "Opens something."
+	text "Öffnet scheinbar"
+	line "etwas."
 	prompt
 
 _NuggetDescription::
-	text "A chunk of pure"
-	line "gold."
-
-	para "Sell this at a"
-	line "Mart for lots of"
-	cont "money."
+	text "Ein Barren aus"
+	line "purem Gold,"
+	cont "der von großem"
+	cont "Wert ist."
 	prompt
 
 _ThiefBallDescription::
-	text "A Ball capable of"
-	line "stealing #mon"
-	cont "from trainers."
+	text "Mit diesem Ball"
+	line "kann man von"
+	cont "Trainern die"
+	cont "#mon fangen."
 	prompt
 
 _PokeDollDescription::
-	text "A doll that can"
-	line "be used to escape"
-	cont "from a wild"
-	cont "#mon."
+	text "Ermöglicht Flucht"
+	line "im Kampf gegen"
+	cont "wilde #mon."
 	prompt
 
 _FullHealDescription::
-	text "Eliminates all"
-	line "status ailments."
+	text "Beseitigt alle"
+	line "Statusprobleme."
 	prompt
 
 _ReviveDescription::
-	text "Revives a fainted"
-	line "#mon to half"
-	cont "of its max HP."
+	text "Belebt ein"
+	line "#mon und füllt"
+	cont "dessen KP zur"
+	cont "Hälfte auf."
 	prompt
 
 _MaxReviveDescription::
-	text "Revives a fainted"
-	line "#mon to its"
-	cont "maximum HP."
+	text "Belebt ein"
+	line "#mon und füllt"
+	cont "dessen KP"
+	cont "vollständig auf."
 	prompt
 
 _GuardSpecDescription::
-	text "Prevents stat"
-	line "reduction during"
-	cont "battle."
+	text "Statusänderung"
+	line "wird für einen"
+	cont "Kampf verhindert."
 	prompt
 
 _SuperRepelDescription::
-	text "Repels weak wild"
-	line "#mon for 200"
-	cont "steps."
+	text "Hält 200 Schritte"
+	line "lang schwache,"
+	cont "wilde #mon"
+	cont "ab."
 	prompt
 
 _MaxRepelDescription::
-	text "Repels weak wild"
-	line "#mon for 250"
-	cont "steps."
+	text "Hält 250 Schritte"
+	line "lang schwache,"
+	cont "wilde #mon"
+	cont "ab."
 	prompt
 
 _DireHitDescription::
-	text "Raises critical"
-	line "hit ratio during"
-	cont "battle."
+	text "Hebt die"
+	line "Volltrefferquote"
+	cont "für einen Kampf."
 	prompt
 
 _CoinDescription::
-	text "Redeem for prizes"
-	line "at the Game"
-	cont "Corner."
+	text "Kann in der"
+	line "Spielhalle gegen"
+	cont "Preise getauscht"
+	cont "werden."
 	prompt
 
 _FreshWaterDescription::
-	text "Heals a #mon"
-	line "by 50 HP."
+	text "Ein stilles Wasser"
+	line "das die KP um 50"
+	cont "Punkte auffüllt."
 	prompt
 
 _SodaPopDescription::
-	text "Heals a #mon"
-	line "by 60 HP."
+	text "Ein sprudelndes"
+	line "WMieralwasser das"
+	line "die KP um 60"
+	cont "Punkte auffüllt."
 	prompt
 
 _LemonadeDescription::
-	text "Heals a #mon"
-	line "by 80 HP."
+	text "Ein süßes Getränk"
+	line "das die KP um 80"
+	cont "Punkte auffüllt."
 	prompt
 
 _SSTicketDescription::
-	text "A ticket to board"
-	line "the S.S. Anne."
+	text "Ein Ticket, um auf"
+	line "der M.S. Anne zu"
+	cont "fahren."
 	prompt
 
 _GoldTeethDescription::
-	text "A shiny pair of"
-	line "dentures."
-
-	para "Someone must be"
-	line "having trouble"
-	cont "talking!"
+	text "Verlorenes Gebiss"
+	line "des Wärters"
+	cont "der Safari-Zone" 
 	prompt
 
 _XAttackDescription::
-	text "Raises Attack"
-	line "stat during"
-	cont "battle."
+	text "Hebt den"
+	line "Angriffs-Wert"
+	cont "eines #mon"
+	cont "im Kampf."
 	prompt
 
 _XDefendDescription::
-	text "Raises Defense"
-	line "stat during"
-	cont "battle."
+	text "Hebt die"
+	line "Verteidigung"
+	cont "eines #mon"
+	cont "im Kampf."
 	prompt
 
 _XSpeedDescription::
-	text "Raises Speed"
-	line "stat during"
-	cont "battle."
+	text "Hebt den"
+	line "Initiativ-Wert"
+	cont "eines #mon"
+	cont "im Kampf."
 	prompt
 
 _XSpecialDescription::
-	text "Raises Special"
-	line "stat during"
-	cont "battle."
+	text "Hebt den"
+	line "Spezial-Wert"
+	cont "eines #mon"
+	cont "im Kampf."
 	prompt
 
 _CoinCaseDescription::
-	text "A case that holds"
-	line "up to 9,999"
-	cont "Coins."
+	text "Kann bis zu"
+	line "9.999 Münzen"
+	cont "aufnehmen."
 	prompt
 
 _OaksParcelDescription::
-	text "A package for"
-	line "Prof.Oak."
+	text "Ein Paket für"
+	line "Prof. Eich."
 	prompt
 
 _ItemFinderDescription::
-	text "Helps locate"
-	line "hidden items on"
-	cont "the ground."
+	text "Hilft bei finden"
+	line "von versteckten"
+	cont "Items."
 	prompt
 
 _SilphScopeDescription::
-	text "An item that"
-	line "makes ghosts"
-	cont "clearly visible."
+	text "Eine Linse, mit"
+	line "der unsichtbare"
+	cont "#mon sichtbar"
+	cont "werden."
 	prompt
 
 _PokeFluteDescription::
-	text "A sweet souding"
-	line "flute that wakes"
-	cont "any sleeping"
-	cont "#mon."
+	text "Flöte, deren Klang"
+	line "jedes schlafende"
+	cont "#mon aufweckt."
 	prompt
 
 _LiftKeyDescription::
-	text "An elevator key"
-	line "used in Team"
-	cont "Rocket's hideout."
-
-	para "It bears the Team"
-	line "Rocket logo."
+	text "Ein Schlüssel, mit"
+	line "dem der Aufzug im"
+	cont "Versteck von Team"
+	cont "Rocket aktiviert."
+	cont "wird."
 	prompt
 
 _EXPShareDescription::
-	text "Gives half Exp."
-	line "to #mon who"
-	cont "did not"
-	cont "participate in"
-	cont "battle."
+	text "Ein Item, das"
+	line "einem #mon zum"
+	cont "Tragen gegeben"
+	cont "werden kann."
+	cont "Es teilt die EP."
 	prompt
 
 _OldRodDescription::
-	text "An old, beat-up"
-	line "fishing rod."
-
-	para "Use by water to"
-	line "fish for #mon."
+	text "Damit kannst du"
+	line "in jedem Gewässer"
+	cont "#mon angeln."
 	prompt
 
 _GoodRodDescription::
-	text "A new, good-"
-	line "quality fishing"
-	cont "rod."
-
-	para "Use by water to"
-	line "fish for #mon."
+	text "Eine recht gute"
+	line "Angel zum"
+	cont "#mon-Fischen"
 	prompt
 
 _SuperRodDescription::
-	text "An awesome, high-"
-	line "tech fishing rod."
-
-	para "Use by water to"
-	line "fish for #mon."
+	text "Die beste Angel,"
+	line "um nach #mon"
+	cont "zu fischen."
 	prompt
 
 _PPUpDescription::
-	text "Raises max PP of"
-	line "a selected move."
+	text "Hebt die maximale"
+	line "Anzahl der AP"
+	cont "einer Attake."
 	prompt
 
 _EtherDescription::
-	text "Restores 10 PP"
-	line "of one move."
+	text "Füllt AP einer"
+	line "Attacke um 10"
+	cont "auf."
 	prompt
 
 _MaxEtherDescription::
-	text "Fully restores PP"
-	line "a one move."
+	text "Füllt AP einer"
+	line "Attacke"
+	cont "vollständig auf."
 	prompt
 
 _ElixerDescription::
-	text "Restores 10 PP to"
+	text "Füllt alle AP um"
 	line "all moves of one"
 	cont "#mon."
 	prompt
 
 _MaxElixerDescription::
 	text "Fully restores PP"
-	line "of all moves of"
-	cont "one #mon."
+	line "10 Punkte auf."
 	prompt
 
 _FloorB2FDescription::
@@ -589,95 +607,104 @@ _FloorB4FDescription::
 	prompt
 
 _OranBerryDescription::
-	text "Restores 10 HP"
-	line "when used."
+	text "Füllt die KP"
+	line "im Kampf um 10"
+	cont "Punkte auf."
 	prompt
 
 _SitrusBerryDescription::
-	text "Restores 30 HP"
-	line "when used."
+	text "Füllt die KP"
+	line "im Kampf um 30"
+	cont "Punkte auf."
 	prompt
 
 _LeppaBerryDescription::
-	text "Restores 10 PP"
-	line "when used."
+	text "Füllt die AP"
+	line "im Kampf um 10"
+	cont "Punkte auf."
 	prompt
 
 _PechaBerryDescription::
-	text "Cures a #mon of"
-	line "being Poisoned."
+	text "Bewirkt im Kampf"
+	line "Selbstheilung bei"
+	cont "Vergiftung."
 	prompt
 
 _RawstBerryDescription::
-	text "Cures a #mon of"
-	line "being Burned."
+	text "Bewirkt im Kampf"
+	line "Selbstheilung bei"
+	cont "Verbrennung."
 	prompt
 
 _AspearBerryDescription::
-	text "Cures a #mon of"
-	line "being Frozen."
+	text "Bewirkt im Kampf"
+	line "Selbstheilung bei"
+	cont "Frost."
 	prompt
 
 _ChestoBerryDescription::
-	text "Wakes up a #mon"
-	line "that is Asleep."
+	text "Weckt schlafendes"
+	line "#mon im Kampf."
 	prompt
 
 _CheriBerryDescription::
-	text "Cures a #mon of"
-	line "Paralysis."
+	text "Bewirkt im Kampf"
+	line "Selbstheilung bei"
+	cont "Paralyse."
 	prompt
 
 _LumBerryDescription::
-	text "Cures #mon of"
-	line "any negative"
-	cont "status condition."
+	text "Bewirkt im Kampf"
+	line "Selbstheilung bei"
+	cont "Statusproblem."
 	prompt
 
 _SwegBerryDescription::
-	text "An extremely rare"
-	line "Berry."
+	text "Eine sehr seltene"
+	line "Beere."
 
-	para "It increases a"
-	line "#mon's level by"
-	cont "1 when used."
+	para "Hebt den Level"
+	line "eines #mon um"
+	cont "eins an."
 	prompt
 
 _GoHomeDescription::
-	text "Go home."
+	text "Nach Hause."
 	prompt
 
 _HM01Description::
-	text "HM01 - Cut"
-	line "Use out of battle"
-	cont "to hack away at"
-	cont "small bushes."
+	text "VM01-Zerschneider"
+	line "Außerhalb des"
+	cont "Kampfes werden"
+	cont "damit kleine"
+	cont "Bäume gefällt."
 	prompt
 
 _HM02Description::
-	text "HM02 - Fly"
-	line "Use out of battle"
-	cont "to fly between"
-	cont "towns."
+	text "VM02 - Fliegen"
+	line "Fliege zu jeder"
+	cont "bekannten Stadt."
 	prompt
 
 _HM03Description::
-	text "HM03 - Surf"
-	line "Use out of battle"
-	cont "to move on water."
+	text "VM03 - Surfer"
+	line "Damit kann man"
+	cont "auf dem Wasser"
+	cont "surfen."
 	prompt
 
 _HM04Description::
-	text "HM04 - Strength"
-	line "Use out of battle"
-	cont "to move boulders."
+	text "VM04 - Stärke"
+	line "Bewege damit"
+	cont "große, runde"
+	cont "Felsen."
 	prompt
 
 _HM05Description::
-	text "HM05 - Dive"
-	line "Use out of battle"
-	cont "to dive into deep"
-	cont "water."
+	text "VM05 - Taucher"
+	line "Ermöglicht"
+	cont "Tauchgänge zum"
+	cont "Meeresgrund."
 	prompt
 
 _TM01Description::
@@ -901,33 +928,33 @@ _EmptyDescription::
 	done
 
 _MasterBallDescription_Mart::
-	text "The best Ball."
-	line "It never misses."
+	text "Der beste Ball."
+	line "Fängt immer."
 	done
 
 _UltraBallDescription_Mart::
-	text "A Ball with high"
-	line "rate of success."
+	text "Ein Ball mit sehr"
+	line "hoher Fangrate."
 	done
 
 _GreatBallDescription_Mart::
-	text "A Ball with"
-	line "decent success."
+	text "Ein Ball mit"
+	line "guter Fangrate."
 	done
 
 _PokeBallDescription_Mart::
-	text "An item for"
-	line "catching #mon."
+	text "Zum fangen von"
+	line "#mon."
 	done
 
 _TownMapDescription_Mart::
-	text "A map of the"
-	line "region."
+	text "Eine Karte"
+	line "der Region."
 	done
 
 _BicycleDescription_Mart::
-	text "Allows for quick"
-	line "traveling!"
+	text "Erlaubt schnelles"
+	line "reisen!"
 	done
 
 _SurfboardDescription_Mart::
@@ -935,93 +962,92 @@ _SurfboardDescription_Mart::
 	done
 
 _SafariBallDescription_Mart::
-	text "A Ball used in"
-	line "the Safari Zone."
+	text "Ein Ball für die"
+	line "Safari Zone."
 	done
 
 _PokedexDescription_Mart::
-	text "A #mon"
-	line "encyclopedia."
+	text "Eine #mon"
+	line "enzyklopädie."
 	done
 
 _MoonStoneDescription_Mart::
-	text "Evolves certain"
-	line "#mon."
+	text "Entwickelt"
+	line "einige #mon."
 	done
 
 _AntidoteDescription_Mart::
-	text "Cures a poisoned"
+	text "Heilt vergiftete"
 	line "#mon."
 	done
 
 _BurnHealDescription_Mart::
-	text "Cures a #mon"
-	line "of its burn."
+	text "Heilt verbrannte"
+	line "#mon"
 	done
 
 _IceHealDescription_Mart::
-	text "Thaws a frozen"
-	line "#mon."
+	text "Taut gefrohrene"
+	line "#mon auf."
 	done
 
 _AwakeningDescription_Mart::
-	text "Wakes a sleeping"
-	line "#mon."
+	text "Weckt schlafende"
+	line "#mon auf."
 	done
 
 _ParalyzeHealDescription_Mart::
-	text "Cures a #mon"
-	line "of paralysis."
+	text "Heilt paralysierte"
+	line "#mon."
 	done
 
 _FullRestoreDescription_Mart::
-	text "Fully restores HP"
-	line "and status."
+	text "Füllt KP auf"
+	line "und heilt Status."
 	done
 
 _MaxPotionDescription_Mart::
-	text "Heals a #mon"
-	line "to its full HP."
+	text "Füllt die KP"
+	line "komplett auf."
 	done
 
 _HyperPotionDescription_Mart::
-	text "Heals a #mon"
-	line "by 200 HP."
+	text "Füllt die KP"
+	line "um 200 auf."
 	done
 
 _SuperPotionDescription_Mart::
-	text "Heals a #mon"
-	line "by 50 HP."
+	text "Füllt die KP"
+	line "um 50 auf."
 	done
 
 _PotionDescription_Mart::
-	text "Heals a #mon"
-	line "by 20 HP."
+	text "Füllt die KP"
+	line "um 20 auf."
 	done
 
 _SafariBaitDescription_Mart::
-	text "Lures #mon in"
-	line "the Safari Zone."
+	text "Hilft beim fangen"
+	line "in Safari Zone."
 	done
 
 _SafariRockDescription_Mart::
-	text "Angers #mon in"
-	line "the Safari Zone."
+	text "Verärgert #mon"
+	line "in der Safari Zone."
 	done
 
 _OldSeaMapDescription_Mart::
-	text "A sea chart that"
-	line "marks an island."
+	text "Alte Seekarte!"
 	done
 
 _MysticTicketDescription_Mart::
-	text "A ticket to"
-	line "Navel Rock."
+	text "Ticket zum"
+	line "Nabelfelsen."
 	done
 
 _EonTicketDescription_Mart::
-	text "A ferry ticket to"
-	line "Southern Island."
+	text "Ticket zur fernen"
+	line "Insel im Süden."
 	done
 
 _TeruSama1ADescription_Mart::
@@ -1052,18 +1078,18 @@ _OldAmberDescription_Mart::
 	done
 
 _FireStoneDescription_Mart::
-	text "Evolves certain"
-	line "#mon."
+	text "Entwickelt"
+	line "einige #mon."
 	done
 
 _ThunderStoneDescription_Mart::
-	text "Evolves certain"
-	line "#mon."
+	text "Entwickelt"
+	line "einige #mon."
 	done
 
 _WaterStoneDescription_Mart::
-	text "Evolves certain"
-	line "#mon."
+	text "Entwickelt"
+	line "einige #mon."
 	done
 
 _HPUpDescription_Mart::
@@ -1111,156 +1137,157 @@ _SecretKeyDescription_Mart::
 	done
 
 _SunStoneDescription_Mart::
-	text "Evolves certain"
-	line "#mon."
+	text "Entwickelt"
+	line "einige #mon."
 	done
 
 _BikeVoucherDescription_Mart::
-	text "Can be redeemed"
-	line "for a Bicycle."
+	text "Tausche dies gegen"
+	line "ein Fahrrad."
 	done
 
 _XAccuracyDescription_Mart::
-	text "Raises accuracy"
-	line "of attacks."
+	text "Hebt den"
+	line "Treffer-Wert."
 	done
 
 _LeafStoneDescription_Mart::
-	text "Evolves certain"
-	line "#mon."
+	text "Entwickelt"
+	line "einige #mon."
 	done
 
 _CardKeyDescription_Mart::
-	text "Opens something."
+	text "Öffnet etwas."
 	done
 
 _NuggetDescription_Mart::
-	text "A chunk of pure"
-	line "gold."
+	text "Ein Klumpen aus"
+	line "purem Gold."
 	done
 
 _ThiefBallDescription_Mart::
-	text "A Ball capable of"
-	line "stealing #mon."
+	text "Kann #mon von"
+	line "Trainern stehlen."
 	done
 
 _PokeDollDescription_Mart::
-	text "Use to escape"
-	line "from wild battle."
+	text "Fliehe in wilden"
+	line "Kämpfen."
 	done
 
 _FullHealDescription_Mart::
-	text "Eliminates all"
-	line "status ailments."
+	text "Heilt alle"
+	line "Statusänderungen."
 	done
 
 _ReviveDescription_Mart::
-	text "Revives a fainted"
-	line "#mon half HP."
+	text "Belebt ein #mon"
+	line "mit halben KP."
 	done
 
 _MaxReviveDescription_Mart::
-	text "Revives a fainted"
-	line "#mon max HP."
+	text "Belebt eine #mon"
+	line "mit vollen KP."
 	done
 
 _GuardSpecDescription_Mart::
-	text "Prevents stat"
-	line "reduction."
+	text "Statusänderungen"
+	line "werden verhindern."
 	done
 
 _SuperRepelDescription_Mart::
-	text "Repels #mon"
-	line "for 200 steps."
+	text "Schützt dich 200"
+	line "Schritte."
 	done
 
 _MaxRepelDescription_Mart::
-	text "Repels #mon"
-	line "for 250 steps."
+	text "Schützt dich 250"
+	line "Schritte."
 	done
 
 _DireHitDescription_Mart::
-	text "Raises critical"
-	line "hit chance."
+	text "Hebt die"
+	line "Volltrefferquote"
 	done
 
 _CoinDescription_Mart::
-	text "Redeem for prizes"
-	line "at Game Corner."
+	text "Zum tauschen in"
+	line "der Spielhalle."
 	done
 
 _FreshWaterDescription_Mart::
-	text "Heals a #mon"
-	line "by 50 HP."
+	text "Füllt 50 KP"
+	line "auf."
 	done
 
 _SodaPopDescription_Mart::
-	text "Heals a #mon"
-	line "by 60 HP."
+	text "Füllt 60 KP"
+	line "auf."
 	done
 
 _LemonadeDescription_Mart::
-	text "Heals a #mon"
-	line "by 80 HP."
+	text "Füllt 80 KP"
+	line "auf."
 	done
 
 _SSTicketDescription_Mart::
-	text "A ticket to board"
-	line "the S.S. Anne."
+	text "Ein Ticket für"
+	line "die M.S. Anne."
 	done
 
 _GoldTeethDescription_Mart::
-	text "A shiny pair of"
-	line "dentures."
+	text "Glänzende"
+	line "Goldzähne."
 	done
 
 _XAttackDescription_Mart::
-	text "Raises Attack"
-	line "stat in battle."
+	text "Hebt den"
+	line "Angriffs-Wert."
 	done
 
 _XDefendDescription_Mart::
-	text "Raises Defense"
-	line "stat in battle."
+	text "Hebt die"
+	line "Verteidigung."
 	done
 
 _XSpeedDescription_Mart::
-	text "Raises Speed"
-	line "stat in battle."
+	text "Hebt den"
+	line "Initiativ-Wert."
 	done
 
 _XSpecialDescription_Mart::
-	text "Raises Special"
-	line "stat in battle."
+	text "Hebt den"
+	line "Spezial-Wert."
 	done
 
 _CoinCaseDescription_Mart::
-	text "A case that holds"
-	line "9,999 Coins."
+	text "Hat Platz für"
+	line "9.999 Münzen."
 	done
 
 _OaksParcelDescription_Mart::
-	text "A package for"
-	line "Prof.Oak."
+	text "Ein Paket für"
+	line "Prof. Eich."
 	done
 
 _ItemFinderDescription_Mart::
-	text "Helps locate"
-	line "hidden items."
+	text "Hilft beim finden"
+	line "von Items."
 	done
 
 _SilphScopeDescription_Mart::
-	text "An item that"
-	line "reveals ghosts."
+	text "Macht Geister"
+	line "sichtbar."
 	done
 
 _PokeFluteDescription_Mart::
-	text "Wakes sleeping"
-	line "#mon."
+	text "Weckt schlafende"
+	line "#mon auf."
 	done
 
 _LiftKeyDescription_Mart::
-	text "An elevator key."
+	text "Ein"
+	line "Lift-Schlüssel"
 	done
 
 _EXPShareDescription_Mart::
@@ -1365,18 +1392,18 @@ _FloorB4FDescription_Mart::
 	done
 
 _OranBerryDescription_Mart::
-	text "Restores 10 HP"
-	line "when used."
+	text "Füllt im Kampf"
+	line "10 KP auf."
 	done
 
 _SitrusBerryDescription_Mart::
-	text "Restores 30 HP"
-	line "when used."
+	text "Füllt im Kampf"
+	line "30 KP auf."
 	done
 
 _LeppaBerryDescription_Mart::
-	text "Restores 10 PP"
-	line "when used."
+	text "Füllt 10 AP"
+	line "im Kampf auf."
 	done
 
 _PechaBerryDescription_Mart::
@@ -1405,37 +1432,38 @@ _CheriBerryDescription_Mart::
 	done
 
 _LumBerryDescription_Mart::
-	text "Cures #mon of"
-	line "status conditions"
+	text "Heilt alle"
+	line "Statusveränderungen"
 	done
 
 _SwegBerryDescription_Mart::
-	text "Raises level of"
-	line "#mon by 1."
+	text "Hebt das Level um"
+	line "eins an."
 	done
 
 _GoHomeDescription_Mart::
-	text "Go home."
+	text "Nach hause."
 	done
 
 _HM01Description_Mart::
-	text "HM01 - Cut"
+	text "VM01 -"
+	line "Zerschneider"
 	done
 
 _HM02Description_Mart::
-	text "HM02 - Fly"
+	text "VM02 - Fliegen"
 	done
 
 _HM03Description_Mart::
-	text "HM03 - Surf"
+	text "VM03 - Surfer"
 	done
 
 _HM04Description_Mart::
-	text "HM04 - Strength"
+	text "VM04 - Stärke"
 	done
 
 _HM05Description_Mart::
-	text "HM05 - Dive"
+	text "VM05 - Taucher"
 	done
 
 _TM01Description_Mart::

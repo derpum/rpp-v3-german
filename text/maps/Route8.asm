@@ -90,12 +90,12 @@ _Route8EndBattleText5::
 _Route8AfterBattleText5::
 	text "Wir sitzen hier"
 	line "fest, weil"
-	cont "SAFFRONIA CITY"
+	cont "Saffronia City"
 	cont "abgeriegelt wird."
 	done
 
 _Route8BattleText6::
-	text "MAUZI ist so süß!"
+	text "Mauzi ist so süß!"
 	line "Miau, miauz!"
 	done
 
@@ -104,8 +104,8 @@ _Route8EndBattleText6::
 	prompt
 
 _Route8AfterBattleText6::
-	text "Aber TAUBSI und"
-	line "RATTFRATZ sind"
+	text "Aber Taubsi und"
+	line "Rattfratz sind"
 	cont "auch niedlich!"
 	done
 
@@ -123,8 +123,8 @@ _Route8EndBattleText7::
 
 _Route8AfterBattleText7::
 	text "Der Wachtposten"
-	line "von SAFFRONIA"
-	cont "CITY ist so"
+	line "von Saffronia"
+	cont "City ist so"
 	cont "gemein! Er läßt"
 	cont "uns nicht in die"
 	cont "Stadt!"
@@ -161,9 +161,9 @@ _Route8EndBattleText9::
 
 	para "Sei nicht so"
 IF DEF(_HARD)
-	line "to my Clefable!"
+	line "zu Pixi!"
 ELSE
-	line "to my Clefairy!"
+	line "zu Piepi!"
 ENDC
 	prompt
 
@@ -173,7 +173,7 @@ IF DEF(_HARD)
 ELSE
 	text "Ich hörte das"
 ENDC
-	line "PIEPI sich"
+	line "Piepi sich"
 	cont "entwickelt wenn"
 	cont "man ihm einen"
 IF DEF(_HARD)

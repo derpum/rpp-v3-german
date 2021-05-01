@@ -2,7 +2,7 @@ _CeruleanMartText2::
 	text "Benutze einen"
 	line "Schutz, um Käfer"
 	cont "und schwächere"
-	cont "#MON von Dir"
+	cont "#mon von Dir"
 	cont "fernzuhalten!"
 
 	para "Für optimalen"

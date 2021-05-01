@@ -6,7 +6,7 @@ _Lab4Text_75dc6::
 
 	para "Wir erforschen"
 	line "Fossilien von"
-	cont "URZEIT-#MON!"
+	cont "Urzeit-#mon!"
 
 	para "Hast Du ein"
 	line "Fossil für mich?"
@@ -51,11 +51,11 @@ _Lab4Text_610ae::
 	text ","
 	cont "einem schon lange"
 	cont "ausgestorbenen"
-	cont "#MON!"
+	cont "#mon!"
 
 	para "Dank modernster"
 	line "Technik können"
-	cont "wir #MON"
+	cont "wir #mon"
 	cont "aus Fossilien"
 	cont "wiederbeleben!"
 	done

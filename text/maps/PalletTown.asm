@@ -9,9 +9,10 @@ _OakWalksUpText::
 	cont "Turbotreter so"
 	cont "wie du sie hast."
 
-	para "Wie auch immer,"
-	line "du brauchst eigene"
-	cont "#mon, um Dich"
+	para "Wie auch immer ..."
+	
+	para "Du brauchst eigene"
+	line "#mon, um Dich"
 	cont "zu schützen."
 
 	para "Komm, folge"

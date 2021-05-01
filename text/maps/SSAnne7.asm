@@ -30,7 +30,7 @@ _ReceivingHM01Text::
 	line "einfach das hier!"
 
 	para "Damit bringst Du"
-	line "Deinen #MON"
+	line "Deinen #mon"
 	cont "den Umgang mit"
 	cont "dem Zerschneider"
 	cont "ganz leicht bei!"

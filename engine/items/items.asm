@@ -2151,8 +2151,8 @@ ItemUseItemfinder:
 	jp PrintText
 
 ItemFinderUsedText:
-	text "[PLAYER] used the"
-	line "ItemFinder!"
+	text "[PLAYER] setzt"
+	line "den Detektor ein!"
 	prompt
 
 ItemfinderFoundItemText:
@@ -2775,8 +2775,8 @@ TossItem_:
 	call CopyStringToCF4B ; copy name to wcf4b
 	ld hl,IsItOKToTossItemText
 	call PrintText
-	coord hl, 14, 7
-	lb bc, 8, 15
+	coord hl, 13, 7
+	lb bc, 8, 14
 	ld a,TWO_OPTION_MENU
 	ld [wTextBoxID],a
 	call DisplayTextBoxID ; yes/no menu

@@ -1,90 +1,91 @@
 _ScizorDexEntry::
-	text "This #mon's"
-	next "pincers, which"
-	next "contain steel, can"
+	text "Dieses #mon"
+	next "kann mit seinen"
+	next "stählernen Scheren"
 
-	page "crush any hard"
-	next "object it gets a"
-	next "hold of into bits"
+	page "jeden harten"
+	next "Gegenstand mühelos"
+	next "zermalmen."
 	dex
 	
 _SteelixDexEntry::
-	text "It is said that if"
-	next "an Onix lives for"
-	next "over 100 years,"
+	text "Die vielen Metall-"
+	next "teilchen, die den"
+	next "Körper dieses"
 
-	page "its composition"
-	next "changes to become"
-	next "diamond-like"
+	page "#mon bedecken,"
+	next "reflektieren das"
+	next "Licht sehr gut."
 	dex
 	
 _CrobatDexEntry::
-	text "It flies silently"
-	next "through the dark"
-	next "on its four wings"
+	text "Aufgrund seines"
+	next "Strebens noch"
+	next "schneller und lei-"
 
-	page "so it may not be"
-	next "noticed even when"
-	next "it is nearby"
+	page "ser zu fliegen,"
+	next "wuchsen ihm zwei"
+	next "neue Flügel."
 	dex
 	
 _PolitoedDexEntry::
-	text "If Poliwag and"
-	next "Poliwhirl hear its"
-	next "echoing cry, they"
-	
-	page "gather from far"
-	next "and wide"
+	text "Bläht es seinen"
+	next "Hals auf, um zu"
+	next "quaken, versammeln"
+
+	page "sich Quapsel und"
+	next "Quaputzi von Nah"
+	next "und Fern."
 	dex
 	
 _SlowkingDexEntry::
-	text "The Shellder on"
-	next "its head injects a"
-	next "poison that makes"
+	text "Immer wenn es"
+	next "gähnt, injiziert"
+	next "Muschas mehr Gift."
 
-	page "it much smarter"
-	next "than it would"
-	next "otherwise be"
+	page "Durch das Gift"
+	next "wird es immer"
+	next "intelligenter."
 	dex
 	
 _BellossomDexEntry::
-	text "Plentiful in the"
-	next "tropics. When it"
-	next "dances, its petals"
-	
-	page "rub together and"
-	next "make a pleasant"
-	next "ringing sound"
+	text "Tanzen sie zusam-"
+	next "men, reiben ihre"
+	next "Blätter aneinander"
+
+	page "und erzeugen ein"
+	next "sehr entspannendes"
+	next "Geräusch."
 	dex
 	
 _KingdraDexEntry::
-	text "It is said that it"
-	next "usually hides in"
-	next "underwater caves."
-	
-	page "It can create"
-	next "Whirlpools by"
-	next "yawning"
+	text "Kein anderes Lebe-"
+	next "wesen kann in den"
+	next "Tiefen existieren,"
+
+	page "in denen es"
+	next "schläft und so"
+	next "Energie speichert."
 	dex
 	
 _BlisseyDexEntry::
-	text "It has a very com-"
-	next "passionate nature."
-	next "If it sees a sick"
+	text "Beisst man in"
+	next "eines der leckeren"
+	next "Eier von Heiteira,"
 
-	page "#mon, it will"
-	next "nurse the sufferer"
-	next "back to health"
+	page "wird jeder Mensch"
+	next "in der Nähe glück-"
+	next "lich und froh."
 	dex
 	
 _Porygon2DexEntry::
-	text "A manmade #mon"
-	next "that evolved from"
-	next "new technology."
+	text "Dieses #mon"
+	next "ist das Ergebnis"
+	next "neuester Technolo-"
 
-	page "It may have some"
-	next "unprogrammed"
-	next "reactions"
+	page "gie. Es könnte un-"
+	next "programmierte Re-"
+	next "aktionen zeigen."
 	dex
 	
 _PorygonZDexEntry::
@@ -158,23 +159,22 @@ _LickilickyDexEntry::
 	dex
 	
 _TogepiDexEntry::
-	text "It is considered"
-	next "to be a symbol of"
-	next "good luck."
-	
-	page "It brings joy to"
-	next "everyone around"
-	next "it"
+	text "Es gilt als"
+	next "Glücksbringer."
+	next "Man sagt, seine"
+
+	page "Schale ist voll"
+	next "von purer Freude."
 	dex
 	
 _TogeticDexEntry::
-	text "They say it will"
-	next "appear before kind"
-	next "-hearted, caring"
+	text "Obwohl es nicht"
+	next "viel mit den Flü-"
+	next "geln schlägt, hält"
 
-	page "people and shower"
-	next "them with"
-	next "happiness"
+	page "es sich in der"
+	next "Luft, wenn es sei-"
+	next "nem Trainer folgt."
 	dex
 	
 _TogekissDexEntry::
@@ -218,13 +218,13 @@ _SkarmoryDexEntry::
 	dex
 
 _MisdreavusDexEntry::
-	text "It likes playing"
-	next "mischievous tricks"
-	next "such as screaming"
+	text "Es liebt die Men-"
+	next "schen zu beobach-"
+	next "ten, die es durch"
 
-	page "and wailing to"
-	next "startle people at"
-	next "night"
+	page "Schreie oder jähes"
+	next "Auftreten er-"
+	next "schreckt hat."
 	dex
 	
 _MismagiusDexEntry::
@@ -238,53 +238,53 @@ _MismagiusDexEntry::
 	dex
 	
 _MiltankDexEntry::
-	text "Its milk is packed"
-	next "with nutrition,"
-	next "making it the"
+	text "Um Miltank zu"
+	next "melken, muss man"
+	next "ein Gespür dafür"
 
-	page "ultimate beverage"
-	next "for the sick or"
-	next "weary"
+	page "haben, wie man das"
+	next "Euter rhythmisch"
+	next "auf und ab bewegt."
 	dex
 
 _ChinchouDexEntry::
-	text "It shoots positive"
-	next "and negative elec-"
-	next "tricity between"
+	text "Seine Antennen,"
+	next "die aus Flossen"
+	next "entstanden sind,"
 
-	page "the tips of its"
-	next "two antennae and"
-	next "zaps its enemies"
+	page "sind sowohl posi-"
+	next "tiv als auch"
+	next "negativ geladen."
 	dex
 	
 _LanturnDexEntry::
-	text "It blinds prey"
-	next "with an intense"
-	next "burst of light,"
+	text "Dieses #mon"
+	next "nutzt das helle"
+	next "Licht, das aus"
 
-	page "then swallows the"
-	next "immobilized prey"
-	next "in a single gulp"
+	page "einer Rückenflosse"
+	next "entstanden ist, um"
+	next "Beute anzulocken."
 	dex
 
 _SlugmaDexEntry::
-	text "These #mon"
-	next "gather together in"
-	next "areas that are"
-	
-	page "hotter than usual."
-	next "If it cools off,"
-	next "its skin hardens"
+	text "Sie versammeln"
+	next "sich in heißen"
+	next "Gebieten. Kühlt es"
+
+	page "sich ab, so wird"
+	next "auch seine Haut"
+	next "sofort hart."
 	dex
 	
 _MagcargoDexEntry::
-	text "Its body is as hot"
-	next "as lava, and is"
-	next "always billowing."
-	
-	page "Flames will"
-	next "occasionally burst"
-	next "from its shell"
+	text "Sein Körper ist"
+	next "heißer als Lava"
+	next "und wogt stets."
+
+	page "Manchmal schießen"
+	next "Flammen aus seinem"
+	next "Haus."
 	dex
 	
 _TorkoalDexEntry::
@@ -318,83 +318,83 @@ _LatiosDexEntry::
 	dex
 	
 _HitmontopDexEntry::
-	text "It launches kicks"
-	next "while spinning. If"
-	next "it spins at high"
-	
-	page "speed, it may bore"
-	next "its way into the"
-	next "ground"
+	text "Nach einem Hand-"
+	next "stand, der das"
+	next "Timing des Gegners"
+
+	page "stören soll, tritt"
+	next "es elegant um"
+	next "sich."
 	dex
 	
 _TyrogueDexEntry::
-	text "To brush up on its"
-	next "fighting skills,"
-	next "it will challenge"
-	
-	page "anyone. It has a"
-	next "very strong com-"
-	next "petitive spirit"
+	text "Um seine Kampf-"
+	next "fähigkeiten zu"
+	next "verbessern, tritt"
+
+	page "es gegen jeden an."
+	next "Es besitzt"
+	next "großen Kampfgeist."
 	dex
 	
 _PichuDexEntry::
-	text "Despite its small"
-	next "size, it can zap"
-	next "even adult humans."
-	
-	page "However, if it"
-	next "does so, it also"
-	next "surprises itself"
+	text "Es ist noch nicht"
+	next "erfahren im Umgang"
+	next "mit Elektrizität."
+
+	page "Bei jedem Stoß"
+	next "entlädt es spontan"
+	next "Energie."
 	dex
 	
 _CleffaDexEntry::
-	text "When numerous"
-	next "meteors illuminate"
-	next "the night sky,"
-	
-	page "sightings of"
-	next "Cleffa strangely"
-	next "increase"
+	text "Wenn man den Ein-"
+	next "schlagkrater eines"
+	next "Meteors findet,"
+
+	page "ist dieses #mon"
+	next "bestimmt in der"
+	next "Nähe."
 	dex
 	
 _IgglybuffDexEntry::
-	text "Instead of walking"
-	next "with its short"
-	next "legs, it moves"
-	
-	page "around by bouncing"
-	next "on its soft,"
-	next "tender body"
+	text "Anstatt mit seinen"
+	next "kurzen Beinen zu"
+	next "laufen, hüpft es"
+
+	page "mit seinem weichen"
+	next "und kuscheligen"
+	next "Körper."
 	dex
 	
 _SmoochumDexEntry::
-	text "The sensitivity of"
-	next "its lips develops"
-	next "most quickly."
-	
-	page "It uses them to"
-	next "try to identify"
-	next "unknown objects"
+	text "Die Empfindsamkeit"
+	next "seiner Lippen"
+	next "entwickelt sich am"
+
+	page "schnellsten. Mit"
+	next "ihnen tastet es"
+	next "fremde Objekte ab."
 	dex
 	
 _ElekidDexEntry::
-	text "It loves violent"
-	next "thunder. The space"
-	next "between its horns"
-	
-	page "flickers bluish-"
-	next "white when it is"
-	next "charging energy"
+	text "Es mag gewaltigen"
+	next "Donner. Die Luft"
+	next "zwischen seinen"
+
+	page "Hörnern leuchtet"
+	next "blau, wenn es sich"
+	next "auflädt."
 	dex
 	
 _MagbyDexEntry::
-	text "It is found in"
-	next "volcanic craters."
-	next "Its body temp is"
-	
-	page "over 1100 degrees,"
-	next "so don't under-"
-	next "estimate it"
+	text "Die Flamme, die es"
+	next "spuckt, hat 600"
+	next "Grad C. Wo viele"
+
+	page "von ihnen sind,"
+	next "kommt es zu einem"
+	next "Vulkanausbruch."
 	dex
 	
 _MimeJrDexEntry::
@@ -448,11 +448,11 @@ _LinooneDexEntry::
 	dex
 
 _HoohDexEntry::
-	text "It will reveal"
-	next "itself before a"
-	next "pure-hearted"
+	text "Es wird sich dem"
+	next "Trainer offenba-"
+	next "ren, der reinen"
 
-	page "trainer by shining"
-	next "its bright rain-"
-	next "bow-colored wings"
+	page "Herzens ist und"
+	next "ihm seine bunten"
+	next "Schwingen zeigen."
 	dex

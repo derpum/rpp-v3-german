@@ -1,14 +1,14 @@
 _Route15GateUpstairsText_4968c::
 	text "Mit dem EP-Teiler"
 	line "bekommen alle"
-	cont "#MON, die Du"
+	cont "#mon, die Du"
 	cont "mit Dir führst,"
 	cont "nach einem Kampf"
 	cont "EP."
 
 	para "Die EP werden"
 	line "nach dem Kampf"
-	cont "unter den #MON"
+	cont "unter den #mon"
 	cont "aufgeteilt."
 
 	para "Lege den"

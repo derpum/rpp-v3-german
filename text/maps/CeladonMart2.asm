@@ -1,6 +1,6 @@
 _CeladonMart2Text3::
 	text "Superschutz hält"
-	line "#MON auf"
+	line "#mon auf"
 	cont "Distanz..."
 
 	para "Es ist besser als"

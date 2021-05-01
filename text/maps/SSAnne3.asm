@@ -4,7 +4,7 @@ _SSAnne3Text1::
 	cont "Schwertkampfes!"
 
 	para "Er unterrichtet"
-	line "sogar #MON im"
+	line "sogar #mon im"
 	cont "Umgang mit dem"
 	cont "Zerschneider!"
 	done

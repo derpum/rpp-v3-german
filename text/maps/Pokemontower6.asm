@@ -1,8 +1,8 @@
 _PokemonTower2Text_60c1f::
-	text "Der TRAGOSSO war die"
+	text "Der Geist war die"
 	line "rastlose Seele"
 	cont "der Mutter eines"
-	cont "GEIST!"
+	cont "Tragosso!"
 	done
 
 _PokemonTower2Text_60c24::
@@ -35,10 +35,9 @@ _PokemonTower6BattleText2::
 	done
 
 _PokemonTower6EndBattleText2::
-	text ""
-	line "Irgend etwas hat"
-	cont "mich verlassen!"
-	prompt
+	text "Irgend etwas hat"
+	line "mich verlassen!"
+	done
 
 _PokemonTower6AfterBattleText2::
 	text "Es war ein böser"

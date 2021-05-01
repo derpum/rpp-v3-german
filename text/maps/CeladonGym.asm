@@ -104,7 +104,7 @@ _CeladonGymEndBattleText2::
 
 _CeladonGymAfterBattleText2::
 	text "Buääh!"
-	line "Das wird ERIKA"
+	line "Das wird Erika"
 	cont "Dir heimzahlen!"
 	done
 

@@ -108,9 +108,8 @@ _CeruleanGymBattleText2::
 	done
 
 _CeruleanGymEndBattleText2::
-	text ""
-	line "Das darf nicht"
-	cont "wahr sein!"
+	text "Das darf nicht"
+	line "wahr sein!"
 	prompt
 
 _CeruleanGymAfterBattleText2::

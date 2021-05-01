@@ -3090,16 +3090,16 @@ PrintMenuItem:
 	jp Delay3
 
 DisabledText:
-	db "Disabled!@"
+	db "BLOCKIERT!@"
 
 OtherText:
 	db "Status@"
 
 PhysicalText: ; Added for PS Split
-	db "Physical@"
+	db "Physisch@"
 
 SpecialText: ; added for PS Split
-	db "Special@"
+	db "Spezial@"
 
 SelectEnemyMove:
 	ld a, [wLinkState]
@@ -7112,9 +7112,9 @@ InitWildBattle:
 	ld hl, wEnemyMonNick  ; set name to "GHOST"
 	ld a, "G"
 	ld [hli], a
-	ld a, "h"
+	ld a, "e"
 	ld [hli], a
-	ld a, "o"
+	ld a, "i"
 	ld [hli], a
 	ld a, "s"
 	ld [hli], a

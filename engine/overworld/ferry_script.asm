@@ -207,26 +207,26 @@ WelcomeToSeagallopText:
 	line "Bord der"
 	cont "M.S. Seegallop."
 	
-	para "We travel all"
-	line "over carrying"
-	cont "passengers."
+	para "Wir bringen unsere"
+	line "Passagiere an"
+	cont "besondere Orte."
 	
-	para "Do you have a"
-	line "ticket to travel"
-	cont "with us today?@@"
+	para "Hast du ein Ticket"
+	line "um heute mit uns"
+	cont "zu verreisen?@@"
 
 NoTicketText:
-	text "No? That's too"
-	line "bad."
+	text "Nein? Das ist"
+	line "natürlich schade."
 	
-	para "Come back and see"
-	line "us later."
+	text "Komme doch später"
+	line "nochmal wieder."
 	prompt
 	db "@"
 	
 GoingNowhereText:
-	text "Come back and see"
-	line "us later."
+	text "Komme doch später"
+	line "nochmal wieder."
 	prompt
 	db "@"
 
@@ -236,7 +236,7 @@ AllAboardText:
 	db "@"
 	
 AlreadyThereText:
-	text "We're already"
-	line "there!"
+	text "Wir sind schon"
+	line "angekommen!"
 	prompt
 	db "@"

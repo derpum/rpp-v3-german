@@ -11,10 +11,11 @@ _Route18GateText_4992d::
 	done
 
 _Route18GateText_49932::
-	text "Excuse me!"
+	text "Pardon!"
 	done
 
 _Route19GateText1::
-	text "I love working by"
-	line "the beach here."
+	text "Ich liebe es hier"
+	line "am Strand zu"
+	cont "arbeiten."
 	done

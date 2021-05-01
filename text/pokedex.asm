@@ -50,7 +50,7 @@ _SpearowDexEntry::
 _VoltorbDexEntry::
 	text "Dieses #mon"
 	next "wird oftmals mit"
-	next "einem #BALL"
+	next "einem #ball"
 
 	page "verwechselt. Es"
 	next "lebt vorwiegend"
@@ -70,10 +70,10 @@ _NidokingDexEntry::
 _SlowbroDexEntry::
 	text "Am Schwanz dieses"
 	next "#mon hat sich"
-	next "ein MUSCHAS"
+	next "ein Muschas"
 
 	page "festgesaugt."
-	next "LAHMUS fungiert"
+	next "Lahmus fungiert"
 	next "für ihn als Wirt."
 	dex
 
@@ -82,7 +82,7 @@ _IvysaurDexEntry::
 	next "auf seinem Rücken"
 	next "aufgeht, kann"
 
-	page "BISAKNOSP nicht"
+	page "Bisaknosp nicht"
 	next "mehr auf zwei"
 	next "Beinen stehen."
 	dex
@@ -93,7 +93,7 @@ _ExeggutorDexEntry::
 	next "sich ein Teil"
 
 	page "dieses #mon ab"
-	next "und lebt als OWEI"
+	next "und lebt als Owei"
 	next "weiter."
 	dex
 
@@ -442,12 +442,12 @@ _PsyduckDexEntry::
 	next "hypnotisierendem"
 
 	page "Blick ein, bevor"
-	next "es PSYKRÄFTE"
+	next "es Psykräfte"
 	next "einsetzt."
 	dex
 
 _DrowzeeDexEntry::
-	text "TRAUMATO versetzt"
+	text "Traumato versetzt"
 	next "Gegner in den"
 	next "Schlaf und frißt"
 
@@ -488,7 +488,7 @@ _ElectabuzzDexEntry::
 
 _MagnetonDexEntry::
 	text "Mehrere"
-	next "MAGNETILOS bilden"
+	next "Magnetilos bilden"
 	next "dieses #mon."
 
 	page "Es erscheint,"
@@ -537,7 +537,7 @@ _DiglettDexEntry::
 	dex
 
 _TaurosDexEntry::
-	text "Sieht TAUROS einen"
+	text "Sieht Tauros einen"
 	next "Gegner, so stürmt"
 	next "er wutschnaubend"
 
@@ -568,7 +568,7 @@ _VenonatDexEntry::
 
 _DragoniteDexEntry::
 	text "Ein sehr seltenes"
-	next "WASSER-#mon."
+	next "Wasser-#mon."
 	next "Man sagt,"
 
 	page "seine Intelligenz"
@@ -628,7 +628,7 @@ _ArticunoDexEntry::
 
 _ZapdosDexEntry::
 	text "Ein legendäres"
-	next "VOGEL-#mon,"
+	next "Vogel-#mon,"
 	next "das im Sturzflug"
 
 	page "aus den Wolken"
@@ -729,7 +729,7 @@ _DragonairDexEntry::
 _KabutoDexEntry::
 	text "Ein aus einem"
 	next "Fossil wiederbe-"
-	next "lebtes URZEIT-"
+	next "lebtes Urzeit-"
 
 	page "#mon, welches"
 	next "vor Äonen auf dem"
@@ -797,7 +797,7 @@ _OmanyteDexEntry::
 	dex
 
 _OmastarDexEntry::
-	text "Dieses URZEIT-"
+	text "Dieses Urzeit-"
 	next "#mon ist"
 	next "ausgestorben. Der"
 
@@ -893,7 +893,7 @@ _EkansDexEntry::
 
 	page "Seine Nahrung"
 	next "sind die Eier von"
-	next "VOGEL-#mon."
+	next "Vogel-#mon."
 	dex
 
 _ParasDexEntry::
@@ -1063,7 +1063,7 @@ _HypnoDexEntry::
 
 	page "greift es mit"
 	next "einem Mix von"
-	next "PSYKRÄFTEN an."
+	next "Psykräften an."
 	dex
 
 _GolbatDexEntry::
@@ -1127,7 +1127,7 @@ _KinglerDexEntry::
 
 _CloysterDexEntry::
 	text "Niemand weiß, wie"
-	next "AUSTOS ohne"
+	next "Austos ohne"
 	next "Schale aussieht."
 
 	page "Zur Verteidigung"
@@ -1161,7 +1161,7 @@ _WeezingDexEntry::
 	next "im Lauf der"
 
 	page "Jahre, wenn sich"
-	next "zwei SMOGON"
+	next "zwei Smogon"
 	next "vermischen."
 	dex
 
@@ -1366,7 +1366,7 @@ _GeodudeDexEntry::
 	dex
 
 _PorygonDexEntry::
-	text "PORYGON besteht"
+	text "Porygon besteht"
 	next "komplett aus"
 	next "Computerdaten."
 
@@ -1377,7 +1377,7 @@ _PorygonDexEntry::
 
 _AerodactylDexEntry::
 	text "Ein wildes"
-	next "URZEIT-#mon,"
+	next "Urzeit-#mon,"
 	next "das sich mit"
 
 	page "gezackten Klauen"
@@ -1402,13 +1402,13 @@ _CharmanderDexEntry::
 
 	page "Bei Regen dampft"
 	next "die Schwanzspitze"
-	next "von GLUMANDA."
+	next "von Glumanda."
 	dex
 
 _SquirtleDexEntry::
 	text "Nach der Geburt"
 	next "bildet sich auf"
-	next "SCHIGGYS Rücken"
+	next "Schiggys Rücken"
 
 	page "ein Panzer."
 	next "Es attackiert"
@@ -1416,7 +1416,7 @@ _SquirtleDexEntry::
 	dex
 
 _CharmeleonDexEntry::
-	text "Wenn GLUTEXO mit"
+	text "Wenn Glutexo mit"
 	next "seinem Schwanz"
 	next "schwingt, steigt"
 
@@ -1487,7 +1487,7 @@ _BellsproutDexEntry::
 _WeepinbellDexEntry::
 	text "Dieses #mon"
 	next "lähmt den Gegner"
-	next "mit GIFTPUDER,"
+	next "mit Giftpuder,"
 
 	page "bevor es ihn mit"
 	next "einem Säureregen"
@@ -1505,43 +1505,43 @@ _VictreebelDexEntry::
 	dex
 
 _LugiaDexEntry::
-	text "It is said to be"
-	next "the guardian of"
-	next "the seas. It is"
+	text "Es verfügt über"
+	next "die Fähigkeit"
+	next "Stürme zu zügeln."
 
-	page "rumored to have"
-	next "been seen on the"
-	next "night of a storm"
+	page "Man sagt, dass"
+	next "Lugia auftaucht,"
+	next "wenn es stürmt."
 	dex
 	
 _HoundourDexEntry::
-	text "Around dawn, its"
-	next "ominous howl"
-	next "echoes through the"
-	
-	page "area to announce"
-	next "that this is its"
-	next "territory"
+	text "Im Morgengrauen"
+	next "schallt sein omi-"
+	next "nöses Geheule über"
+
+	page "das Gebiet, das es"
+	next "für sich"
+	next "beansprucht."
 	dex
 	
 _HoundoomDexEntry::
-	text "If you are burned"
-	next "by the flames it"
-	next "shoots from its"
-	
-	page "mouth, the pain"
-	next "will never go"
-	next "away"
+	text "Der stechende"
+	next "Gestank seiner"
+	next "Flamme, die seinem"
+
+	page "Maul entspringt,"
+	next "kommt von dem Gift"
+	next "in seinem Körper."
 	dex
 	
 _MurkrowDexEntry::
-	text "Feared and loathed"
-	next "by many, it is"
-	next "believed to bring"
-	
-	page "misfortune to all"
-	next "those who see it"
-	next "at night"
+	text "Es versteckt jeden"
+	next "schimmernden"
+	next "Gegenstand."
+
+	page "Kramurx und Mauzi"
+	next "rauben sich gegen-"
+	next "seitig die Beute."
 	dex
 	
 _HonchkrowDexEntry::
@@ -1555,33 +1555,33 @@ _HonchkrowDexEntry::
 	dex
 	
 _HeracrossDexEntry::
-	text "Usually docile, if"
-	next "disturbed while"
-	next "sipping honey, it"
-	
-	page "chases off the"
-	next "intruder with its"
-	next "horn"
+	text "Mit seiner herku-"
+	next "lischen Kraft kann"
+	next "es Objekte, die"
+
+	page "100-mal sein Kör-"
+	next "pergewicht haben,"
+	next "mühelos umwerfen."
 	dex
 	
 _EspeonDexEntry::
-	text "By reading air"
-	next "currents, it can"
-	next "predict things"
-	
-	page "such as its foe's"
-	next "next move, or the"
-	next "weather"
+	text "Die Spitze seines"
+	next "geteilten Schweifs"
+	next "bebt, wenn es die"
+
+	page "nächste Attacke"
+	next "seines Feindes"
+	next "voraussagt."
 	dex
 	
 _UmbreonDexEntry::
-	text "When darkness"
-	next "falls, the rings"
-	next "on its body begin"
-	
-	page "to glow, striking"
-	next "fear in the hearts"
-	next "of those nearby"
+	text "Bei Vollmond oder"
+	next "bei Aufregung"
+	next "leuchten die ring-"
+
+	page "förmigen Muster"
+	next "auf seinem Körper"
+	next "gelb auf."
 	dex
 	
 _GlaceonDexEntry::

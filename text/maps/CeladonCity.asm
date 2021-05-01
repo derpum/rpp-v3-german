@@ -147,7 +147,7 @@ _CeladonCityText16::
 	text "TIPS FÜR TRAINER"
 
 	para "Megablock schützt"
-	line "#MON vor "
+	line "#mon vor "
 	cont "Spezial-Attacken"
 	cont "wie Feuer- oder"
 	cont "Wasser-Attacken!"

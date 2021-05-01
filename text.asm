@@ -1084,7 +1084,7 @@ _HurtByBurnText::
 _HurtByLeechSeedText::
 	text "Die Schmarotzer-"
 	line "Attacke schadet"
-	line "[USER]!"
+	cont "[USER]!"
 	prompt
 
 _EnemyMonFaintedText::
@@ -1427,7 +1427,7 @@ _GainedText::
 	line "@@"
 
 _WithExpAllText::
-	text "mittels EP-TEILER"
+	text "mittels EP-Teiler"
 	cont "@@"
 
 _BoostedText::

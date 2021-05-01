@@ -37,7 +37,7 @@ TrainerNames:
 	db "Major Bob@"
 	db "Erika@"
 	db "Koga@"
-	db "Pyro@"
+	db "Giovanni@"
 	db "Sabrina@"
 	db "Gentleman@"
 	db "Rival@"

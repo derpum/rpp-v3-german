@@ -65,11 +65,11 @@ _RockTunnel2EndBattleText5::
 _RockTunnel2AfterBattleText5::
 	text "Spaßvögel"
 	line "verkleiden sich"
-	cont "gerne als #MON."
+	cont "gerne als #mon."
 	done
 
 _RockTunnel2BattleText6::
-	text "Mein #MON"
+	text "Mein #mon"
 	line "wird Dich das"
 	cont "Fürchten lehren!"
 	done
@@ -83,7 +83,7 @@ _RockTunnel2EndBattleText6::
 _RockTunnel2AfterBattleText6::
 	text "In den Bergen"
 	line "findet man viele"
-	cont "STEIN-#MON."
+	cont "Stein-#mon."
 	done
 
 _RockTunnel2BattleText7::
@@ -99,7 +99,7 @@ _RockTunnel2EndBattleText7::
 
 _RockTunnel2AfterBattleText7::
 	text "Ich mag nur"
-	line "kleine #MON,"
+	line "kleine #mon,"
 	cont "die großen jagen"
 	cont "mir Angst ein!"
 	done

@@ -6,7 +6,7 @@ _CeladonDinerText1::
 	done
 
 _CeladonDinerText2::
-	text "Meine #MON"
+	text "Meine #mon"
 	line "sind ziemlich"
 	cont "schwach, deshalb"
 	cont "gehe ich oft zur"

@@ -17,7 +17,7 @@ _LavenderHouse2Text_1d9dc::
 
 _LavenderHouse2Text_1d9e1::
 	text "Der Geist im"
-	line "#MON-Turm"
+	line "#mon-Turm"
 	cont "ist verschwunden!"
 
 	para "Jemand muß seine"

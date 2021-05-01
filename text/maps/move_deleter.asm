@@ -6,8 +6,8 @@ _MoveDeleterGreetingText::
 	cont "Verlerner."
 
 	para "Ich verfüge über"
-	cont "die Fähigkeit,"
-	line "#mon ihre"
+	line "die Fähigkeit,"
+	cont "#mon ihre"
 	cont "Attacken ver-"
 	cont "gessen zu lassen."
 

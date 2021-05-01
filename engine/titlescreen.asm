@@ -386,7 +386,7 @@ PrintGameVersionOnTitleScreen:
 
 ; these point to special tiles specifically loaded for that purpose and are not usual text
 VersionOnTitleScreenText:
-	db $60,$61,$62,$7F,$65,$66,$67,$68,$69,"@" ; "Red Version"
+	db $60,$61,$62,$63,$65,$66,$67,$68,$69,"@" ; "Red Version"
 
 NintenText: db "Ninten@"
 SonyText:   db "Sony@"

@@ -1,12 +1,12 @@
 _SafariZoneEntranceText1::
 	text "Willkommen in"
-	line "der SAFARI-ZONE!"
+	line "der Safari-Zone!"
 	done
 
 SafariZoneEntranceText_9e6e4::
 	text "Für nur ¥500"
 	line "darfst Du im Park"
-	cont "so viele #MON"
+	cont "so viele #mon"
 	cont "fangen, wie Du"
 	cont "möchtest!"
 
@@ -19,20 +19,20 @@ SafariZoneEntranceText_9e747::
 
 	para "Wir verwenden"
 	line "hier spezielle"
-	cont "#BÄLLE."
+	cont "#bälle."
 
 	para "[PLAYER] erhält"
-	line "30 SAFARI-BÄLLE!@@"
+	line "30 Safari-Bälle!@@"
 
 _SafariZoneEntranceText_75360::
 	db $0
 	para "Wir rufen Dich"
-	line "über LAUTSPRECHER"
+	line "über Lautsprecher"
 	cont "aus, wenn Deine"
 	cont "Fangzeit"
 	cont "abgelaufen oder"
 	cont "Dein Vorrat an"
-	cont "SAFARI-BÄLLEN"
+	cont "Safari-Bällen"
 	cont "erschöpft ist!"
 	done
 
@@ -53,7 +53,7 @@ SafariZoneEntranceText_9e814::
 _SafariZoneEntranceText_753bb::
 	text "Gib bitte die"
 	line "restlichen"
-	cont "SAFARI-BÄLLE"
+	cont "Safari-Bälle"
 	cont "zurück."
 	done
 
@@ -74,20 +74,20 @@ _SafariZoneEntranceText_753e6::
 	done
 
 _SafariZoneEntranceText_753eb::
-	text "Die SAFARI-ZONE"
+	text "Die Safari-Zone"
 	line "besteht aus vier"
 	cont "Abschnitten."
 
 	para "In jedem"
 	line "Abschnitt findet"
 	cont "man verschiedene"
-	cont "#MON."
+	cont "#mon."
 	cont "Versuche, sie mit"
-	cont "SAFARI-BÄLLEN zu"
+	cont "Safari-Bällen zu"
 	cont "fangen."
 
 	para "Wenn Du keine"
-	line "SAFARI-BÄLLE mehr"
+	line "Safari-Bälle mehr"
 	cont "hast oder wenn"
 	cont "die Zeit "
 	cont "abgelaufen ist,"
@@ -96,9 +96,9 @@ _SafariZoneEntranceText_753eb::
 	para "Bevor Du Dich auf"
 	line "die Jagd begibst,"
 	cont "solltest Du Raum"
-	cont "für neue #MON"
+	cont "für neue #mon"
 	cont "schaffen und eine"
-	cont "freie #MON-BOX"
+	cont "freie #mon-Box"
 	cont "anwählen!"
 	done
 
@@ -109,45 +109,49 @@ _SafariZoneEntranceText_753f0::
 
 _SafariZoneLowCostText1::
 	db 0
-	para "Oh, all right, pay"
-	line "me what you have."
+	para "Oh, ja gut, gebe"
+	line "mir so viel wie"
+	line "du bei dir hast."
 	prompt
 
 _SafariZoneLowCostText2::
-	text "But, I can't give"
-	line "you all 30 Balls."
+	text "Aber, du bekommst"
+	line "keine 30 Bälle."
 	done
 
 _SafariZoneLowCostText3::
 	db 0
-	para "You're persistent,"
-	line "aren't you?"
+	para "Du bist aber"
+	line "hartnäckig!"
 
-	para "OK, you can go in"
-	line "for free, but"
-	cont "just this once!@@"
+	para "Ok, du kannst"
+	line "kostenlos rein."
+	line "Aber nur dieses"
+	line "eine mal!@@"
 
 _SafariZoneLowCostText4::
 	db 0
 	done
 
 _SafariZoneLowCostText5::
-	text "I'm sorry, but you"
-	line "have to pay to"
-	cont "enter."
+	text "Tut mir leid,"
+	line "aber du musst"
+	line "bezahlen um rein"
+	cont "zu dürfen."
 	done
 
 _SafariZoneLowCostText6::
-	text "You can't enter"
-	line "without paying!"
+	text "Ohne zu bezahlen"
+	line "darfst du nicht"
+	cont "rein!"
 	done
 
 _SafariZoneLowCostText7::
-	text "I said, no money,"
-	line "no entry!"
+	text "Kein Geld,"
+	line "kein einlass!"
 	done
 
 _SafariZoneLowCostText8::
-	text "Read my lips, NO!"
-	line "Get it?"
+	text "Ich sagte, NEIN!"
+	line "Verstehst du?"
 	done

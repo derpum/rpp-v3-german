@@ -2,12 +2,12 @@ _DayCareIntroText::
 	text "Wir leite diese"
 	line "Pension. Sollen"
 	cont "wir eines Deiner"
-	cont "#MON"
+	cont "#mon"
 	cont "großziehen?"
 	done
 
 _DayCareWhichMonText::
-	text "Welches #MON"
+	text "Welches #mon"
 	line "soll hierbleiben?"
 	prompt
 
@@ -41,7 +41,7 @@ _DayCareMonHasGrownText::
 
 _DayCareOweMoneyText::
 	text "Bevor Du Dein"
-	line "#MON wieder"
+	line "#mon wieder"
 	cont "mitnimmst, "
 	cont "bekomme ich noch"
 	cont "¥@"

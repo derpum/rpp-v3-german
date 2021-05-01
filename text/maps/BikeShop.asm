@@ -24,7 +24,7 @@ _BikeShopCantAffordText::
 _BikeShopText_1d81f::
 	text "Oh, das ist ein..."
 
-	para "...Rad-COUPON!"
+	para "...Rad-Coupon!"
 
 	para "OK!"
 	line "Es gehört Dir!"

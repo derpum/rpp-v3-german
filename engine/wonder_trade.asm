@@ -7,16 +7,16 @@ DoWonderTradeDialogue:: ; Called by an event to start the Wonder Trade process
 	call PrintText
 	call ManualTextScroll
 	
-	; Check if the player has a Pokedex yet
-	CheckEvent EVENT_GOT_POKEDEX ; does the player have the Pokedex?
-	jr nz, .hasPokedex ; If you do, jump to the rest of the routine
+	; Check if the player has 8 badges (aka beat giovanni)
+	CheckEvent EVENT_BEAT_VIRIDIAN_GYM_GIOVANNI ; does the player have 8 badges?
+	jr nz, .has8Badges ; If you do, jump to the rest of the routine
 	
-	; If the player DOES NOT have a Pokedex, say they can't trade yet
+	; If the player DOES NOT have 8 badges, say they can't trade yet
 	ld hl, BeingAdjustedText
 	jp PrintText
 	
-	; If the player has a Pokedex, go on to ask if they want to make a Wonder Trade
-.hasPokedex
+	; If the player has 8 badges, go on to ask if they want to make a Wonder Trade
+.has8Badges
 	ld hl, WouldYouLikeToWonderTradeText
 	call PrintText
 	call YesNoChoice

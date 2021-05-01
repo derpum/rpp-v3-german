@@ -1,5 +1,5 @@
 _Route2GateText_5d616::
-	text "Mit der VM Blitz"
+	text "Mit der TM Blitz"
 	line "kann man selbst"
 	cont "die dunkelsten"
 	cont "Höhlen erhellen."

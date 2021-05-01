@@ -1,6 +1,6 @@
 _CopycatsHouse2FText_5ccd4::
 	text "[PLAYER]: Hallo!"
-	line "Magst Du #MON?"
+	line "Magst Du #mon?"
 
 	para "[PLAYER]: Halt,"
 	line "ich habe doch"
@@ -20,7 +20,7 @@ _CopycatsHouse2FText_5ccd4::
 
 _TM31PreReceiveText::
 	text "Wow! Das ist ja"
-	line "eine #PUPPE!"
+	line "eine #puppe!"
 
 	para "Die ist für mich?"
 	line "Vielen Dank!"
@@ -42,7 +42,7 @@ _TM31ExplanationText1::
 	cont "MIMIKRY!"
 
 	para "Gib sie einem"
-	line "#MON!@@"
+	line "#mon!@@"
 
 _TM31ExplanationText2::
 	text "[PLAYER]: Hallo!"
@@ -80,14 +80,14 @@ _CopycatsHouse2FText2::
 
 _CopycatsHouse2FText3::
 	text "Ein seltenes"
-	line "#MON! Hmm?"
+	line "#mon! Hmm?"
 	cont "Es ist nur eine"
 	cont "Puppe!"
 	done
 
 _CopycatsHouse2FText6::
 	text "Ein Spiel mit"
-	line "MARIO!"
+	line "Mario!"
 	done
 
 _CopycatsHouse2FText_5cd17::
@@ -103,7 +103,7 @@ _CopycatsHouse2FText_5cd17::
 	line "Puppen sammeln"
 
 	para "Lieblings-"
-	line "#MON: PIEPI!"
+	line "#mon: Piepi!"
 	done
 
 _CopycatsHouse2FText_5cd1c::

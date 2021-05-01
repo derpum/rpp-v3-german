@@ -1,12 +1,13 @@
 _MoveRelearnerGreetingText::
 	text "Ich bin der"
 	line "#mon-Attacken-"
-	line "Maniac!"
+	cont "Maniac!"
 
 	para "Ich kenne jede"
 	line "Attacke die"
-	cont "#mon beim Level-"
-	cont "anstieg erlernen."
+	cont "#mon beim"
+	cont "Levelanstieg"
+	cont "erlernen können."
 
 	para "Für ¥500 bringe"
 	line "ich einem deiner"
@@ -33,11 +34,11 @@ _MoveRelearnerWhichMoveText::
 
 _MoveRelearnerByeText::
 	text "Wenn eins deiner"
-	line "#mon sich wieder"
-	cont "an eine Attacke"
-	cont "erinnern soll,"
-	cont "besuche mich"
-	cont "einfach!"
+	line "#mon sich"
+	cont "wieder an eine"
+	cont "Attacke erinnern"
+	cont "soll, besuche"
+	cont "mich einfach!"
 	done
 
 _MoveRelearnerNoMovesText::

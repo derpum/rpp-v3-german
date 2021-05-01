@@ -12,12 +12,14 @@ _ViridianPokeCenterText1::
 
 _ViridianPokeCenterText3::
 	text "Mit dem PC in"
-	line "der Mitte, kannst"
+	line "der Mitte,"
 	cont "kannst du das"
 	cont "Wundertausch-"
 	cont "system benutzen."
 	
-	para "Du musst es"
-	line "unbeding mal aus-"
-	cont "probieren!"
+	para "Wenn du alle"
+	line "8 Orden beseitzt,"
+	cont "musst du es"
+	cont "unbedingt mal"
+	cont "ausprobieren!"
 	done

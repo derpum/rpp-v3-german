@@ -142,7 +142,7 @@ _CeladonGameCornerText_48e36::
 	text "Mist! Ich habe"
 	line "noch immer nicht"
 	cont "genug Münzen für"
-	cont "das #MON!"
+	cont "das #mon!"
 	done
 
 _CeladonGameCornerText_48e88::

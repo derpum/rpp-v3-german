@@ -1,7 +1,7 @@
 _Route18BattleText1::
 	text "Ich laufe überall"
 	line "durch hohes Gras,"
-	cont "um #MON"
+	cont "um #mon"
 	cont "aufzuspüren!"
 	done
 
@@ -30,7 +30,7 @@ _Route18EndBattleText2::
 _Route18AfterBattleText2::
 	text "Am Wochenende"
 	line "sammle ich immer"
-	cont "WASSER-#MON!"
+	cont "Wasser-#mon!"
 	done
 
 _Route18BattleText3::
@@ -48,18 +48,18 @@ _Route18EndBattleText3::
 _Route18AfterBattleText3::
 	text "Hier habe ich"
 	line "sehr gerne"
-	cont "#MON gejagt!"
+	cont "#mon gejagt!"
 	done
 
 _Route18Text4::
-	text "ROUTE 18"
-	line "PRISMANIA CITY -"
-	cont "FUCHSANIA CITY"
+	text "Route 18"
+	line "Prismania City -"
+	cont "Fuchsania City"
 	done
 
 _Route18Text5::
 	text "Das Betreten des"
-	line "RADWEGES ist"
+	line "Radweges ist"
 	cont "Fußgängern"
 	cont "untersagt!"
 	done
