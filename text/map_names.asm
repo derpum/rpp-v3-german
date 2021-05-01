@@ -2,25 +2,25 @@ MapNames:
 PalletTownName:
 	db "Alabastia@"
 ViridianCityName:
-	db "Vertania City@"
+	db "Vertania_City@"
 PewterCityName:
-	db "Marmoria City@"
+	db "Marmoria_City@"
 CeruleanCityName:
-	db "Azuria City@"
+	db "Azuria_City@"
 LavenderTownName:
 	db "Lavandia@"
 VermilionCityName:
-	db "Orania City@"
+	db "Orania_City@"
 CeladonCityName:
-	db "Prismania City@"
+	db "Prismania_City@"
 FuchsiaCityName:
-	db "Fuchsania City@"
+	db "Fuchsania_City@"
 CinnabarIslandName:
-	db "Zinnoberinsel@"
+	db "Zinnober-_insel@"
 IndigoPlateauName:
-	db "Indigo Plateau@"
+	db "Indigo_Plateau@"
 SaffronCityName:
-	db "Saffronia City@"
+	db "Saffronia_City@"
 Route1Name:
 	db "Route 1@"
 Route2Name:
@@ -72,11 +72,11 @@ Route24Name:
 Route25Name:
 	db "Route 25@"
 ViridianForestName:
-	db "Vertania-Wald@"
+	db "Vertania_Wald@"
 MountMoonName:
 	db "Mondberg@"
 MountMoonSquareName:
-	db "Mondbergspitze@"
+	db "Mondberg_-spitze@"
 RockTunnelName:
 	db "Felstunnel@"
 SeaCottageName:
@@ -84,26 +84,26 @@ SeaCottageName:
 SSAnneName:
 	db "M.S.Anne@"
 PokemonLeagueName:
-	db "#mon Liga@"
+	db "#mon_Liga@"
 UndergroundPathName:
 	db "Tunnelpfad@"
 PokemonTowerName:
-	db "#mon Turm@"
+	db "#mon_Turm@"
 SeafoamIslandsName:
-	db "Seeschauminseln@"
+	db "Seeschaum-_inseln@"
 VictoryRoadName:
-	db "Siegesstrasse@"
+	db "Sieges-_strasse@"
 DiglettsCaveName:
-	db "Digdas Höhle@"
+	db "Digdas_Höhle@"
 RocketHQName:
-	db "Rocket HQ@"
+	db "Rocket_HQ@"
 SilphCoName:
-	db "Silph Co.@"
+	db "Silph_Co.@"
 PokemonMansionName:
-	db $4a," Haus@"
+	db $4a,"_Haus@"
 SafariZoneName:
 	db "Safari-Zone@"
 CeruleanCaveName:
-	db "Geheimdungeon@"
+	db "Geheim-_dungeon@"
 PowerPlantName:
 	db "Kraftwerk@"

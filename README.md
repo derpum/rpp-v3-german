@@ -5,8 +5,11 @@ This is based on the [**Pokémon Red Disassembly**][pokered]
 Red++ serves as an updated version of Pokémon Red.
 
 It fixes a lot of bugs leftover from original Red and Blue, as well as adding new features.
-It builds two versions, a "Normal" version and a "Hard" version. The only difference is the level curve.
-"pokered.gbc" is the Normal version, "pokeblue.gbc" is the Hard version.
+
+# You can download IPS patch files [**here**](patches/). Apply them to a normal Red Version rom. Just apply whichever patch you want.
+
+The source code builds two versions, a "Normal" version and a "Hard" version. The only difference is the level curve.
+"pokered.gbc" is the Normal version, "pokeblue.gbc" is the Hard version. There is also the option to build either version with snowy graphics.
 
 For a list of features, check out [**FEATURES.md**](FEATURES.md).
 
@@ -66,7 +69,6 @@ After setting up the repository, you'll want to download the current release of 
 
 ## See also
 
-* [**Pokémon Red++ v4**][redplusplus] by Me.
 * [**Pokémon Polished Crystal**][polished] by Rangi.
 * [**Pokémon RedStar/BlueStar**][redstarbluestar] by Rangi.
 * [**Pokémon Orange**][orange] by Pia Carrot.
@@ -75,7 +77,6 @@ After setting up the repository, you'll want to download the current release of 
 
 [polished]: http://github.com/rangi42/polishedcrystal
 [polishedmap]: https://github.com/rangi42/polished-map
-[redplusplus]: https://github.com/TheFakeMateo/RedPlusPlus
 [redstarbluestar]: https://github.com/Rangi42/redstarbluestar
 [orange]: https://github.com/PiaCarrot/pokeorange
 [pokered]: https://github.com/pret/pokered
