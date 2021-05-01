@@ -130,9 +130,6 @@ LoadTownMap_Nest:
 	push hl
 	call DisplayWildLocations
 	coord hl, 1, 0
-	call PlaceString
-	ld h, b
-	ld l, c
 	ld de, MonsText
 	call PlaceString
 	call GetMonName
