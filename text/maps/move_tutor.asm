@@ -28,7 +28,8 @@ _MonCannotLearnTutorMoveText::
 	line "deinem #mon"
 	cont "@"
 	TX_RAM wcf4b
-	text "nicht beibringen."
+	db $0
+	cont "nicht beibringen."
 	prompt
 
 _MoveTutorNotEnoughMoneyText::
