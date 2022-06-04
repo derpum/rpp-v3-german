@@ -34,7 +34,6 @@ jobs:
         uses: actions/checkout@master
         with:
           path: pokered
-          ref: v0.5.2
           repository: pret/pokered
 
       - name: Build pokered
