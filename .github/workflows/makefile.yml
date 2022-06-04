@@ -40,6 +40,7 @@ jobs:
         with:
           path: pokered
           repository: pret/pokered
+          submodules: recursive
 
       - name: Build pokered
         working-directory: pokered
