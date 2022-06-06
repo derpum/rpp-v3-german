@@ -67,3 +67,12 @@ jobs:
         with:
           name: UPS Patch rpp-ger
           path: rpp-ger.ups
+          
+      - name: Create Release
+        uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          title: "Latest translation patch of red++ v3"
+          files: |
+            rpp-ger.ups
