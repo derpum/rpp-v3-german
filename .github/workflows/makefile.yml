@@ -72,7 +72,7 @@ jobs:
         uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
+          automatic_release_tag: "build-${{ github.sha }}"
           title: "Latest translation patch of red++ v3"
           files: |
             rpp-ger.ups
